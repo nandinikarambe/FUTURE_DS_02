@@ -1,0 +1,82 @@
+CUSTOMER RETENTION & CHURN ANALYSIS
+Future Interns - Data Science Internship
+Task 2
+
+1. PROJECT OBJECTIVE
+
+The objective of this project is to analyze customer churn patterns,
+identify important retention drivers, understand customer lifetime
+trends, and provide business recommendations to reduce customer loss.
+
+2. DATASET
+
+The analysis uses a simulated customer subscription dataset containing
+customer demographic, subscription, usage, support, satisfaction,
+lifetime value, and churn information.
+
+Total Customers: 1500
+
+3. KEY PERFORMANCE INDICATORS
+
+The analysis measures:
+
+- Total Customers
+- Churned Customers
+- Retained Customers
+- Churn Rate
+- Retention Rate
+- Average Customer Tenure
+- Average Monthly Charge
+- Average Customer Lifetime Value
+- Average Satisfaction Score
+
+4. CHURN ANALYSIS
+
+Customer churn was analyzed across:
+
+- Contract Type
+- Subscription Plan
+- Region
+- Tenure Group
+- Churn Reason
+
+These comparisons help identify customer groups with higher churn risk.
+
+5. CUSTOMER LIFETIME ANALYSIS
+
+Customer Lifetime Value was compared across churn status and tenure
+groups to understand the relationship between customer retention,
+tenure, and long-term customer value.
+
+6. CUSTOMER RISK ANALYSIS
+
+Customers were categorized into:
+
+- High Risk
+- Medium Risk
+- Low Risk
+
+The risk segmentation considers contract type, satisfaction score,
+support calls, tenure, and subscription plan.
+
+7. RETENTION RECOMMENDATIONS
+
+Based on the analysis, the following actions are recommended:
+
+- Focus retention campaigns on high-risk customers.
+- Improve customer satisfaction and service quality.
+- Monitor customers with frequent support calls.
+- Address the major reasons responsible for customer churn.
+- Provide targeted offers to customers using high-churn plans.
+- Encourage customers to move toward longer-term contracts.
+- Give special attention to customers with low tenure and low
+  satisfaction.
+
+8. CONCLUSION
+
+The analysis demonstrates how customer data can be used to identify
+churn patterns and potential retention opportunities.
+
+The combination of churn analysis, customer lifetime value analysis,
+and risk segmentation can help businesses take proactive actions to
+reduce customer loss and improve long-term customer relationships.

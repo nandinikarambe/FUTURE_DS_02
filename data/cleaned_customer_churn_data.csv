@@ -1,0 +1,1501 @@
+Customer_ID,Age,Gender,Region,Plan,Contract_Type,Payment_Method,Tenure_Months,Monthly_Charge,Support_Calls,Satisfaction_Score,Usage_Hours,Lifetime_Value,Churn,Churn_Reason,Tenure_Group,Risk_Level
+CUST_0001,56,Male,North,Premium,Monthly,UPI,8,77.43,1,8.9,54,619.44,No,Not Churned,7-12 Months,Medium Risk
+CUST_0002,46,Female,West,Basic,Monthly,UPI,33,29.12,2,8.9,61,960.96,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0003,32,Male,Central,Standard,One Year,Credit Card,2,54.77,3,5.7,58,109.54,Yes,High Price,0-6 Months,Low Risk
+CUST_0004,60,Male,North,Premium,One Year,Debit Card,30,71.83,2,7.3,70,2154.9,No,Not Churned,25-36 Months,Low Risk
+CUST_0005,25,Male,Central,Standard,Monthly,Bank Transfer,47,45.87,3,8.3,12,2155.89,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0006,38,Male,South,Basic,Monthly,UPI,20,36.53,3,7.5,67,730.6,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_0007,56,Male,North,Standard,One Year,Credit Card,60,64.92,3,9.2,13,3895.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0008,36,Female,Central,Premium,One Year,UPI,18,84.62,3,6.4,64,1523.16,No,Not Churned,13-24 Months,Low Risk
+CUST_0009,40,Female,South,Standard,Monthly,Debit Card,43,66.25,4,6.9,67,2848.75,No,Not Churned,37-60 Months,Medium Risk
+CUST_0010,28,Male,West,Premium,One Year,Debit Card,57,108.59,3,7.4,76,6189.63,No,Not Churned,37-60 Months,Low Risk
+CUST_0011,28,Female,South,Basic,Monthly,Credit Card,10,28.36,2,8.2,7,283.6,No,Not Churned,7-12 Months,Medium Risk
+CUST_0012,41,Male,East,Standard,Monthly,UPI,24,62.45,0,6.7,77,1498.8,Yes,High Price,13-24 Months,Low Risk
+CUST_0013,53,Female,South,Standard,One Year,Bank Transfer,56,68.84,4,8.4,17,3855.04,No,Not Churned,37-60 Months,Low Risk
+CUST_0014,57,Female,South,Premium,One Year,Bank Transfer,4,92.95,5,9.4,13,371.8,Yes,High Price,0-6 Months,Medium Risk
+CUST_0015,41,Female,East,Basic,Monthly,UPI,37,24.77,4,6.2,99,916.49,No,Not Churned,37-60 Months,Medium Risk
+CUST_0016,20,Female,Central,Premium,One Year,UPI,4,117.09,1,6.8,93,468.36,No,Not Churned,0-6 Months,Low Risk
+CUST_0017,39,Male,Central,Standard,One Year,UPI,13,58.11,0,8.5,56,755.43,No,Not Churned,13-24 Months,Low Risk
+CUST_0018,19,Male,South,Standard,One Year,Credit Card,25,43.16,2,9.9,66,1079.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0019,41,Female,East,Basic,One Year,Debit Card,13,31.45,4,8.0,12,408.85,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0020,61,Female,East,Premium,One Year,Bank Transfer,18,95.03,1,5.8,99,1710.54,Yes,High Price,13-24 Months,Low Risk
+CUST_0021,47,Male,West,Basic,Monthly,Credit Card,59,37.11,0,7.3,49,2189.49,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0022,55,Female,Central,Basic,Monthly,UPI,24,30.61,1,8.4,57,734.64,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_0023,19,Male,North,Basic,Monthly,UPI,2,25.1,4,5.8,67,50.2,Yes,Competitor Offer,0-6 Months,High Risk
+CUST_0024,38,Male,Central,Premium,Monthly,Debit Card,48,103.78,2,5.4,99,4981.44,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0025,50,Male,Central,Standard,One Year,UPI,33,56.28,0,6.5,85,1857.24,No,Not Churned,25-36 Months,Low Risk
+CUST_0026,29,Female,West,Standard,One Year,Credit Card,58,46.99,3,8.0,61,2725.42,No,Not Churned,37-60 Months,Low Risk
+CUST_0027,39,Male,North,Basic,Monthly,Credit Card,19,31.47,2,4.9,58,597.93,Yes,High Price,13-24 Months,Medium Risk
+CUST_0028,61,Female,West,Standard,Monthly,Debit Card,9,64.65,6,6.0,23,581.85,Yes,Lack of Features,7-12 Months,High Risk
+CUST_0029,42,Male,North,Standard,Monthly,Credit Card,28,40.86,2,7.4,71,1144.08,No,Not Churned,25-36 Months,Low Risk
+CUST_0030,44,Female,South,Premium,Monthly,Bank Transfer,35,101.54,2,8.6,50,3553.9,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0031,59,Female,North,Premium,One Year,Credit Card,57,87.48,4,7.4,98,4986.36,No,Not Churned,37-60 Months,Low Risk
+CUST_0032,45,Female,West,Basic,Monthly,Credit Card,39,25.85,3,7.6,14,1008.15,No,Not Churned,37-60 Months,Medium Risk
+CUST_0033,33,Male,Central,Standard,One Year,Credit Card,10,51.78,1,8.5,97,517.8,No,Not Churned,7-12 Months,Low Risk
+CUST_0034,32,Male,North,Basic,Two Year,Bank Transfer,1,26.84,2,9.4,22,26.84,Yes,High Price,0-6 Months,Medium Risk
+CUST_0035,64,Female,North,Standard,Monthly,UPI,42,64.97,2,9.2,16,2728.74,No,Not Churned,37-60 Months,Low Risk
+CUST_0036,61,Female,East,Basic,Monthly,Credit Card,21,25.5,3,3.9,53,535.5,No,Not Churned,13-24 Months,Medium Risk
+CUST_0037,20,Female,Central,Basic,Monthly,Debit Card,9,34.66,2,7.1,27,311.94,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_0038,54,Male,South,Standard,One Year,Bank Transfer,60,42.82,1,8.4,66,2569.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0039,24,Male,West,Standard,One Year,Debit Card,47,68.54,0,9.5,15,3221.38,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0040,38,Male,South,Basic,Monthly,Credit Card,15,32.45,2,8.0,77,486.75,No,Not Churned,13-24 Months,Medium Risk
+CUST_0041,26,Male,Central,Standard,One Year,Debit Card,35,61.2,2,5.7,60,2142.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0042,56,Female,North,Standard,Two Year,Credit Card,57,48.94,1,5.9,92,2789.58,No,Not Churned,37-60 Months,Low Risk
+CUST_0043,35,Female,North,Basic,Monthly,Bank Transfer,5,28.24,1,6.0,93,141.2,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_0044,21,Male,Central,Standard,Monthly,Debit Card,41,46.71,0,7.5,59,1915.11,No,Not Churned,37-60 Months,Low Risk
+CUST_0045,42,Male,North,Basic,Two Year,Debit Card,58,38.65,4,6.3,29,2241.7,No,Not Churned,37-60 Months,Medium Risk
+CUST_0046,31,Female,North,Standard,One Year,Credit Card,22,54.64,1,2.4,13,1202.08,No,Not Churned,13-24 Months,Low Risk
+CUST_0047,26,Male,North,Standard,Two Year,Credit Card,41,58.91,0,5.2,16,2415.31,No,Not Churned,37-60 Months,Low Risk
+CUST_0048,43,Male,West,Basic,One Year,UPI,23,34.69,1,6.3,15,797.87,No,Not Churned,13-24 Months,Low Risk
+CUST_0049,19,Male,West,Basic,Two Year,Credit Card,7,27.42,1,5.0,42,191.94,Yes,Lack of Features,7-12 Months,Medium Risk
+CUST_0050,37,Male,East,Standard,Monthly,Credit Card,56,61.6,2,5.2,32,3449.6,Yes,High Price,37-60 Months,Low Risk
+CUST_0051,45,Male,South,Premium,One Year,UPI,23,103.8,3,10.0,12,2387.4,No,Not Churned,13-24 Months,Low Risk
+CUST_0052,64,Male,Central,Standard,Two Year,Credit Card,44,61.17,3,7.0,78,2691.48,No,Not Churned,37-60 Months,Low Risk
+CUST_0053,24,Female,Central,Standard,One Year,Credit Card,25,54.68,2,6.4,93,1367.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0054,61,Male,Central,Standard,Monthly,UPI,27,51.49,3,8.0,51,1390.23,No,Not Churned,25-36 Months,Low Risk
+CUST_0055,25,Male,East,Basic,Monthly,Bank Transfer,41,24.44,3,8.7,40,1002.04,No,Not Churned,37-60 Months,Medium Risk
+CUST_0056,64,Female,West,Standard,Monthly,Bank Transfer,6,64.74,3,10.0,54,388.44,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0057,52,Female,East,Standard,Monthly,Credit Card,55,58.25,2,9.6,13,3203.75,No,Not Churned,37-60 Months,Low Risk
+CUST_0058,31,Female,Central,Basic,Monthly,Credit Card,34,28.89,2,7.7,64,982.26,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0059,34,Male,South,Basic,One Year,UPI,9,38.88,1,4.7,76,349.92,No,Not Churned,7-12 Months,Medium Risk
+CUST_0060,53,Female,North,Basic,One Year,UPI,60,20.96,3,5.5,71,1257.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0061,57,Male,West,Standard,Monthly,Bank Transfer,49,65.51,2,6.4,57,3209.99,No,Not Churned,37-60 Months,Low Risk
+CUST_0062,21,Male,West,Premium,One Year,Debit Card,33,119.88,2,7.8,86,3956.04,No,Not Churned,25-36 Months,Low Risk
+CUST_0063,19,Male,East,Basic,Monthly,Credit Card,51,37.74,1,7.1,21,1924.74,Yes,High Price,37-60 Months,Medium Risk
+CUST_0064,23,Female,West,Standard,Monthly,Debit Card,60,64.31,0,4.8,57,3858.6,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0065,59,Female,Central,Basic,Monthly,Debit Card,6,27.49,2,4.5,32,164.94,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0066,21,Female,Central,Premium,One Year,UPI,37,81.57,1,7.4,67,3018.09,No,Not Churned,37-60 Months,Low Risk
+CUST_0067,46,Female,East,Basic,Monthly,Credit Card,31,34.7,2,7.2,19,1075.7,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0068,35,Female,Central,Standard,Monthly,Credit Card,34,49.14,1,6.7,23,1670.76,No,Not Churned,25-36 Months,Low Risk
+CUST_0069,43,Male,South,Standard,Monthly,UPI,41,45.28,2,7.7,90,1856.48,No,Not Churned,37-60 Months,Low Risk
+CUST_0070,61,Male,East,Standard,Two Year,Debit Card,29,63.6,1,8.9,74,1844.4,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0071,51,Male,South,Standard,Monthly,UPI,58,49.38,1,7.5,51,2864.04,No,Not Churned,37-60 Months,Low Risk
+CUST_0072,27,Male,North,Basic,One Year,Bank Transfer,14,38.29,3,5.6,75,536.06,No,Not Churned,13-24 Months,Low Risk
+CUST_0073,53,Female,South,Standard,One Year,Credit Card,36,65.22,3,9.9,52,2347.92,No,Not Churned,25-36 Months,Low Risk
+CUST_0074,31,Female,North,Basic,One Year,Bank Transfer,36,36.95,2,6.7,77,1330.2,No,Not Churned,25-36 Months,Low Risk
+CUST_0075,48,Male,North,Basic,Two Year,UPI,53,35.43,2,7.1,24,1877.79,No,Not Churned,37-60 Months,Low Risk
+CUST_0076,32,Female,South,Standard,Monthly,Credit Card,15,66.43,1,6.0,41,996.45,No,Not Churned,13-24 Months,Low Risk
+CUST_0077,25,Female,East,Basic,Monthly,Bank Transfer,8,36.11,4,5.4,79,288.88,Yes,Poor Service,7-12 Months,High Risk
+CUST_0078,31,Male,Central,Basic,Two Year,Bank Transfer,26,32.05,2,5.5,6,833.3,No,Not Churned,25-36 Months,Low Risk
+CUST_0079,40,Male,Central,Standard,Monthly,Debit Card,36,48.87,1,5.2,68,1759.32,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0080,57,Female,North,Premium,One Year,Credit Card,48,114.41,5,2.5,90,5491.68,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0081,38,Female,North,Standard,One Year,Bank Transfer,21,65.22,6,6.8,40,1369.62,No,Not Churned,13-24 Months,Low Risk
+CUST_0082,33,Male,East,Basic,One Year,Bank Transfer,28,29.46,4,8.7,9,824.88,Yes,High Price,25-36 Months,Medium Risk
+CUST_0083,62,Male,West,Basic,Two Year,Debit Card,4,20.78,3,5.5,68,83.12,No,Not Churned,0-6 Months,Medium Risk
+CUST_0084,35,Male,South,Premium,Two Year,Bank Transfer,16,101.93,0,10.0,11,1630.88,No,Not Churned,13-24 Months,Low Risk
+CUST_0085,64,Female,North,Basic,One Year,Bank Transfer,22,21.01,1,9.1,74,462.22,No,Not Churned,13-24 Months,Low Risk
+CUST_0086,41,Male,Central,Basic,Monthly,Bank Transfer,12,38.53,0,7.0,26,462.36,No,Not Churned,7-12 Months,Medium Risk
+CUST_0087,43,Male,East,Standard,Two Year,Debit Card,16,68.85,2,5.3,78,1101.6,No,Not Churned,13-24 Months,Low Risk
+CUST_0088,42,Female,South,Standard,Monthly,Bank Transfer,51,45.68,0,4.6,50,2329.68,No,Not Churned,37-60 Months,Low Risk
+CUST_0089,62,Female,East,Standard,Monthly,Bank Transfer,40,60.29,2,6.8,44,2411.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0090,58,Female,South,Basic,Two Year,Credit Card,38,21.85,2,7.1,65,830.3,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0091,46,Female,South,Basic,Monthly,Credit Card,42,34.59,3,6.7,50,1452.78,No,Not Churned,37-60 Months,Medium Risk
+CUST_0092,32,Female,North,Premium,Monthly,Debit Card,37,87.36,4,8.6,88,3232.32,No,Not Churned,37-60 Months,Medium Risk
+CUST_0093,62,Male,East,Basic,Monthly,UPI,29,33.62,2,9.2,32,974.98,No,Not Churned,25-36 Months,Medium Risk
+CUST_0094,18,Male,East,Standard,Two Year,Credit Card,18,51.19,2,7.7,91,921.42,No,Not Churned,13-24 Months,Low Risk
+CUST_0095,42,Female,Central,Standard,One Year,Debit Card,10,44.37,3,7.8,39,443.7,No,Not Churned,7-12 Months,Low Risk
+CUST_0096,24,Female,Central,Standard,One Year,Bank Transfer,42,52.18,1,6.5,5,2191.56,No,Not Churned,37-60 Months,Low Risk
+CUST_0097,26,Female,North,Basic,Monthly,Bank Transfer,39,22.25,2,7.0,33,867.75,No,Not Churned,37-60 Months,Medium Risk
+CUST_0098,41,Female,North,Basic,One Year,Debit Card,18,31.54,2,7.6,13,567.72,No,Not Churned,13-24 Months,Low Risk
+CUST_0099,18,Female,West,Standard,One Year,Bank Transfer,1,41.23,3,6.5,13,41.23,Yes,Customer Support,0-6 Months,Low Risk
+CUST_0100,61,Male,Central,Premium,Monthly,Bank Transfer,39,96.37,3,8.0,26,3758.43,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0101,25,Male,South,Premium,Monthly,UPI,21,114.32,3,5.4,67,2400.72,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0102,41,Male,East,Basic,Monthly,Bank Transfer,1,36.76,2,5.9,70,36.76,No,Not Churned,0-6 Months,Medium Risk
+CUST_0103,28,Male,North,Basic,Two Year,Credit Card,15,37.66,3,5.4,84,564.9,No,Not Churned,13-24 Months,Low Risk
+CUST_0104,34,Female,East,Premium,One Year,Bank Transfer,4,116.1,1,6.0,62,464.4,Yes,Customer Support,0-6 Months,Low Risk
+CUST_0105,25,Male,East,Standard,Two Year,Debit Card,60,43.14,2,6.6,74,2588.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0106,52,Female,West,Premium,Monthly,UPI,20,76.44,2,8.5,59,1528.8,No,Not Churned,13-24 Months,Low Risk
+CUST_0107,52,Female,Central,Basic,One Year,Bank Transfer,10,31.14,0,7.1,17,311.4,No,Not Churned,7-12 Months,Medium Risk
+CUST_0108,50,Female,North,Standard,One Year,Debit Card,23,66.82,3,5.1,23,1536.86,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0109,22,Male,East,Standard,One Year,Credit Card,41,69.23,3,4.9,83,2838.43,No,Not Churned,37-60 Months,Low Risk
+CUST_0110,59,Female,North,Standard,Two Year,Bank Transfer,34,41.39,4,6.4,37,1407.26,No,Not Churned,25-36 Months,Low Risk
+CUST_0111,56,Male,South,Standard,Monthly,UPI,60,50.67,0,8.3,78,3040.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0112,58,Male,West,Basic,Monthly,Bank Transfer,46,24.26,0,9.1,69,1115.96,No,Not Churned,37-60 Months,Medium Risk
+CUST_0113,45,Female,South,Standard,One Year,Debit Card,48,62.68,2,4.6,64,3008.64,No,Not Churned,37-60 Months,Low Risk
+CUST_0114,24,Female,North,Basic,One Year,UPI,33,32.8,1,7.6,16,1082.4,No,Not Churned,25-36 Months,Low Risk
+CUST_0115,26,Female,North,Standard,One Year,Bank Transfer,34,43.6,4,6.4,47,1482.4,No,Not Churned,25-36 Months,Low Risk
+CUST_0116,25,Male,Central,Premium,Monthly,Credit Card,39,94.18,2,6.5,97,3673.02,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0117,29,Female,East,Standard,One Year,UPI,10,60.56,3,5.4,21,605.6,Yes,High Price,7-12 Months,Low Risk
+CUST_0118,51,Male,East,Premium,Monthly,Credit Card,54,108.95,0,6.7,72,5883.3,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0119,50,Female,South,Basic,Monthly,Debit Card,20,20.4,2,5.3,33,408.0,Yes,High Price,13-24 Months,Medium Risk
+CUST_0120,40,Female,West,Standard,One Year,Bank Transfer,1,66.71,1,6.6,59,66.71,No,Not Churned,0-6 Months,Low Risk
+CUST_0121,41,Male,East,Premium,One Year,Credit Card,13,98.46,1,8.7,11,1279.98,No,Not Churned,13-24 Months,Low Risk
+CUST_0122,54,Male,Central,Basic,Monthly,Debit Card,1,36.24,0,7.9,48,36.24,No,Not Churned,0-6 Months,Medium Risk
+CUST_0123,52,Male,South,Basic,Monthly,Bank Transfer,5,36.16,1,9.9,81,180.8,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_0124,61,Male,South,Standard,Monthly,Debit Card,16,45.7,1,7.8,9,731.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0125,57,Male,Central,Basic,Monthly,Credit Card,15,22.2,1,7.3,64,333.0,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_0126,39,Male,West,Standard,One Year,Debit Card,49,61.64,0,7.8,10,3020.36,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0127,44,Female,Central,Premium,Two Year,UPI,28,77.82,3,5.8,11,2178.96,No,Not Churned,25-36 Months,Low Risk
+CUST_0128,52,Female,West,Standard,Monthly,Bank Transfer,31,65.5,1,3.9,50,2030.5,No,Not Churned,25-36 Months,Low Risk
+CUST_0129,18,Male,Central,Basic,One Year,Debit Card,23,34.52,0,8.2,61,793.96,No,Not Churned,13-24 Months,Low Risk
+CUST_0130,52,Female,Central,Standard,Two Year,Credit Card,48,65.25,1,4.3,58,3132.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0131,54,Male,North,Standard,Two Year,Bank Transfer,45,48.97,2,8.7,96,2203.65,No,Not Churned,37-60 Months,Low Risk
+CUST_0132,64,Female,South,Basic,Monthly,UPI,43,26.33,3,8.1,50,1132.19,No,Not Churned,37-60 Months,Medium Risk
+CUST_0133,31,Female,Central,Standard,Two Year,Bank Transfer,17,60.14,2,5.7,14,1022.38,No,Not Churned,13-24 Months,Low Risk
+CUST_0134,20,Male,Central,Standard,Monthly,UPI,49,40.94,3,6.3,8,2006.06,Yes,High Price,37-60 Months,Low Risk
+CUST_0135,18,Male,East,Standard,Monthly,Bank Transfer,34,61.79,1,7.0,71,2100.86,No,Not Churned,25-36 Months,Low Risk
+CUST_0136,22,Male,South,Basic,Monthly,Debit Card,13,36.72,1,5.6,29,477.36,No,Not Churned,13-24 Months,Medium Risk
+CUST_0137,43,Female,East,Standard,Monthly,Debit Card,14,52.45,2,7.8,91,734.3,No,Not Churned,13-24 Months,Low Risk
+CUST_0138,31,Male,South,Basic,Monthly,Credit Card,11,35.3,1,7.9,95,388.3,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_0139,56,Female,East,Basic,Monthly,UPI,28,23.49,2,4.8,82,657.72,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0140,44,Male,Central,Premium,Monthly,Credit Card,42,86.11,1,5.8,65,3616.62,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0141,26,Female,Central,Standard,Two Year,Debit Card,32,69.23,2,6.9,42,2215.36,No,Not Churned,25-36 Months,Low Risk
+CUST_0142,32,Female,North,Basic,Two Year,UPI,35,39.73,1,8.7,36,1390.55,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0143,32,Male,East,Basic,Monthly,Credit Card,59,30.25,4,8.0,27,1784.75,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0144,43,Female,West,Basic,Two Year,Credit Card,31,38.69,2,3.5,41,1199.39,No,Not Churned,25-36 Months,Low Risk
+CUST_0145,59,Female,North,Basic,Two Year,Credit Card,17,30.45,1,6.6,7,517.65,No,Not Churned,13-24 Months,Low Risk
+CUST_0146,30,Male,East,Basic,One Year,Credit Card,47,25.83,3,7.7,17,1214.01,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0147,49,Female,East,Basic,Monthly,Credit Card,9,25.34,2,5.8,38,228.06,Yes,High Price,7-12 Months,Medium Risk
+CUST_0148,56,Male,North,Standard,One Year,UPI,10,67.89,1,5.7,92,678.9,Yes,Customer Support,7-12 Months,Low Risk
+CUST_0149,49,Male,Central,Standard,Two Year,Credit Card,8,45.17,3,5.9,69,361.36,No,Not Churned,7-12 Months,Low Risk
+CUST_0150,21,Male,East,Standard,One Year,UPI,21,57.39,3,6.5,80,1205.19,No,Not Churned,13-24 Months,Low Risk
+CUST_0151,47,Male,Central,Standard,Monthly,Credit Card,13,56.67,0,5.5,12,736.71,No,Not Churned,13-24 Months,Low Risk
+CUST_0152,54,Female,North,Basic,One Year,Debit Card,59,34.79,1,8.0,87,2052.61,No,Not Churned,37-60 Months,Low Risk
+CUST_0153,40,Female,Central,Premium,One Year,Debit Card,50,94.96,0,5.7,13,4748.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0154,56,Female,South,Premium,One Year,Credit Card,5,83.61,0,5.4,32,418.05,No,Not Churned,0-6 Months,Low Risk
+CUST_0155,62,Male,West,Premium,Monthly,Bank Transfer,6,78.47,3,6.4,82,470.82,No,Not Churned,0-6 Months,Medium Risk
+CUST_0156,32,Female,East,Premium,Monthly,Debit Card,30,101.04,1,9.2,95,3031.2,No,Not Churned,25-36 Months,Low Risk
+CUST_0157,60,Female,West,Premium,Two Year,UPI,31,105.95,3,7.8,22,3284.45,No,Not Churned,25-36 Months,Low Risk
+CUST_0158,46,Male,Central,Standard,Two Year,Credit Card,17,57.09,0,7.9,46,970.53,No,Not Churned,13-24 Months,Low Risk
+CUST_0159,53,Male,East,Basic,Monthly,UPI,11,34.77,2,7.4,45,382.47,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_0160,30,Female,Central,Standard,Two Year,Bank Transfer,20,44.25,4,5.6,74,885.0,Yes,High Price,13-24 Months,Low Risk
+CUST_0161,49,Male,South,Standard,Monthly,Credit Card,48,66.47,0,6.0,37,3190.56,No,Not Churned,37-60 Months,Low Risk
+CUST_0162,24,Male,North,Standard,One Year,Debit Card,9,57.47,0,5.8,93,517.23,No,Not Churned,7-12 Months,Low Risk
+CUST_0163,39,Male,East,Standard,One Year,UPI,2,43.81,1,8.6,81,87.62,Yes,Lack of Features,0-6 Months,Low Risk
+CUST_0164,45,Male,South,Basic,Two Year,Debit Card,37,29.24,2,7.4,58,1081.88,No,Not Churned,37-60 Months,Low Risk
+CUST_0165,19,Female,South,Standard,Two Year,Debit Card,1,65.34,2,4.5,91,65.34,No,Not Churned,0-6 Months,Low Risk
+CUST_0166,59,Male,East,Premium,Monthly,Credit Card,4,114.88,2,9.2,40,459.52,No,Not Churned,0-6 Months,Medium Risk
+CUST_0167,62,Male,Central,Standard,Two Year,UPI,36,47.94,1,6.5,89,1725.84,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0168,23,Male,South,Standard,Monthly,Bank Transfer,54,61.34,3,8.0,60,3312.36,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0169,45,Male,West,Basic,One Year,Debit Card,58,22.0,2,8.6,21,1276.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0170,45,Male,South,Standard,One Year,Credit Card,25,41.01,3,3.2,14,1025.25,No,Not Churned,25-36 Months,Low Risk
+CUST_0171,61,Male,Central,Premium,One Year,Credit Card,3,98.02,1,7.7,91,294.06,Yes,High Price,0-6 Months,Low Risk
+CUST_0172,61,Male,Central,Standard,Monthly,Bank Transfer,9,60.84,0,6.6,48,547.56,No,Not Churned,7-12 Months,Medium Risk
+CUST_0173,37,Male,West,Standard,Two Year,Credit Card,22,63.87,3,3.4,6,1405.14,No,Not Churned,13-24 Months,Low Risk
+CUST_0174,47,Female,South,Standard,Monthly,Debit Card,23,50.21,0,5.3,18,1154.83,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0175,28,Male,Central,Standard,Monthly,Credit Card,12,40.2,1,6.3,45,482.4,No,Not Churned,7-12 Months,Medium Risk
+CUST_0176,45,Female,East,Basic,One Year,UPI,10,29.59,1,8.3,6,295.9,No,Not Churned,7-12 Months,Medium Risk
+CUST_0177,42,Male,North,Standard,Monthly,UPI,34,40.48,0,6.7,23,1376.32,No,Not Churned,25-36 Months,Low Risk
+CUST_0178,56,Male,North,Standard,Two Year,Debit Card,43,42.76,2,7.2,84,1838.68,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0179,50,Male,North,Standard,Monthly,UPI,10,49.8,1,6.5,93,498.0,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_0180,18,Male,South,Standard,Monthly,Bank Transfer,30,53.12,2,8.6,5,1593.6,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0181,44,Female,West,Premium,Two Year,Credit Card,22,83.97,3,7.8,6,1847.34,Yes,Poor Service,13-24 Months,Low Risk
+CUST_0182,30,Male,Central,Basic,One Year,Debit Card,6,31.64,5,7.2,31,189.84,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_0183,58,Male,East,Premium,Monthly,Bank Transfer,50,72.77,2,5.3,6,3638.5,No,Not Churned,37-60 Months,Low Risk
+CUST_0184,20,Female,East,Basic,One Year,Credit Card,2,22.89,3,7.2,98,45.78,No,Not Churned,0-6 Months,Medium Risk
+CUST_0185,56,Female,South,Standard,One Year,Bank Transfer,30,60.86,2,10.0,55,1825.8,No,Not Churned,25-36 Months,Low Risk
+CUST_0186,23,Male,North,Basic,One Year,Debit Card,2,22.84,3,8.2,14,45.68,No,Not Churned,0-6 Months,Medium Risk
+CUST_0187,25,Female,South,Basic,Monthly,Debit Card,32,32.8,1,5.9,23,1049.6,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_0188,44,Female,West,Standard,Two Year,Bank Transfer,42,41.64,2,9.8,84,1748.88,No,Not Churned,37-60 Months,Low Risk
+CUST_0189,26,Female,West,Basic,Two Year,Credit Card,16,28.15,0,5.8,17,450.4,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0190,54,Male,Central,Standard,One Year,UPI,12,45.32,1,8.1,52,543.84,No,Not Churned,7-12 Months,Low Risk
+CUST_0191,50,Male,Central,Premium,Monthly,UPI,1,75.48,0,6.9,60,75.48,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0192,59,Male,West,Basic,Two Year,Bank Transfer,53,31.34,3,7.3,76,1661.02,No,Not Churned,37-60 Months,Low Risk
+CUST_0193,61,Female,West,Standard,One Year,Debit Card,8,67.85,1,7.3,60,542.8,No,Not Churned,7-12 Months,Low Risk
+CUST_0194,41,Male,West,Standard,One Year,Credit Card,48,41.64,2,6.6,54,1998.72,No,Not Churned,37-60 Months,Low Risk
+CUST_0195,32,Female,South,Standard,Monthly,Credit Card,50,52.65,1,6.4,99,2632.5,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0196,49,Male,West,Basic,Two Year,Debit Card,13,34.15,0,5.0,49,443.95,No,Not Churned,13-24 Months,Low Risk
+CUST_0197,49,Male,East,Basic,One Year,UPI,15,29.25,2,5.3,93,438.75,No,Not Churned,13-24 Months,Low Risk
+CUST_0198,41,Female,North,Basic,Monthly,Credit Card,53,36.13,2,7.5,63,1914.89,No,Not Churned,37-60 Months,Medium Risk
+CUST_0199,58,Male,West,Basic,Monthly,Bank Transfer,44,23.59,2,6.0,43,1037.96,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0200,29,Female,North,Basic,Two Year,UPI,8,39.19,1,5.6,25,313.52,No,Not Churned,7-12 Months,Medium Risk
+CUST_0201,56,Female,South,Standard,Monthly,Bank Transfer,10,51.55,3,10.0,59,515.5,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_0202,19,Male,North,Premium,Two Year,UPI,46,87.08,4,10.0,61,4005.68,No,Not Churned,37-60 Months,Low Risk
+CUST_0203,20,Female,South,Premium,One Year,Debit Card,5,113.73,2,7.9,45,568.65,No,Not Churned,0-6 Months,Low Risk
+CUST_0204,54,Male,East,Standard,One Year,Bank Transfer,50,56.92,3,8.1,97,2846.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0205,34,Male,South,Basic,Monthly,Bank Transfer,19,30.33,2,5.8,74,576.27,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0206,19,Female,South,Basic,Monthly,Debit Card,47,34.54,6,5.2,86,1623.38,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0207,19,Male,Central,Basic,Two Year,Bank Transfer,38,31.6,5,6.5,53,1200.8,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0208,45,Female,West,Basic,Monthly,UPI,59,23.25,1,7.0,48,1371.75,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0209,40,Male,West,Standard,One Year,Credit Card,11,60.23,1,8.1,39,662.53,No,Not Churned,7-12 Months,Low Risk
+CUST_0210,54,Male,East,Standard,Monthly,Credit Card,53,44.0,3,4.3,95,2332.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0211,49,Male,East,Standard,Monthly,Debit Card,43,64.18,3,10.0,9,2759.74,No,Not Churned,37-60 Months,Low Risk
+CUST_0212,50,Male,West,Standard,Monthly,UPI,20,69.69,6,7.4,75,1393.8,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_0213,18,Male,Central,Premium,One Year,Bank Transfer,20,88.87,2,4.7,78,1777.4,No,Not Churned,13-24 Months,Low Risk
+CUST_0214,36,Female,West,Standard,Two Year,Bank Transfer,21,53.34,1,7.2,78,1120.14,No,Not Churned,13-24 Months,Low Risk
+CUST_0215,19,Female,Central,Basic,Monthly,Credit Card,18,20.93,0,5.6,55,376.74,Yes,High Price,13-24 Months,Medium Risk
+CUST_0216,61,Female,East,Premium,Monthly,Bank Transfer,57,70.69,2,5.5,61,4029.33,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0217,43,Female,North,Premium,Monthly,Credit Card,50,116.07,3,5.4,62,5803.5,No,Not Churned,37-60 Months,Low Risk
+CUST_0218,49,Female,East,Basic,One Year,Debit Card,10,22.57,2,6.6,96,225.7,No,Not Churned,7-12 Months,Medium Risk
+CUST_0219,23,Female,East,Standard,Monthly,Bank Transfer,34,53.37,3,10.0,40,1814.58,No,Not Churned,25-36 Months,Low Risk
+CUST_0220,49,Male,South,Standard,Two Year,UPI,26,64.46,1,7.1,14,1675.96,No,Not Churned,25-36 Months,Low Risk
+CUST_0221,21,Male,South,Premium,One Year,Bank Transfer,30,114.47,1,8.0,54,3434.1,No,Not Churned,25-36 Months,Low Risk
+CUST_0222,28,Female,South,Premium,One Year,Credit Card,9,95.97,3,8.4,41,863.73,No,Not Churned,7-12 Months,Low Risk
+CUST_0223,34,Female,South,Basic,Monthly,Debit Card,46,31.3,0,6.8,24,1439.8,Yes,High Price,37-60 Months,Medium Risk
+CUST_0224,55,Male,Central,Standard,Two Year,Credit Card,51,60.09,1,5.3,17,3064.59,No,Not Churned,37-60 Months,Low Risk
+CUST_0225,41,Male,West,Standard,Monthly,Bank Transfer,31,68.84,3,4.6,79,2134.04,No,Not Churned,25-36 Months,Low Risk
+CUST_0226,22,Male,North,Standard,Monthly,Credit Card,42,58.08,2,6.4,23,2439.36,No,Not Churned,37-60 Months,Low Risk
+CUST_0227,51,Female,East,Basic,One Year,Credit Card,55,31.19,1,8.7,96,1715.45,No,Not Churned,37-60 Months,Low Risk
+CUST_0228,23,Female,Central,Premium,One Year,Debit Card,4,70.73,1,8.4,60,282.92,No,Not Churned,0-6 Months,Low Risk
+CUST_0229,39,Female,North,Standard,Monthly,UPI,6,42.43,6,7.4,49,254.58,Yes,Competitor Offer,0-6 Months,High Risk
+CUST_0230,28,Male,Central,Premium,Monthly,Bank Transfer,14,98.86,1,7.6,64,1384.04,No,Not Churned,13-24 Months,Low Risk
+CUST_0231,33,Male,Central,Premium,One Year,Debit Card,4,116.81,2,6.8,72,467.24,Yes,Lack of Features,0-6 Months,Low Risk
+CUST_0232,50,Female,East,Standard,Monthly,UPI,26,66.0,1,6.3,61,1716.0,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0233,26,Female,West,Standard,Two Year,Credit Card,47,69.48,1,5.9,58,3265.56,No,Not Churned,37-60 Months,Low Risk
+CUST_0234,23,Male,South,Standard,One Year,UPI,48,55.84,2,4.8,41,2680.32,No,Not Churned,37-60 Months,Low Risk
+CUST_0235,33,Male,West,Basic,Monthly,Credit Card,39,35.76,2,9.7,87,1394.64,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0236,46,Male,East,Standard,Monthly,Credit Card,17,65.21,1,7.3,41,1108.57,No,Not Churned,13-24 Months,Low Risk
+CUST_0237,20,Male,East,Basic,Monthly,Debit Card,19,32.96,2,6.3,18,626.24,No,Not Churned,13-24 Months,Medium Risk
+CUST_0238,37,Female,East,Standard,One Year,Credit Card,51,50.16,1,9.7,99,2558.16,No,Not Churned,37-60 Months,Low Risk
+CUST_0239,53,Male,North,Basic,One Year,Debit Card,49,29.4,3,10.0,96,1440.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0240,36,Male,West,Basic,Monthly,UPI,6,37.16,3,10.0,48,222.96,No,Not Churned,0-6 Months,Medium Risk
+CUST_0241,43,Male,West,Basic,One Year,UPI,29,25.97,3,6.6,87,753.13,No,Not Churned,25-36 Months,Low Risk
+CUST_0242,20,Female,Central,Basic,Two Year,Credit Card,11,38.47,3,7.2,46,423.17,No,Not Churned,7-12 Months,Medium Risk
+CUST_0243,36,Female,Central,Standard,Monthly,Debit Card,16,46.89,4,8.0,5,750.24,No,Not Churned,13-24 Months,Medium Risk
+CUST_0244,37,Male,Central,Standard,Two Year,Credit Card,30,62.49,3,9.5,27,1874.7,No,Not Churned,25-36 Months,Low Risk
+CUST_0245,49,Male,East,Standard,Monthly,Debit Card,25,58.92,0,7.1,68,1473.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0246,24,Male,West,Basic,Monthly,Debit Card,40,34.99,0,5.5,32,1399.6,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0247,58,Female,East,Basic,Monthly,Debit Card,11,28.75,2,5.9,8,316.25,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_0248,50,Female,North,Basic,Monthly,UPI,7,38.65,3,8.8,45,270.55,Yes,High Price,7-12 Months,Medium Risk
+CUST_0249,57,Female,Central,Basic,Monthly,Debit Card,26,32.65,1,7.9,64,848.9,No,Not Churned,25-36 Months,Medium Risk
+CUST_0250,56,Male,East,Premium,Monthly,UPI,56,84.41,2,6.7,22,4726.96,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0251,35,Female,East,Basic,Two Year,Debit Card,22,32.77,2,6.6,67,720.94,No,Not Churned,13-24 Months,Low Risk
+CUST_0252,57,Male,North,Standard,Two Year,UPI,25,48.6,3,6.7,65,1215.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0253,18,Male,South,Basic,One Year,Bank Transfer,19,25.87,0,8.9,53,491.53,No,Not Churned,13-24 Months,Low Risk
+CUST_0254,28,Male,West,Basic,Monthly,UPI,31,27.99,1,5.8,51,867.69,No,Not Churned,25-36 Months,Medium Risk
+CUST_0255,45,Female,South,Standard,Monthly,UPI,26,65.57,1,5.2,43,1704.82,No,Not Churned,25-36 Months,Low Risk
+CUST_0256,42,Male,Central,Standard,Monthly,Credit Card,42,55.01,1,9.7,93,2310.42,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0257,40,Female,East,Basic,One Year,Debit Card,41,33.58,0,7.0,86,1376.78,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0258,48,Female,North,Basic,Two Year,Bank Transfer,36,27.84,2,6.9,10,1002.24,No,Not Churned,25-36 Months,Low Risk
+CUST_0259,47,Male,North,Standard,Monthly,Credit Card,23,47.91,0,8.0,87,1101.93,No,Not Churned,13-24 Months,Low Risk
+CUST_0260,59,Male,West,Basic,Monthly,Debit Card,47,39.09,0,5.5,57,1837.23,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0261,52,Female,South,Basic,One Year,Bank Transfer,13,32.07,2,8.1,80,416.91,Yes,Poor Service,13-24 Months,Low Risk
+CUST_0262,24,Male,West,Premium,Monthly,Bank Transfer,25,116.7,4,6.4,29,2917.5,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0263,33,Female,East,Standard,Monthly,Bank Transfer,2,46.1,1,8.7,69,92.2,No,Not Churned,0-6 Months,Medium Risk
+CUST_0264,43,Male,West,Standard,One Year,Debit Card,2,44.41,3,4.7,9,88.82,No,Not Churned,0-6 Months,Low Risk
+CUST_0265,19,Female,North,Standard,One Year,Bank Transfer,16,65.67,1,7.7,69,1050.72,No,Not Churned,13-24 Months,Low Risk
+CUST_0266,18,Female,North,Standard,Monthly,Bank Transfer,9,60.43,2,6.7,12,543.87,No,Not Churned,7-12 Months,Medium Risk
+CUST_0267,29,Female,Central,Standard,Monthly,Credit Card,28,45.6,2,5.9,43,1276.8,No,Not Churned,25-36 Months,Low Risk
+CUST_0268,22,Female,Central,Standard,Two Year,UPI,13,48.08,0,8.2,47,625.04,No,Not Churned,13-24 Months,Low Risk
+CUST_0269,54,Male,East,Standard,Monthly,Debit Card,35,64.02,3,6.8,86,2240.7,No,Not Churned,25-36 Months,Low Risk
+CUST_0270,49,Male,South,Basic,Monthly,UPI,41,29.08,2,7.7,77,1192.28,No,Not Churned,37-60 Months,Medium Risk
+CUST_0271,26,Female,West,Standard,Monthly,Credit Card,13,60.12,7,8.9,9,781.56,No,Not Churned,13-24 Months,Medium Risk
+CUST_0272,58,Female,East,Standard,Monthly,UPI,31,49.55,1,8.2,8,1536.05,No,Not Churned,25-36 Months,Low Risk
+CUST_0273,52,Male,Central,Premium,Monthly,Bank Transfer,21,89.06,2,5.4,97,1870.26,No,Not Churned,13-24 Months,Low Risk
+CUST_0274,36,Male,West,Standard,Two Year,Bank Transfer,32,69.72,1,6.2,5,2231.04,No,Not Churned,25-36 Months,Low Risk
+CUST_0275,33,Male,Central,Standard,Monthly,Debit Card,54,47.43,1,7.7,98,2561.22,No,Not Churned,37-60 Months,Low Risk
+CUST_0276,20,Male,West,Basic,Monthly,Debit Card,34,30.13,1,8.2,60,1024.42,No,Not Churned,25-36 Months,Medium Risk
+CUST_0277,37,Male,South,Standard,One Year,Debit Card,8,65.33,6,6.4,49,522.64,Yes,Lack of Features,7-12 Months,Medium Risk
+CUST_0278,41,Male,East,Basic,One Year,Credit Card,59,24.78,0,7.3,69,1462.02,No,Not Churned,37-60 Months,Low Risk
+CUST_0279,50,Female,West,Basic,Two Year,Debit Card,41,28.3,1,7.3,7,1160.3,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0280,41,Male,North,Basic,Two Year,Credit Card,48,32.3,0,7.5,26,1550.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0281,28,Male,North,Standard,Monthly,Bank Transfer,2,54.44,6,5.2,76,108.88,Yes,Lack of Features,0-6 Months,High Risk
+CUST_0282,25,Female,West,Basic,One Year,UPI,38,29.19,1,4.9,60,1109.22,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0283,53,Male,West,Standard,Monthly,Bank Transfer,32,50.88,2,3.6,22,1628.16,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0284,55,Male,West,Premium,Two Year,Bank Transfer,54,99.33,4,7.2,29,5363.82,No,Not Churned,37-60 Months,Low Risk
+CUST_0285,57,Male,North,Basic,Monthly,Bank Transfer,40,32.49,0,5.0,52,1299.6,No,Not Churned,37-60 Months,Medium Risk
+CUST_0286,37,Male,North,Standard,Two Year,Debit Card,58,59.6,2,10.0,88,3456.8,No,Not Churned,37-60 Months,Low Risk
+CUST_0287,52,Male,West,Standard,One Year,Debit Card,28,42.11,2,8.0,35,1179.08,No,Not Churned,25-36 Months,Low Risk
+CUST_0288,42,Female,Central,Basic,Monthly,Debit Card,37,32.62,1,5.2,34,1206.94,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0289,52,Male,Central,Standard,One Year,UPI,41,68.6,4,8.7,84,2812.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0290,42,Female,South,Basic,Two Year,Debit Card,1,30.82,2,8.7,70,30.82,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_0291,46,Female,East,Standard,Two Year,Credit Card,41,61.46,2,8.8,85,2519.86,No,Not Churned,37-60 Months,Low Risk
+CUST_0292,35,Male,Central,Standard,Monthly,Bank Transfer,10,56.7,1,5.8,14,567.0,Yes,Lack of Features,7-12 Months,Medium Risk
+CUST_0293,63,Female,North,Standard,One Year,UPI,55,65.64,1,8.1,75,3610.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0294,35,Male,Central,Standard,Monthly,UPI,4,67.89,6,8.9,63,271.56,No,Not Churned,0-6 Months,High Risk
+CUST_0295,19,Female,South,Basic,Monthly,UPI,35,23.68,3,9.4,55,828.8,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_0296,52,Female,South,Basic,Monthly,UPI,10,28.74,2,4.7,13,287.4,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_0297,33,Male,East,Standard,Monthly,UPI,47,51.77,4,6.7,58,2433.19,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0298,58,Male,Central,Standard,Two Year,Credit Card,11,52.16,0,5.7,66,573.76,No,Not Churned,7-12 Months,Low Risk
+CUST_0299,53,Male,North,Premium,Monthly,Bank Transfer,14,76.28,0,9.8,85,1067.92,No,Not Churned,13-24 Months,Low Risk
+CUST_0300,50,Male,North,Premium,Two Year,UPI,38,110.68,2,7.7,13,4205.84,No,Not Churned,37-60 Months,Low Risk
+CUST_0301,21,Male,West,Premium,Monthly,Bank Transfer,12,71.79,2,8.3,13,861.48,No,Not Churned,7-12 Months,Medium Risk
+CUST_0302,50,Female,North,Standard,Monthly,Debit Card,45,55.85,3,7.7,28,2513.25,No,Not Churned,37-60 Months,Low Risk
+CUST_0303,31,Female,East,Basic,Monthly,UPI,17,33.24,2,7.6,43,565.08,No,Not Churned,13-24 Months,Medium Risk
+CUST_0304,38,Female,East,Standard,Monthly,UPI,16,46.22,4,5.7,79,739.52,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_0305,37,Female,North,Standard,Monthly,Bank Transfer,35,67.18,6,6.3,12,2351.3,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_0306,25,Female,North,Basic,Monthly,UPI,2,36.77,0,7.1,29,73.54,No,Not Churned,0-6 Months,Medium Risk
+CUST_0307,24,Female,West,Premium,One Year,UPI,11,93.55,2,6.0,70,1029.05,No,Not Churned,7-12 Months,Low Risk
+CUST_0308,20,Female,North,Premium,Monthly,UPI,41,90.56,0,5.8,14,3712.96,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0309,34,Male,West,Standard,Monthly,Credit Card,3,47.1,1,6.7,28,141.3,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0310,50,Male,West,Basic,Monthly,Credit Card,29,34.6,0,6.1,84,1003.4,Yes,Lack of Features,25-36 Months,Medium Risk
+CUST_0311,29,Female,North,Standard,Two Year,UPI,18,43.95,1,7.1,87,791.1,No,Not Churned,13-24 Months,Low Risk
+CUST_0312,39,Female,South,Premium,Two Year,Credit Card,20,104.01,4,6.3,63,2080.2,Yes,High Price,13-24 Months,Low Risk
+CUST_0313,39,Male,South,Premium,Monthly,Debit Card,47,112.12,2,6.0,35,5269.64,No,Not Churned,37-60 Months,Low Risk
+CUST_0314,63,Male,West,Basic,Monthly,UPI,14,24.57,5,5.6,15,343.98,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_0315,47,Male,North,Basic,Monthly,Debit Card,34,37.33,2,7.0,10,1269.22,No,Not Churned,25-36 Months,Medium Risk
+CUST_0316,55,Male,South,Premium,Two Year,Bank Transfer,49,71.67,3,8.3,74,3511.83,No,Not Churned,37-60 Months,Low Risk
+CUST_0317,55,Female,North,Standard,Monthly,Debit Card,54,67.38,1,8.0,36,3638.52,No,Not Churned,37-60 Months,Low Risk
+CUST_0318,62,Male,North,Standard,Monthly,Bank Transfer,31,43.55,5,4.7,43,1350.05,No,Not Churned,25-36 Months,Medium Risk
+CUST_0319,25,Female,North,Premium,Monthly,UPI,58,102.29,2,8.3,52,5932.82,No,Not Churned,37-60 Months,Low Risk
+CUST_0320,44,Female,Central,Basic,Monthly,Bank Transfer,40,25.0,0,8.0,17,1000.0,No,Not Churned,37-60 Months,Medium Risk
+CUST_0321,44,Female,North,Standard,Monthly,Bank Transfer,42,65.1,4,8.3,63,2734.2,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0322,51,Male,Central,Basic,One Year,Debit Card,58,30.25,1,8.6,71,1754.5,No,Not Churned,37-60 Months,Low Risk
+CUST_0323,38,Male,West,Standard,Monthly,Debit Card,18,44.06,2,5.9,60,793.08,No,Not Churned,13-24 Months,Low Risk
+CUST_0324,47,Female,South,Premium,One Year,Debit Card,30,98.55,5,6.6,45,2956.5,No,Not Churned,25-36 Months,Low Risk
+CUST_0325,50,Female,South,Standard,Monthly,UPI,25,52.24,2,9.7,60,1306.0,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0326,45,Female,South,Premium,Monthly,UPI,19,103.07,2,9.6,39,1958.33,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0327,64,Male,South,Standard,Two Year,Debit Card,8,66.46,5,6.9,42,531.68,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_0328,50,Female,South,Basic,Monthly,UPI,28,28.19,0,7.9,85,789.32,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_0329,22,Male,South,Basic,Two Year,UPI,8,25.8,4,8.0,71,206.4,No,Not Churned,7-12 Months,Medium Risk
+CUST_0330,36,Female,South,Standard,One Year,Bank Transfer,31,40.44,3,9.6,38,1253.64,No,Not Churned,25-36 Months,Low Risk
+CUST_0331,21,Female,West,Standard,Monthly,Bank Transfer,3,57.25,5,7.5,80,171.75,No,Not Churned,0-6 Months,High Risk
+CUST_0332,52,Female,North,Basic,Two Year,Debit Card,3,28.05,0,5.2,92,84.15,No,Not Churned,0-6 Months,Medium Risk
+CUST_0333,34,Male,East,Standard,Monthly,UPI,44,51.24,2,6.3,74,2254.56,No,Not Churned,37-60 Months,Low Risk
+CUST_0334,61,Male,Central,Standard,Two Year,Bank Transfer,22,45.49,1,10.0,15,1000.78,No,Not Churned,13-24 Months,Low Risk
+CUST_0335,45,Female,East,Standard,Monthly,Credit Card,17,52.9,5,5.1,31,899.3,No,Not Churned,13-24 Months,Medium Risk
+CUST_0336,47,Male,East,Standard,Two Year,UPI,36,69.53,3,7.1,52,2503.08,No,Not Churned,25-36 Months,Low Risk
+CUST_0337,46,Female,North,Standard,Monthly,Credit Card,17,48.93,1,10.0,28,831.81,No,Not Churned,13-24 Months,Low Risk
+CUST_0338,63,Male,North,Basic,One Year,Debit Card,14,31.99,2,5.8,22,447.86,No,Not Churned,13-24 Months,Low Risk
+CUST_0339,23,Male,North,Basic,One Year,UPI,51,35.53,0,2.9,31,1812.03,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0340,52,Male,South,Standard,Two Year,Debit Card,9,62.47,1,3.2,58,562.23,No,Not Churned,7-12 Months,Low Risk
+CUST_0341,58,Female,West,Standard,Two Year,Debit Card,30,49.86,5,5.8,59,1495.8,No,Not Churned,25-36 Months,Low Risk
+CUST_0342,54,Male,South,Basic,Two Year,Debit Card,21,32.22,1,4.4,25,676.62,No,Not Churned,13-24 Months,Low Risk
+CUST_0343,41,Male,West,Premium,Two Year,Debit Card,12,113.56,3,8.6,63,1362.72,No,Not Churned,7-12 Months,Low Risk
+CUST_0344,46,Female,West,Standard,Monthly,Debit Card,37,40.46,1,7.4,38,1497.02,No,Not Churned,37-60 Months,Low Risk
+CUST_0345,63,Female,East,Standard,Monthly,UPI,32,53.07,3,3.8,62,1698.24,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0346,48,Female,East,Basic,Monthly,Credit Card,11,24.49,5,4.6,52,269.39,Yes,High Price,7-12 Months,High Risk
+CUST_0347,52,Female,West,Standard,Monthly,UPI,20,51.66,0,8.9,58,1033.2,Yes,High Price,13-24 Months,Low Risk
+CUST_0348,50,Male,West,Standard,Monthly,UPI,35,52.48,1,7.3,22,1836.8,No,Not Churned,25-36 Months,Low Risk
+CUST_0349,38,Male,South,Standard,One Year,UPI,53,62.4,3,9.2,7,3307.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0350,49,Male,South,Standard,Monthly,Bank Transfer,47,42.81,1,8.7,28,2012.07,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0351,40,Male,East,Premium,One Year,Bank Transfer,46,95.63,3,5.3,5,4398.98,No,Not Churned,37-60 Months,Low Risk
+CUST_0352,50,Male,North,Standard,Monthly,UPI,11,56.93,0,8.3,10,626.23,Yes,Lack of Features,7-12 Months,Medium Risk
+CUST_0353,20,Female,West,Basic,Monthly,Credit Card,52,29.88,1,7.8,23,1553.76,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0354,35,Male,South,Standard,One Year,UPI,8,61.96,0,4.1,90,495.68,No,Not Churned,7-12 Months,Low Risk
+CUST_0355,42,Male,East,Standard,One Year,Debit Card,4,51.51,2,5.0,47,206.04,Yes,Competitor Offer,0-6 Months,Low Risk
+CUST_0356,59,Male,South,Standard,One Year,Bank Transfer,27,68.35,4,10.0,12,1845.45,No,Not Churned,25-36 Months,Low Risk
+CUST_0357,48,Female,West,Basic,One Year,Bank Transfer,44,29.64,1,5.6,73,1304.16,Yes,High Price,37-60 Months,Low Risk
+CUST_0358,20,Female,West,Basic,Monthly,UPI,40,31.42,3,7.6,56,1256.8,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0359,57,Male,Central,Premium,One Year,UPI,38,111.28,1,6.7,77,4228.64,No,Not Churned,37-60 Months,Low Risk
+CUST_0360,63,Female,North,Standard,Monthly,Credit Card,47,48.26,2,7.3,51,2268.22,No,Not Churned,37-60 Months,Low Risk
+CUST_0361,41,Female,Central,Premium,Monthly,Credit Card,30,73.76,3,6.8,89,2212.8,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0362,49,Female,East,Standard,Monthly,Debit Card,44,61.23,0,8.4,32,2694.12,No,Not Churned,37-60 Months,Low Risk
+CUST_0363,64,Female,South,Standard,Monthly,UPI,48,54.49,2,8.4,50,2615.52,No,Not Churned,37-60 Months,Low Risk
+CUST_0364,39,Female,East,Standard,Monthly,UPI,48,66.9,3,7.2,8,3211.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0365,40,Female,West,Premium,Two Year,UPI,27,119.13,3,5.6,92,3216.51,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0366,19,Female,Central,Standard,Two Year,Bank Transfer,21,51.97,1,6.1,12,1091.37,No,Not Churned,13-24 Months,Low Risk
+CUST_0367,44,Male,Central,Standard,Monthly,Debit Card,52,52.46,1,4.6,65,2727.92,No,Not Churned,37-60 Months,Low Risk
+CUST_0368,59,Male,Central,Basic,Monthly,Credit Card,20,28.16,2,6.5,21,563.2,Yes,High Price,13-24 Months,Medium Risk
+CUST_0369,19,Female,East,Standard,Monthly,Bank Transfer,60,49.74,0,4.4,38,2984.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0370,43,Male,West,Standard,Monthly,Bank Transfer,4,63.45,1,7.3,24,253.8,No,Not Churned,0-6 Months,Medium Risk
+CUST_0371,34,Male,South,Basic,Two Year,Bank Transfer,11,35.18,4,7.4,84,386.98,No,Not Churned,7-12 Months,Medium Risk
+CUST_0372,57,Female,South,Basic,Monthly,Bank Transfer,13,29.57,1,8.5,78,384.41,No,Not Churned,13-24 Months,Medium Risk
+CUST_0373,50,Male,East,Basic,One Year,Debit Card,9,20.89,3,5.2,38,188.01,No,Not Churned,7-12 Months,Medium Risk
+CUST_0374,26,Female,Central,Basic,Monthly,UPI,4,26.19,5,5.3,47,104.76,Yes,Competitor Offer,0-6 Months,High Risk
+CUST_0375,60,Female,North,Basic,Two Year,Credit Card,12,25.85,2,9.3,14,310.2,No,Not Churned,7-12 Months,Medium Risk
+CUST_0376,56,Female,East,Standard,Monthly,Credit Card,9,64.33,2,4.9,98,578.97,No,Not Churned,7-12 Months,Medium Risk
+CUST_0377,46,Male,East,Premium,One Year,Bank Transfer,13,74.38,1,10.0,34,966.94,No,Not Churned,13-24 Months,Low Risk
+CUST_0378,59,Male,West,Standard,Monthly,Bank Transfer,48,64.17,3,5.6,29,3080.16,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0379,43,Male,South,Basic,One Year,Debit Card,26,33.38,1,5.6,61,867.88,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0380,52,Male,East,Basic,Monthly,Bank Transfer,38,34.65,2,8.3,67,1316.7,No,Not Churned,37-60 Months,Medium Risk
+CUST_0381,42,Female,East,Standard,Monthly,Credit Card,42,52.97,2,7.8,75,2224.74,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0382,41,Female,Central,Standard,Two Year,Credit Card,13,60.39,1,9.5,51,785.07,No,Not Churned,13-24 Months,Low Risk
+CUST_0383,30,Male,Central,Premium,Two Year,UPI,39,100.45,4,4.2,88,3917.55,No,Not Churned,37-60 Months,Low Risk
+CUST_0384,24,Female,North,Standard,Two Year,UPI,28,63.07,2,7.8,85,1765.96,No,Not Churned,25-36 Months,Low Risk
+CUST_0385,53,Female,West,Standard,One Year,Credit Card,58,53.4,1,6.9,7,3097.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0386,62,Male,North,Basic,Two Year,Credit Card,19,29.46,2,5.4,50,559.74,No,Not Churned,13-24 Months,Low Risk
+CUST_0387,37,Female,Central,Standard,Monthly,Debit Card,24,59.31,0,9.8,40,1423.44,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0388,18,Male,South,Basic,Monthly,Debit Card,19,22.16,0,7.4,30,421.04,No,Not Churned,13-24 Months,Medium Risk
+CUST_0389,25,Female,Central,Premium,Monthly,Credit Card,49,91.81,1,6.9,14,4498.69,Yes,High Price,37-60 Months,Low Risk
+CUST_0390,63,Male,West,Standard,One Year,Bank Transfer,13,69.16,0,7.7,38,899.08,No,Not Churned,13-24 Months,Low Risk
+CUST_0391,33,Female,Central,Basic,Monthly,UPI,13,20.75,2,4.4,82,269.75,Yes,High Price,13-24 Months,Medium Risk
+CUST_0392,31,Female,West,Basic,Monthly,Credit Card,58,26.32,4,5.1,12,1526.56,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0393,29,Male,West,Basic,One Year,Bank Transfer,28,26.28,2,6.5,59,735.84,No,Not Churned,25-36 Months,Low Risk
+CUST_0394,40,Male,West,Standard,Two Year,Credit Card,53,59.0,5,7.5,95,3127.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0395,32,Male,West,Basic,Monthly,UPI,2,22.12,4,8.9,14,44.24,Yes,Customer Support,0-6 Months,High Risk
+CUST_0396,45,Male,West,Standard,Monthly,UPI,10,58.86,4,5.7,61,588.6,No,Not Churned,7-12 Months,High Risk
+CUST_0397,51,Female,South,Basic,Monthly,Debit Card,22,21.9,2,5.3,83,481.8,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_0398,19,Female,North,Standard,Monthly,Debit Card,13,42.85,3,7.8,90,557.05,Yes,High Price,13-24 Months,Low Risk
+CUST_0399,49,Male,East,Premium,Monthly,Debit Card,58,106.41,3,6.8,49,6171.78,No,Not Churned,37-60 Months,Low Risk
+CUST_0400,40,Female,North,Standard,One Year,Debit Card,9,49.72,2,4.1,54,447.48,No,Not Churned,7-12 Months,Low Risk
+CUST_0401,39,Male,West,Standard,One Year,UPI,33,69.32,3,5.6,68,2287.56,No,Not Churned,25-36 Months,Low Risk
+CUST_0402,42,Male,South,Basic,One Year,Bank Transfer,14,20.75,2,6.7,99,290.5,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0403,39,Female,Central,Basic,Monthly,Bank Transfer,48,28.9,1,6.8,6,1387.2,No,Not Churned,37-60 Months,Medium Risk
+CUST_0404,39,Female,South,Standard,Two Year,Bank Transfer,20,43.39,2,7.1,49,867.8,No,Not Churned,13-24 Months,Low Risk
+CUST_0405,59,Male,West,Standard,Monthly,Credit Card,15,50.54,1,5.0,99,758.1,No,Not Churned,13-24 Months,Low Risk
+CUST_0406,23,Male,South,Standard,Monthly,Debit Card,32,69.95,1,6.8,66,2238.4,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0407,32,Male,South,Basic,Two Year,Debit Card,33,37.78,6,8.4,18,1246.74,No,Not Churned,25-36 Months,Medium Risk
+CUST_0408,60,Female,West,Basic,Monthly,UPI,17,20.97,2,2.7,78,356.49,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0409,54,Female,South,Basic,Monthly,UPI,24,31.27,1,6.6,98,750.48,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0410,50,Female,East,Premium,Two Year,Credit Card,30,102.39,2,4.5,19,3071.7,No,Not Churned,25-36 Months,Low Risk
+CUST_0411,25,Female,East,Basic,Monthly,Credit Card,13,24.19,1,7.0,18,314.47,No,Not Churned,13-24 Months,Medium Risk
+CUST_0412,61,Male,South,Standard,One Year,Bank Transfer,59,44.35,2,4.7,35,2616.65,No,Not Churned,37-60 Months,Low Risk
+CUST_0413,61,Male,Central,Basic,Monthly,UPI,47,38.09,4,7.2,33,1790.23,No,Not Churned,37-60 Months,Medium Risk
+CUST_0414,22,Male,West,Standard,One Year,Debit Card,48,69.06,1,9.4,31,3314.88,No,Not Churned,37-60 Months,Low Risk
+CUST_0415,56,Male,East,Basic,Monthly,Bank Transfer,16,39.84,1,5.5,89,637.44,Yes,High Price,13-24 Months,Medium Risk
+CUST_0416,21,Male,Central,Premium,Monthly,Debit Card,2,109.49,4,5.7,13,218.98,No,Not Churned,0-6 Months,High Risk
+CUST_0417,23,Male,South,Premium,One Year,Bank Transfer,17,103.18,4,6.3,24,1754.06,No,Not Churned,13-24 Months,Low Risk
+CUST_0418,62,Female,Central,Basic,Monthly,Debit Card,32,26.91,2,7.5,62,861.12,Yes,Lack of Features,25-36 Months,Medium Risk
+CUST_0419,49,Female,North,Premium,Monthly,Credit Card,43,78.57,3,5.5,83,3378.51,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0420,47,Male,East,Premium,Monthly,Bank Transfer,8,73.95,3,6.4,92,591.6,No,Not Churned,7-12 Months,Medium Risk
+CUST_0421,64,Male,South,Premium,Monthly,Debit Card,52,104.66,3,6.0,53,5442.32,No,Not Churned,37-60 Months,Low Risk
+CUST_0422,52,Female,West,Premium,Monthly,Debit Card,3,109.24,1,6.3,61,327.72,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_0423,57,Female,South,Basic,Monthly,UPI,12,36.53,1,7.5,20,438.36,No,Not Churned,7-12 Months,Medium Risk
+CUST_0424,33,Female,West,Standard,Two Year,Bank Transfer,20,67.41,0,7.8,79,1348.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0425,30,Female,South,Basic,Monthly,Debit Card,16,37.6,0,4.8,12,601.6,No,Not Churned,13-24 Months,Medium Risk
+CUST_0426,59,Male,Central,Basic,Monthly,UPI,14,39.99,2,7.5,71,559.86,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_0427,47,Male,Central,Premium,Monthly,Debit Card,16,82.2,2,10.0,23,1315.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0428,36,Male,Central,Basic,Monthly,Bank Transfer,59,35.27,3,9.3,71,2080.93,No,Not Churned,37-60 Months,Medium Risk
+CUST_0429,34,Male,North,Standard,Two Year,Credit Card,53,57.59,3,6.0,40,3052.27,No,Not Churned,37-60 Months,Low Risk
+CUST_0430,36,Male,West,Premium,Monthly,Bank Transfer,49,83.06,3,7.2,93,4069.94,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0431,45,Female,Central,Premium,Two Year,Bank Transfer,43,119.1,2,6.9,64,5121.3,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0432,43,Male,North,Premium,Monthly,Debit Card,49,114.89,2,7.7,40,5629.61,No,Not Churned,37-60 Months,Low Risk
+CUST_0433,54,Female,West,Basic,One Year,Debit Card,51,22.57,1,6.4,15,1151.07,No,Not Churned,37-60 Months,Low Risk
+CUST_0434,43,Male,South,Basic,One Year,Bank Transfer,54,20.52,1,6.6,55,1108.08,No,Not Churned,37-60 Months,Low Risk
+CUST_0435,40,Male,North,Standard,Two Year,UPI,33,60.65,3,5.9,84,2001.45,No,Not Churned,25-36 Months,Low Risk
+CUST_0436,26,Male,East,Basic,One Year,UPI,30,32.08,6,8.6,59,962.4,Yes,Lack of Features,25-36 Months,Medium Risk
+CUST_0437,29,Male,North,Basic,One Year,UPI,59,38.72,0,7.5,58,2284.48,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0438,18,Male,North,Standard,Monthly,Debit Card,12,47.02,2,7.5,21,564.24,No,Not Churned,7-12 Months,Medium Risk
+CUST_0439,18,Female,West,Standard,Monthly,Debit Card,15,42.53,2,8.8,66,637.95,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0440,64,Female,South,Standard,Two Year,Bank Transfer,18,47.78,2,8.8,46,860.04,No,Not Churned,13-24 Months,Low Risk
+CUST_0441,51,Female,East,Basic,Monthly,Credit Card,28,20.38,1,8.6,28,570.64,No,Not Churned,25-36 Months,Medium Risk
+CUST_0442,49,Male,Central,Standard,Monthly,Debit Card,23,41.08,2,8.8,21,944.84,No,Not Churned,13-24 Months,Low Risk
+CUST_0443,42,Male,Central,Basic,One Year,Bank Transfer,14,38.3,2,9.3,52,536.2,Yes,High Price,13-24 Months,Low Risk
+CUST_0444,57,Female,North,Basic,Monthly,Bank Transfer,30,27.04,2,5.6,88,811.2,Yes,High Price,25-36 Months,Medium Risk
+CUST_0445,62,Male,West,Standard,Two Year,Credit Card,33,52.32,1,6.6,90,1726.56,No,Not Churned,25-36 Months,Low Risk
+CUST_0446,18,Male,West,Standard,One Year,UPI,45,40.55,2,8.1,74,1824.75,No,Not Churned,37-60 Months,Low Risk
+CUST_0447,33,Female,Central,Standard,One Year,Bank Transfer,15,48.12,0,5.7,11,721.8,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0448,56,Male,East,Basic,Two Year,Bank Transfer,7,36.09,2,6.5,18,252.63,No,Not Churned,7-12 Months,Medium Risk
+CUST_0449,22,Female,South,Premium,Monthly,Bank Transfer,15,100.77,2,7.3,15,1511.55,No,Not Churned,13-24 Months,Low Risk
+CUST_0450,39,Male,East,Standard,Monthly,UPI,52,62.61,3,6.7,16,3255.72,No,Not Churned,37-60 Months,Low Risk
+CUST_0451,46,Female,South,Standard,Monthly,UPI,42,53.42,0,7.1,9,2243.64,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0452,20,Male,Central,Standard,Monthly,Credit Card,46,49.29,1,5.3,9,2267.34,No,Not Churned,37-60 Months,Low Risk
+CUST_0453,29,Male,South,Premium,One Year,Debit Card,38,94.14,2,6.9,24,3577.32,No,Not Churned,37-60 Months,Low Risk
+CUST_0454,43,Female,West,Standard,Two Year,UPI,46,49.69,5,7.2,58,2285.74,No,Not Churned,37-60 Months,Low Risk
+CUST_0455,33,Male,North,Standard,Monthly,Debit Card,56,65.17,2,9.4,59,3649.52,No,Not Churned,37-60 Months,Low Risk
+CUST_0456,54,Male,North,Premium,Monthly,Debit Card,57,84.88,3,6.6,62,4838.16,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0457,39,Female,Central,Standard,Two Year,UPI,54,59.79,3,6.0,83,3228.66,No,Not Churned,37-60 Months,Low Risk
+CUST_0458,46,Male,West,Standard,Monthly,Bank Transfer,44,44.11,0,8.1,94,1940.84,Yes,High Price,37-60 Months,Low Risk
+CUST_0459,31,Female,East,Standard,Monthly,Credit Card,11,60.61,2,2.2,34,666.71,No,Not Churned,7-12 Months,Medium Risk
+CUST_0460,45,Male,West,Standard,Monthly,Debit Card,29,67.4,1,6.5,28,1954.6,No,Not Churned,25-36 Months,Low Risk
+CUST_0461,22,Male,North,Basic,Two Year,Bank Transfer,31,32.17,1,6.2,91,997.27,No,Not Churned,25-36 Months,Low Risk
+CUST_0462,64,Male,North,Standard,One Year,UPI,25,56.8,2,7.4,77,1420.0,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0463,47,Male,West,Premium,One Year,Debit Card,52,118.06,2,8.9,7,6139.12,Yes,High Price,37-60 Months,Low Risk
+CUST_0464,63,Female,West,Premium,Two Year,Debit Card,54,101.37,2,9.3,52,5473.98,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0465,22,Male,North,Basic,Monthly,Debit Card,24,25.19,1,7.4,75,604.56,No,Not Churned,13-24 Months,Medium Risk
+CUST_0466,29,Female,East,Standard,Monthly,Bank Transfer,57,48.77,3,4.7,26,2779.89,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0467,33,Male,Central,Basic,Two Year,Bank Transfer,19,34.11,6,6.2,18,648.09,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0468,43,Male,Central,Premium,Monthly,Bank Transfer,2,106.77,1,6.4,52,213.54,No,Not Churned,0-6 Months,Medium Risk
+CUST_0469,43,Male,West,Premium,One Year,Debit Card,22,85.17,4,7.6,33,1873.74,No,Not Churned,13-24 Months,Low Risk
+CUST_0470,38,Male,Central,Standard,Two Year,Debit Card,20,50.36,1,7.1,54,1007.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0471,56,Female,North,Premium,One Year,Credit Card,33,119.55,2,6.0,84,3945.15,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0472,53,Female,North,Standard,One Year,Credit Card,8,43.06,0,5.1,14,344.48,Yes,Lack of Features,7-12 Months,Low Risk
+CUST_0473,50,Female,West,Standard,Two Year,Bank Transfer,25,52.14,3,5.7,75,1303.5,No,Not Churned,25-36 Months,Low Risk
+CUST_0474,47,Female,West,Basic,Two Year,Bank Transfer,46,21.25,1,5.6,93,977.5,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0475,54,Male,West,Standard,Monthly,UPI,9,64.63,1,9.4,31,581.67,Yes,Lack of Features,7-12 Months,Medium Risk
+CUST_0476,40,Female,East,Standard,Monthly,Bank Transfer,34,42.77,1,5.8,83,1454.18,No,Not Churned,25-36 Months,Low Risk
+CUST_0477,27,Female,Central,Standard,Monthly,Credit Card,57,60.22,1,7.1,100,3432.54,No,Not Churned,37-60 Months,Low Risk
+CUST_0478,22,Male,West,Standard,One Year,Credit Card,23,41.69,0,8.5,32,958.87,Yes,Poor Service,13-24 Months,Low Risk
+CUST_0479,53,Male,South,Premium,Monthly,Credit Card,5,103.64,3,7.3,13,518.2,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_0480,51,Male,South,Basic,One Year,Debit Card,55,36.86,0,5.4,75,2027.3,No,Not Churned,37-60 Months,Low Risk
+CUST_0481,48,Male,North,Standard,Monthly,Debit Card,25,51.96,0,8.5,84,1299.0,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0482,27,Female,Central,Standard,One Year,Bank Transfer,8,55.66,4,7.5,30,445.28,No,Not Churned,7-12 Months,Medium Risk
+CUST_0483,36,Female,West,Standard,Monthly,UPI,16,52.05,3,3.7,85,832.8,No,Not Churned,13-24 Months,Low Risk
+CUST_0484,49,Male,South,Standard,One Year,UPI,54,49.01,3,8.9,91,2646.54,No,Not Churned,37-60 Months,Low Risk
+CUST_0485,18,Male,Central,Basic,One Year,UPI,48,36.07,1,8.3,12,1731.36,No,Not Churned,37-60 Months,Low Risk
+CUST_0486,22,Male,North,Basic,Monthly,Debit Card,45,25.44,1,7.5,6,1144.8,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0487,62,Female,East,Standard,Monthly,Credit Card,52,61.69,3,9.5,99,3207.88,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0488,21,Female,Central,Standard,One Year,Credit Card,15,46.19,0,8.3,61,692.85,No,Not Churned,13-24 Months,Low Risk
+CUST_0489,33,Male,Central,Basic,Monthly,Debit Card,1,25.0,3,8.7,56,25.0,No,Not Churned,0-6 Months,Medium Risk
+CUST_0490,41,Male,East,Standard,Monthly,UPI,22,50.09,3,8.6,62,1101.98,No,Not Churned,13-24 Months,Low Risk
+CUST_0491,33,Female,Central,Standard,Two Year,UPI,3,57.67,2,8.1,100,173.01,No,Not Churned,0-6 Months,Low Risk
+CUST_0492,19,Male,North,Standard,One Year,Bank Transfer,38,53.63,1,4.3,97,2037.94,No,Not Churned,37-60 Months,Low Risk
+CUST_0493,45,Male,North,Premium,Two Year,Bank Transfer,54,107.26,4,4.5,7,5792.04,No,Not Churned,37-60 Months,Low Risk
+CUST_0494,49,Female,East,Basic,Monthly,UPI,14,24.27,2,8.3,12,339.78,No,Not Churned,13-24 Months,Medium Risk
+CUST_0495,44,Male,West,Basic,Monthly,Debit Card,36,20.21,3,8.8,63,727.56,No,Not Churned,25-36 Months,Medium Risk
+CUST_0496,37,Female,South,Standard,Two Year,UPI,18,63.3,2,5.9,6,1139.4,No,Not Churned,13-24 Months,Low Risk
+CUST_0497,41,Male,West,Standard,One Year,Bank Transfer,47,64.65,3,5.3,99,3038.55,Yes,High Price,37-60 Months,Low Risk
+CUST_0498,29,Male,Central,Standard,One Year,UPI,41,41.78,0,7.4,66,1712.98,No,Not Churned,37-60 Months,Low Risk
+CUST_0499,52,Female,South,Premium,Monthly,Debit Card,18,100.55,5,4.8,53,1809.9,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0500,50,Female,East,Premium,Monthly,Credit Card,3,88.91,3,6.7,24,266.73,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_0501,50,Male,East,Premium,Monthly,Debit Card,10,109.69,2,6.5,33,1096.9,No,Not Churned,7-12 Months,Medium Risk
+CUST_0502,60,Female,South,Standard,Monthly,Debit Card,49,66.23,4,6.7,21,3245.27,No,Not Churned,37-60 Months,Medium Risk
+CUST_0503,54,Male,North,Standard,Monthly,Bank Transfer,39,65.53,1,9.8,78,2555.67,No,Not Churned,37-60 Months,Low Risk
+CUST_0504,29,Male,South,Standard,Monthly,Debit Card,47,63.32,2,6.0,26,2976.04,Yes,High Price,37-60 Months,Low Risk
+CUST_0505,20,Female,Central,Basic,Two Year,Debit Card,1,25.38,1,7.1,10,25.38,No,Not Churned,0-6 Months,Medium Risk
+CUST_0506,18,Male,North,Standard,Monthly,Bank Transfer,27,64.36,2,5.0,66,1737.72,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0507,50,Male,East,Basic,One Year,Bank Transfer,57,30.67,0,8.4,35,1748.19,No,Not Churned,37-60 Months,Low Risk
+CUST_0508,57,Female,South,Premium,Two Year,Credit Card,27,72.64,1,6.7,66,1961.28,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0509,27,Female,West,Standard,One Year,UPI,11,53.71,2,8.8,16,590.81,No,Not Churned,7-12 Months,Low Risk
+CUST_0510,60,Male,West,Standard,Monthly,Debit Card,49,68.26,2,3.3,16,3344.74,No,Not Churned,37-60 Months,Low Risk
+CUST_0511,61,Female,Central,Standard,One Year,Bank Transfer,5,66.64,2,6.9,67,333.2,No,Not Churned,0-6 Months,Low Risk
+CUST_0512,46,Female,West,Basic,One Year,Credit Card,7,22.05,3,7.2,20,154.35,No,Not Churned,7-12 Months,Medium Risk
+CUST_0513,30,Female,South,Basic,One Year,UPI,19,34.88,1,8.4,29,662.72,No,Not Churned,13-24 Months,Low Risk
+CUST_0514,29,Female,South,Standard,One Year,Bank Transfer,57,64.17,2,6.0,26,3657.69,No,Not Churned,37-60 Months,Low Risk
+CUST_0515,48,Male,West,Basic,Two Year,UPI,56,25.43,1,8.2,95,1424.08,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0516,63,Male,South,Standard,One Year,UPI,29,54.15,3,6.2,92,1570.35,No,Not Churned,25-36 Months,Low Risk
+CUST_0517,19,Male,Central,Premium,Monthly,Debit Card,15,105.55,1,7.1,80,1583.25,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0518,52,Female,North,Premium,One Year,Debit Card,35,91.95,1,8.4,22,3218.25,No,Not Churned,25-36 Months,Low Risk
+CUST_0519,40,Female,Central,Standard,Monthly,Bank Transfer,47,43.38,2,5.6,49,2038.86,No,Not Churned,37-60 Months,Low Risk
+CUST_0520,34,Female,Central,Basic,Two Year,UPI,37,34.12,1,8.1,84,1262.44,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0521,43,Female,South,Premium,Monthly,Bank Transfer,55,115.58,4,7.5,72,6356.9,No,Not Churned,37-60 Months,Medium Risk
+CUST_0522,25,Female,North,Premium,Monthly,Bank Transfer,12,102.62,1,6.5,16,1231.44,No,Not Churned,7-12 Months,Medium Risk
+CUST_0523,46,Female,South,Basic,Two Year,UPI,30,35.48,1,6.0,53,1064.4,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0524,43,Female,East,Standard,One Year,Bank Transfer,20,50.75,1,3.8,37,1015.0,No,Not Churned,13-24 Months,Low Risk
+CUST_0525,27,Male,South,Basic,Monthly,UPI,37,23.66,1,6.9,90,875.42,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0526,43,Male,South,Premium,Monthly,UPI,3,102.14,2,6.5,67,306.42,No,Not Churned,0-6 Months,Medium Risk
+CUST_0527,51,Female,South,Premium,Two Year,UPI,9,86.39,3,8.0,22,777.51,No,Not Churned,7-12 Months,Low Risk
+CUST_0528,58,Female,North,Basic,Monthly,UPI,58,37.2,3,7.8,58,2157.6,No,Not Churned,37-60 Months,Medium Risk
+CUST_0529,24,Female,South,Premium,Two Year,Credit Card,41,76.13,4,8.6,31,3121.33,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0530,21,Male,North,Standard,Monthly,UPI,39,53.0,3,8.7,87,2067.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0531,62,Male,West,Premium,One Year,Debit Card,26,89.84,0,10.0,82,2335.84,No,Not Churned,25-36 Months,Low Risk
+CUST_0532,28,Female,East,Standard,Two Year,Debit Card,2,68.14,1,7.8,29,136.28,No,Not Churned,0-6 Months,Low Risk
+CUST_0533,46,Female,North,Premium,Monthly,Debit Card,23,77.66,1,5.7,38,1786.18,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0534,53,Male,West,Basic,Monthly,UPI,23,20.2,1,8.2,92,464.6,No,Not Churned,13-24 Months,Medium Risk
+CUST_0535,42,Male,North,Basic,Monthly,Debit Card,59,24.76,3,9.4,64,1460.84,No,Not Churned,37-60 Months,Medium Risk
+CUST_0536,38,Male,North,Basic,One Year,Credit Card,21,36.41,3,7.7,58,764.61,No,Not Churned,13-24 Months,Low Risk
+CUST_0537,53,Male,East,Premium,One Year,Bank Transfer,16,80.47,3,3.8,91,1287.52,No,Not Churned,13-24 Months,Low Risk
+CUST_0538,27,Female,Central,Premium,One Year,UPI,9,82.04,2,7.8,9,738.36,No,Not Churned,7-12 Months,Low Risk
+CUST_0539,54,Male,Central,Premium,Monthly,Debit Card,13,76.49,2,6.1,40,994.37,No,Not Churned,13-24 Months,Low Risk
+CUST_0540,26,Male,North,Premium,Monthly,Credit Card,28,105.77,3,5.0,58,2961.56,No,Not Churned,25-36 Months,Low Risk
+CUST_0541,41,Female,South,Basic,Monthly,Bank Transfer,27,21.38,1,7.3,92,577.26,No,Not Churned,25-36 Months,Medium Risk
+CUST_0542,52,Male,West,Standard,Monthly,Credit Card,51,49.94,3,4.7,40,2546.94,No,Not Churned,37-60 Months,Low Risk
+CUST_0543,52,Male,South,Basic,One Year,Debit Card,52,25.65,2,8.5,73,1333.8,Yes,High Price,37-60 Months,Low Risk
+CUST_0544,53,Male,South,Basic,Two Year,Credit Card,17,31.1,5,8.1,43,528.7,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_0545,35,Female,North,Basic,One Year,Bank Transfer,38,34.61,2,6.9,74,1315.18,No,Not Churned,37-60 Months,Low Risk
+CUST_0546,56,Male,North,Standard,Monthly,Debit Card,36,55.99,2,6.2,8,2015.64,Yes,High Price,25-36 Months,Low Risk
+CUST_0547,49,Female,North,Basic,Two Year,Bank Transfer,1,38.62,1,6.7,78,38.62,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_0548,41,Female,North,Basic,One Year,Credit Card,18,39.03,2,5.5,69,702.54,No,Not Churned,13-24 Months,Low Risk
+CUST_0549,40,Male,Central,Basic,Two Year,UPI,51,27.23,4,6.9,89,1388.73,No,Not Churned,37-60 Months,Medium Risk
+CUST_0550,49,Male,North,Basic,One Year,UPI,9,35.55,1,2.7,44,319.95,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_0551,54,Male,Central,Premium,Monthly,UPI,13,106.94,1,7.1,41,1390.22,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0552,29,Male,Central,Standard,Monthly,UPI,40,66.79,1,7.2,71,2671.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0553,30,Female,North,Premium,One Year,Bank Transfer,55,92.4,3,8.3,35,5082.0,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0554,40,Male,East,Standard,Monthly,UPI,45,55.91,0,7.4,95,2515.95,No,Not Churned,37-60 Months,Low Risk
+CUST_0555,42,Male,West,Basic,Monthly,Bank Transfer,15,28.32,3,8.5,85,424.8,Yes,High Price,13-24 Months,Medium Risk
+CUST_0556,52,Male,South,Standard,One Year,Debit Card,43,65.51,0,7.8,91,2816.93,No,Not Churned,37-60 Months,Low Risk
+CUST_0557,58,Female,Central,Basic,One Year,UPI,44,24.59,1,8.6,81,1081.96,No,Not Churned,37-60 Months,Low Risk
+CUST_0558,47,Male,West,Basic,One Year,Bank Transfer,46,24.79,0,10.0,51,1140.34,No,Not Churned,37-60 Months,Low Risk
+CUST_0559,34,Male,East,Basic,Monthly,UPI,4,27.45,0,7.6,31,109.8,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_0560,37,Female,South,Basic,Monthly,UPI,33,24.61,0,7.3,55,812.13,No,Not Churned,25-36 Months,Medium Risk
+CUST_0561,42,Female,South,Basic,One Year,UPI,24,31.22,1,8.8,24,749.28,No,Not Churned,13-24 Months,Low Risk
+CUST_0562,39,Male,Central,Standard,Two Year,Bank Transfer,36,44.03,2,6.3,17,1585.08,No,Not Churned,25-36 Months,Low Risk
+CUST_0563,30,Male,North,Standard,One Year,Credit Card,51,49.61,1,6.8,67,2530.11,No,Not Churned,37-60 Months,Low Risk
+CUST_0564,36,Male,East,Basic,Two Year,UPI,41,38.27,3,7.6,48,1569.07,No,Not Churned,37-60 Months,Low Risk
+CUST_0565,53,Male,Central,Basic,One Year,UPI,10,28.18,2,7.1,28,281.8,No,Not Churned,7-12 Months,Medium Risk
+CUST_0566,29,Male,East,Premium,One Year,Debit Card,36,107.41,4,7.1,7,3866.76,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0567,58,Female,North,Basic,Monthly,Credit Card,20,22.27,0,8.3,14,445.4,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_0568,36,Female,North,Basic,One Year,Bank Transfer,41,24.95,3,4.5,69,1022.95,No,Not Churned,37-60 Months,Low Risk
+CUST_0569,29,Male,Central,Premium,One Year,Debit Card,45,110.37,4,10.0,53,4966.65,No,Not Churned,37-60 Months,Low Risk
+CUST_0570,26,Male,North,Basic,One Year,UPI,44,35.26,1,7.7,62,1551.44,No,Not Churned,37-60 Months,Low Risk
+CUST_0571,24,Female,West,Basic,Monthly,Debit Card,11,27.72,4,6.4,81,304.92,Yes,Customer Support,7-12 Months,High Risk
+CUST_0572,45,Male,South,Standard,One Year,Debit Card,12,68.63,2,9.4,82,823.56,No,Not Churned,7-12 Months,Low Risk
+CUST_0573,31,Male,Central,Basic,Monthly,UPI,18,38.21,0,7.2,6,687.78,No,Not Churned,13-24 Months,Medium Risk
+CUST_0574,48,Male,East,Standard,One Year,Credit Card,30,68.87,1,7.2,70,2066.1,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0575,36,Male,West,Premium,Monthly,Credit Card,44,91.4,1,6.7,35,4021.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0576,64,Male,Central,Basic,Two Year,Debit Card,48,23.95,2,9.2,72,1149.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0577,33,Female,North,Standard,Monthly,UPI,37,58.8,2,7.0,87,2175.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0578,22,Male,North,Standard,Monthly,Bank Transfer,20,60.54,3,6.2,41,1210.8,No,Not Churned,13-24 Months,Low Risk
+CUST_0579,52,Male,North,Basic,Monthly,Debit Card,25,22.51,2,8.5,77,562.75,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_0580,29,Male,North,Standard,One Year,Bank Transfer,12,63.59,3,8.8,28,763.08,No,Not Churned,7-12 Months,Low Risk
+CUST_0581,42,Female,East,Basic,Monthly,Debit Card,21,20.36,1,9.4,81,427.56,Yes,High Price,13-24 Months,Medium Risk
+CUST_0582,38,Female,West,Standard,Monthly,Debit Card,25,54.48,1,8.0,48,1362.0,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0583,53,Female,South,Basic,One Year,UPI,11,26.62,3,8.7,98,292.82,Yes,High Price,7-12 Months,Medium Risk
+CUST_0584,40,Female,East,Standard,Monthly,UPI,9,62.21,1,6.6,87,559.89,No,Not Churned,7-12 Months,Medium Risk
+CUST_0585,33,Male,East,Basic,Two Year,Bank Transfer,50,26.26,3,8.5,45,1313.0,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0586,56,Female,South,Premium,Two Year,Bank Transfer,25,111.34,1,8.1,78,2783.5,No,Not Churned,25-36 Months,Low Risk
+CUST_0587,62,Male,South,Basic,One Year,Credit Card,35,31.9,2,7.8,55,1116.5,No,Not Churned,25-36 Months,Low Risk
+CUST_0588,59,Male,North,Standard,Monthly,UPI,52,63.82,1,4.7,46,3318.64,No,Not Churned,37-60 Months,Low Risk
+CUST_0589,56,Female,East,Standard,One Year,Debit Card,32,69.68,2,6.4,82,2229.76,Yes,High Price,25-36 Months,Low Risk
+CUST_0590,31,Female,Central,Standard,Monthly,Debit Card,49,60.37,4,6.9,44,2958.13,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0591,48,Female,South,Standard,Monthly,Credit Card,14,69.55,2,7.8,52,973.7,No,Not Churned,13-24 Months,Low Risk
+CUST_0592,22,Female,South,Standard,Monthly,UPI,1,40.87,2,10.0,88,40.87,No,Not Churned,0-6 Months,Medium Risk
+CUST_0593,52,Female,West,Standard,Two Year,Debit Card,17,50.14,3,8.3,8,852.38,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0594,40,Male,Central,Premium,Monthly,Credit Card,25,75.39,3,5.8,64,1884.75,No,Not Churned,25-36 Months,Low Risk
+CUST_0595,46,Female,Central,Basic,One Year,Credit Card,59,25.25,1,6.3,43,1489.75,No,Not Churned,37-60 Months,Low Risk
+CUST_0596,60,Female,South,Standard,One Year,Debit Card,8,65.17,2,9.1,9,521.36,No,Not Churned,7-12 Months,Low Risk
+CUST_0597,28,Female,North,Premium,Monthly,Debit Card,5,71.62,1,6.2,100,358.1,No,Not Churned,0-6 Months,Medium Risk
+CUST_0598,35,Male,West,Premium,Monthly,Bank Transfer,5,96.01,3,8.5,10,480.05,No,Not Churned,0-6 Months,Medium Risk
+CUST_0599,64,Female,Central,Premium,Two Year,UPI,41,98.36,3,7.2,18,4032.76,No,Not Churned,37-60 Months,Low Risk
+CUST_0600,29,Male,South,Standard,One Year,Bank Transfer,35,56.83,1,6.8,74,1989.05,No,Not Churned,25-36 Months,Low Risk
+CUST_0601,26,Female,Central,Basic,One Year,Credit Card,19,29.51,3,6.2,82,560.69,No,Not Churned,13-24 Months,Low Risk
+CUST_0602,27,Female,West,Standard,Monthly,Debit Card,23,63.72,1,2.4,16,1465.56,No,Not Churned,13-24 Months,Low Risk
+CUST_0603,61,Male,West,Standard,Monthly,Bank Transfer,9,44.01,2,7.8,66,396.09,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_0604,34,Female,East,Standard,Monthly,Credit Card,54,49.32,3,5.4,31,2663.28,No,Not Churned,37-60 Months,Low Risk
+CUST_0605,55,Male,South,Standard,Monthly,UPI,30,58.47,3,4.9,58,1754.1,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0606,24,Male,West,Premium,Monthly,Debit Card,50,104.55,3,7.4,94,5227.5,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0607,63,Male,East,Standard,Two Year,Bank Transfer,16,52.12,0,8.5,16,833.92,No,Not Churned,13-24 Months,Low Risk
+CUST_0608,30,Female,East,Premium,Monthly,UPI,33,113.77,0,4.5,12,3754.41,No,Not Churned,25-36 Months,Low Risk
+CUST_0609,57,Female,Central,Standard,Monthly,Bank Transfer,2,52.46,5,8.5,78,104.92,No,Not Churned,0-6 Months,High Risk
+CUST_0610,59,Female,Central,Basic,One Year,Credit Card,14,28.06,0,5.6,20,392.84,No,Not Churned,13-24 Months,Low Risk
+CUST_0611,26,Male,East,Standard,One Year,UPI,46,41.09,1,8.0,56,1890.14,No,Not Churned,37-60 Months,Low Risk
+CUST_0612,44,Female,Central,Standard,Monthly,Bank Transfer,1,56.53,0,7.9,30,56.53,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_0613,19,Male,West,Basic,One Year,UPI,26,34.17,3,6.7,12,888.42,No,Not Churned,25-36 Months,Low Risk
+CUST_0614,22,Female,North,Basic,Monthly,Credit Card,58,22.29,1,7.0,49,1292.82,No,Not Churned,37-60 Months,Medium Risk
+CUST_0615,46,Male,West,Premium,Monthly,UPI,25,85.27,3,6.4,97,2131.75,No,Not Churned,25-36 Months,Low Risk
+CUST_0616,54,Male,East,Basic,Monthly,Bank Transfer,16,35.63,1,7.4,88,570.08,No,Not Churned,13-24 Months,Medium Risk
+CUST_0617,55,Male,East,Standard,Two Year,Credit Card,15,50.98,7,7.4,85,764.7,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0618,36,Female,West,Standard,Monthly,Debit Card,26,47.25,3,5.6,23,1228.5,No,Not Churned,25-36 Months,Low Risk
+CUST_0619,25,Male,Central,Standard,Monthly,Bank Transfer,47,60.17,2,5.0,21,2827.99,No,Not Churned,37-60 Months,Low Risk
+CUST_0620,62,Male,Central,Standard,Monthly,Bank Transfer,44,45.9,1,8.5,69,2019.6,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0621,18,Male,East,Basic,Two Year,Credit Card,16,37.91,2,7.3,33,606.56,No,Not Churned,13-24 Months,Low Risk
+CUST_0622,39,Male,South,Standard,Monthly,Credit Card,14,43.17,2,8.3,18,604.38,No,Not Churned,13-24 Months,Low Risk
+CUST_0623,34,Male,Central,Standard,Monthly,Debit Card,29,61.2,4,6.0,21,1774.8,Yes,High Price,25-36 Months,Medium Risk
+CUST_0624,24,Male,West,Standard,Monthly,Bank Transfer,24,54.99,1,5.8,17,1319.76,No,Not Churned,13-24 Months,Low Risk
+CUST_0625,42,Female,Central,Basic,Monthly,Credit Card,47,37.4,5,5.5,97,1757.8,No,Not Churned,37-60 Months,Medium Risk
+CUST_0626,62,Female,West,Standard,One Year,Debit Card,55,43.79,1,6.7,95,2408.45,No,Not Churned,37-60 Months,Low Risk
+CUST_0627,21,Male,East,Basic,One Year,Debit Card,15,33.56,2,7.3,67,503.4,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0628,53,Female,Central,Basic,Monthly,Credit Card,19,31.44,1,6.2,37,597.36,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_0629,23,Female,West,Basic,Monthly,Bank Transfer,8,29.6,2,9.3,33,236.8,Yes,High Price,7-12 Months,Medium Risk
+CUST_0630,48,Male,East,Basic,Monthly,UPI,34,29.83,2,6.0,41,1014.22,No,Not Churned,25-36 Months,Medium Risk
+CUST_0631,36,Male,South,Premium,Monthly,UPI,2,106.1,0,7.4,87,212.2,No,Not Churned,0-6 Months,Medium Risk
+CUST_0632,61,Male,West,Basic,Monthly,Debit Card,27,38.75,4,5.7,50,1046.25,Yes,Lack of Features,25-36 Months,Medium Risk
+CUST_0633,56,Female,South,Premium,One Year,UPI,10,74.56,2,6.0,28,745.6,No,Not Churned,7-12 Months,Low Risk
+CUST_0634,44,Male,South,Premium,Two Year,UPI,35,70.98,3,6.9,18,2484.3,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0635,27,Female,North,Standard,Two Year,Credit Card,23,64.17,0,5.8,9,1475.91,No,Not Churned,13-24 Months,Low Risk
+CUST_0636,43,Male,Central,Basic,Two Year,Debit Card,49,22.16,2,7.1,57,1085.84,No,Not Churned,37-60 Months,Low Risk
+CUST_0637,36,Female,West,Standard,One Year,Bank Transfer,8,69.6,1,7.7,92,556.8,No,Not Churned,7-12 Months,Low Risk
+CUST_0638,56,Male,South,Standard,One Year,Debit Card,28,58.58,3,8.6,99,1640.24,No,Not Churned,25-36 Months,Low Risk
+CUST_0639,20,Male,North,Standard,Monthly,Credit Card,23,59.53,1,5.4,34,1369.19,No,Not Churned,13-24 Months,Low Risk
+CUST_0640,62,Female,East,Basic,One Year,UPI,4,23.98,7,7.3,64,95.92,No,Not Churned,0-6 Months,Medium Risk
+CUST_0641,30,Female,West,Standard,Monthly,Bank Transfer,14,47.21,2,6.9,77,660.94,No,Not Churned,13-24 Months,Low Risk
+CUST_0642,45,Female,South,Premium,Monthly,Debit Card,53,102.97,0,4.2,95,5457.41,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0643,37,Female,Central,Standard,One Year,UPI,42,67.29,3,5.3,32,2826.18,No,Not Churned,37-60 Months,Low Risk
+CUST_0644,45,Female,North,Basic,Monthly,Debit Card,29,39.65,5,7.7,30,1149.85,No,Not Churned,25-36 Months,Medium Risk
+CUST_0645,25,Female,South,Standard,Monthly,Bank Transfer,1,45.94,1,5.0,22,45.94,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_0646,58,Male,Central,Basic,Two Year,Debit Card,4,22.68,1,6.9,40,90.72,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_0647,56,Female,South,Basic,Monthly,Debit Card,32,21.13,1,3.8,12,676.16,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_0648,18,Male,West,Premium,Monthly,Debit Card,33,113.41,2,6.8,22,3742.53,No,Not Churned,25-36 Months,Low Risk
+CUST_0649,20,Male,West,Basic,Two Year,UPI,49,25.89,1,3.9,88,1268.61,Yes,High Price,37-60 Months,Low Risk
+CUST_0650,30,Female,West,Basic,One Year,Bank Transfer,26,20.04,4,6.1,62,521.04,Yes,High Price,25-36 Months,Medium Risk
+CUST_0651,45,Male,North,Basic,One Year,Bank Transfer,17,24.48,2,6.3,36,416.16,No,Not Churned,13-24 Months,Low Risk
+CUST_0652,42,Female,West,Premium,Monthly,UPI,39,87.02,3,7.2,97,3393.78,Yes,High Price,37-60 Months,Low Risk
+CUST_0653,50,Female,Central,Standard,Monthly,UPI,23,69.73,2,6.6,53,1603.79,No,Not Churned,13-24 Months,Low Risk
+CUST_0654,55,Male,South,Standard,Two Year,UPI,32,55.71,0,5.1,52,1782.72,No,Not Churned,25-36 Months,Low Risk
+CUST_0655,23,Male,East,Standard,One Year,Credit Card,52,46.14,1,5.2,86,2399.28,No,Not Churned,37-60 Months,Low Risk
+CUST_0656,61,Female,Central,Basic,One Year,Debit Card,15,26.7,5,4.6,75,400.5,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0657,62,Female,Central,Standard,Monthly,Debit Card,13,49.91,4,7.3,69,648.83,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_0658,49,Male,West,Standard,Monthly,Bank Transfer,60,40.59,1,7.2,96,2435.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0659,62,Male,North,Basic,Two Year,Debit Card,2,22.7,3,8.0,37,45.4,No,Not Churned,0-6 Months,Medium Risk
+CUST_0660,64,Male,South,Standard,Monthly,Credit Card,60,60.86,2,6.2,54,3651.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0661,38,Male,North,Premium,One Year,UPI,19,76.01,3,4.4,8,1444.19,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0662,33,Female,South,Basic,Monthly,Bank Transfer,24,24.61,1,6.5,88,590.64,No,Not Churned,13-24 Months,Medium Risk
+CUST_0663,38,Female,South,Basic,One Year,Bank Transfer,45,27.01,1,7.0,40,1215.45,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0664,28,Female,North,Basic,Two Year,Debit Card,24,35.15,1,5.3,99,843.6,No,Not Churned,13-24 Months,Low Risk
+CUST_0665,54,Female,Central,Basic,One Year,Bank Transfer,11,31.65,1,5.4,32,348.15,No,Not Churned,7-12 Months,Medium Risk
+CUST_0666,53,Male,South,Premium,Monthly,UPI,59,104.45,2,7.7,7,6162.55,No,Not Churned,37-60 Months,Low Risk
+CUST_0667,52,Male,North,Standard,One Year,Bank Transfer,22,57.01,2,7.2,10,1254.22,No,Not Churned,13-24 Months,Low Risk
+CUST_0668,36,Female,South,Standard,One Year,UPI,15,60.51,0,8.7,49,907.65,No,Not Churned,13-24 Months,Low Risk
+CUST_0669,37,Female,East,Standard,Monthly,Credit Card,10,40.09,1,9.6,27,400.9,No,Not Churned,7-12 Months,Medium Risk
+CUST_0670,35,Female,Central,Basic,Two Year,Credit Card,41,38.62,0,4.7,11,1583.42,No,Not Churned,37-60 Months,Low Risk
+CUST_0671,64,Female,West,Standard,One Year,UPI,27,43.33,2,6.4,65,1169.91,No,Not Churned,25-36 Months,Low Risk
+CUST_0672,58,Female,South,Standard,Two Year,Debit Card,60,52.19,0,7.2,69,3131.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0673,31,Female,East,Standard,One Year,Bank Transfer,9,63.13,3,7.5,10,568.17,No,Not Churned,7-12 Months,Low Risk
+CUST_0674,32,Female,West,Premium,Monthly,Debit Card,52,91.76,2,8.5,28,4771.52,No,Not Churned,37-60 Months,Low Risk
+CUST_0675,48,Female,West,Standard,Monthly,Bank Transfer,28,68.41,2,8.1,41,1915.48,No,Not Churned,25-36 Months,Low Risk
+CUST_0676,18,Female,South,Standard,Monthly,Credit Card,1,54.03,4,8.7,49,54.03,No,Not Churned,0-6 Months,High Risk
+CUST_0677,20,Male,North,Premium,Two Year,Credit Card,17,113.75,2,7.1,55,1933.75,No,Not Churned,13-24 Months,Low Risk
+CUST_0678,33,Female,South,Basic,One Year,Credit Card,31,36.22,1,6.1,92,1122.82,No,Not Churned,25-36 Months,Low Risk
+CUST_0679,40,Male,East,Basic,One Year,Bank Transfer,44,39.62,0,9.9,49,1743.28,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0680,28,Male,West,Basic,Monthly,Credit Card,10,38.53,1,7.2,67,385.3,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_0681,29,Female,South,Basic,Monthly,Credit Card,37,37.96,1,6.6,33,1404.52,No,Not Churned,37-60 Months,Medium Risk
+CUST_0682,27,Female,North,Standard,One Year,Credit Card,29,61.95,2,5.4,100,1796.55,No,Not Churned,25-36 Months,Low Risk
+CUST_0683,49,Male,South,Standard,Monthly,Credit Card,18,51.01,1,7.2,29,918.18,No,Not Churned,13-24 Months,Low Risk
+CUST_0684,33,Male,Central,Premium,Monthly,Debit Card,47,75.31,4,8.5,14,3539.57,No,Not Churned,37-60 Months,Medium Risk
+CUST_0685,25,Female,North,Standard,One Year,Credit Card,38,60.66,1,6.2,39,2305.08,No,Not Churned,37-60 Months,Low Risk
+CUST_0686,55,Male,East,Standard,Monthly,Credit Card,39,69.36,2,6.8,59,2705.04,No,Not Churned,37-60 Months,Low Risk
+CUST_0687,29,Female,West,Basic,Monthly,Debit Card,49,34.53,0,7.4,29,1691.97,No,Not Churned,37-60 Months,Medium Risk
+CUST_0688,41,Female,South,Basic,Monthly,Debit Card,6,38.57,1,7.7,95,231.42,No,Not Churned,0-6 Months,Medium Risk
+CUST_0689,45,Female,North,Standard,Monthly,Bank Transfer,40,64.13,2,6.6,49,2565.2,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0690,25,Male,Central,Standard,Two Year,UPI,12,44.89,2,6.4,100,538.68,No,Not Churned,7-12 Months,Low Risk
+CUST_0691,45,Male,North,Premium,Monthly,Credit Card,53,82.46,5,6.2,16,4370.38,No,Not Churned,37-60 Months,Medium Risk
+CUST_0692,53,Female,Central,Basic,Monthly,Credit Card,14,26.84,3,5.3,8,375.76,No,Not Churned,13-24 Months,Medium Risk
+CUST_0693,43,Male,East,Basic,Monthly,Credit Card,44,23.37,0,5.8,94,1028.28,No,Not Churned,37-60 Months,Medium Risk
+CUST_0694,25,Male,West,Standard,One Year,Bank Transfer,55,57.45,1,5.8,71,3159.75,No,Not Churned,37-60 Months,Low Risk
+CUST_0695,45,Male,East,Basic,Monthly,Credit Card,10,39.51,0,4.7,21,395.1,No,Not Churned,7-12 Months,Medium Risk
+CUST_0696,45,Male,South,Basic,One Year,UPI,54,35.23,2,8.5,77,1902.42,No,Not Churned,37-60 Months,Low Risk
+CUST_0697,54,Male,North,Standard,Monthly,Debit Card,20,52.7,2,7.5,97,1054.0,No,Not Churned,13-24 Months,Low Risk
+CUST_0698,58,Male,Central,Basic,Monthly,Bank Transfer,15,20.09,5,7.2,69,301.35,No,Not Churned,13-24 Months,Medium Risk
+CUST_0699,53,Male,Central,Standard,Monthly,Debit Card,31,49.4,2,9.0,86,1531.4,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0700,44,Female,North,Basic,Two Year,Credit Card,7,30.54,2,8.1,57,213.78,No,Not Churned,7-12 Months,Medium Risk
+CUST_0701,34,Male,North,Basic,Two Year,Credit Card,58,26.49,3,5.8,88,1536.42,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0702,26,Male,South,Standard,Monthly,Credit Card,41,43.33,5,8.8,61,1776.53,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0703,50,Male,East,Premium,One Year,UPI,10,92.14,5,8.5,32,921.4,Yes,High Price,7-12 Months,Medium Risk
+CUST_0704,37,Male,Central,Standard,Two Year,UPI,10,47.6,2,5.3,20,476.0,Yes,Lack of Features,7-12 Months,Low Risk
+CUST_0705,30,Male,South,Standard,Monthly,Bank Transfer,48,67.28,1,8.4,25,3229.44,No,Not Churned,37-60 Months,Low Risk
+CUST_0706,45,Male,East,Basic,Two Year,Debit Card,39,22.04,0,6.3,81,859.56,No,Not Churned,37-60 Months,Low Risk
+CUST_0707,46,Male,South,Standard,Monthly,Credit Card,28,41.47,1,8.5,46,1161.16,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0708,30,Male,Central,Basic,Two Year,Credit Card,30,20.11,1,6.5,58,603.3,No,Not Churned,25-36 Months,Low Risk
+CUST_0709,63,Female,North,Standard,One Year,Credit Card,37,49.84,1,6.2,36,1844.08,No,Not Churned,37-60 Months,Low Risk
+CUST_0710,52,Male,North,Standard,Two Year,Credit Card,55,59.81,2,6.4,42,3289.55,No,Not Churned,37-60 Months,Low Risk
+CUST_0711,23,Male,East,Premium,One Year,UPI,3,106.52,2,5.5,74,319.56,No,Not Churned,0-6 Months,Low Risk
+CUST_0712,35,Male,West,Standard,Monthly,Debit Card,50,53.6,1,4.8,42,2680.0,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0713,22,Male,East,Basic,Two Year,Debit Card,43,33.69,1,3.3,58,1448.67,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0714,64,Female,West,Basic,Monthly,Bank Transfer,15,27.2,1,5.4,64,408.0,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_0715,42,Female,South,Premium,Monthly,UPI,21,103.39,2,10.0,81,2171.19,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0716,19,Female,South,Standard,One Year,Credit Card,52,41.22,2,7.7,81,2143.44,No,Not Churned,37-60 Months,Low Risk
+CUST_0717,27,Female,Central,Standard,One Year,Debit Card,37,51.72,1,9.8,51,1913.64,No,Not Churned,37-60 Months,Low Risk
+CUST_0718,47,Female,West,Basic,Two Year,Debit Card,56,35.82,3,6.5,16,2005.92,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0719,62,Female,Central,Basic,Monthly,UPI,12,36.06,2,6.3,57,432.72,Yes,High Price,7-12 Months,Medium Risk
+CUST_0720,22,Female,North,Basic,One Year,Bank Transfer,4,34.32,1,9.6,37,137.28,Yes,High Price,0-6 Months,Medium Risk
+CUST_0721,50,Female,West,Premium,One Year,Bank Transfer,47,80.21,1,7.6,32,3769.87,No,Not Churned,37-60 Months,Low Risk
+CUST_0722,18,Female,East,Standard,Monthly,Credit Card,9,47.42,1,5.6,7,426.78,Yes,Lack of Features,7-12 Months,Medium Risk
+CUST_0723,35,Female,North,Premium,Monthly,Bank Transfer,39,119.8,3,7.9,86,4672.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0724,49,Female,North,Basic,Monthly,Debit Card,42,22.07,1,8.9,30,926.94,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0725,64,Female,East,Standard,Monthly,Bank Transfer,28,45.42,5,4.9,58,1271.76,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_0726,28,Female,North,Standard,Two Year,Credit Card,23,43.9,1,7.7,44,1009.7,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0727,38,Female,West,Basic,One Year,Debit Card,45,26.55,3,5.0,70,1194.75,No,Not Churned,37-60 Months,Low Risk
+CUST_0728,43,Female,Central,Premium,One Year,Bank Transfer,40,80.51,5,8.8,72,3220.4,Yes,High Price,37-60 Months,Low Risk
+CUST_0729,42,Female,North,Premium,Two Year,Bank Transfer,44,94.88,1,7.3,96,4174.72,No,Not Churned,37-60 Months,Low Risk
+CUST_0730,39,Male,West,Premium,Monthly,UPI,22,93.8,0,7.9,96,2063.6,No,Not Churned,13-24 Months,Low Risk
+CUST_0731,44,Female,South,Standard,Two Year,Credit Card,24,67.05,3,6.7,93,1609.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0732,30,Male,West,Basic,Monthly,Bank Transfer,51,20.69,2,4.3,94,1055.19,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0733,50,Female,Central,Basic,Two Year,UPI,58,26.4,0,6.3,51,1531.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0734,51,Female,West,Premium,Monthly,Debit Card,26,99.83,0,8.4,6,2595.58,Yes,High Price,25-36 Months,Low Risk
+CUST_0735,58,Male,East,Basic,Two Year,UPI,30,32.1,2,10.0,46,963.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0736,52,Female,Central,Standard,Monthly,UPI,33,54.4,1,7.4,38,1795.2,No,Not Churned,25-36 Months,Low Risk
+CUST_0737,18,Male,South,Standard,Monthly,Bank Transfer,16,64.47,2,6.0,98,1031.52,No,Not Churned,13-24 Months,Low Risk
+CUST_0738,38,Male,East,Standard,One Year,Bank Transfer,22,41.88,2,7.8,25,921.36,No,Not Churned,13-24 Months,Low Risk
+CUST_0739,23,Male,West,Premium,Monthly,Bank Transfer,49,110.77,2,8.3,48,5427.73,No,Not Churned,37-60 Months,Low Risk
+CUST_0740,45,Female,Central,Basic,One Year,UPI,57,29.9,3,7.2,91,1704.3,No,Not Churned,37-60 Months,Low Risk
+CUST_0741,34,Female,South,Basic,Monthly,Debit Card,50,22.68,2,7.1,6,1134.0,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0742,22,Female,East,Basic,One Year,Credit Card,43,37.71,1,7.3,95,1621.53,No,Not Churned,37-60 Months,Low Risk
+CUST_0743,48,Male,South,Standard,Monthly,UPI,18,59.48,2,7.1,63,1070.64,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0744,22,Male,West,Basic,Monthly,Bank Transfer,7,23.27,2,7.4,90,162.89,No,Not Churned,7-12 Months,Medium Risk
+CUST_0745,55,Female,South,Basic,Monthly,Credit Card,50,20.67,2,9.7,20,1033.5,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0746,20,Female,North,Premium,Monthly,Debit Card,26,77.06,4,4.0,24,2003.56,Yes,High Price,25-36 Months,Medium Risk
+CUST_0747,40,Female,East,Premium,Monthly,Credit Card,8,100.44,4,6.6,30,803.52,No,Not Churned,7-12 Months,High Risk
+CUST_0748,54,Female,South,Basic,Monthly,Bank Transfer,6,23.59,0,5.6,20,141.54,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0749,54,Female,West,Standard,Monthly,UPI,30,46.77,3,8.8,74,1403.1,No,Not Churned,25-36 Months,Low Risk
+CUST_0750,27,Male,West,Premium,Monthly,UPI,39,71.26,1,6.8,27,2779.14,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0751,27,Male,South,Basic,One Year,Bank Transfer,23,34.46,3,7.8,46,792.58,No,Not Churned,13-24 Months,Low Risk
+CUST_0752,36,Male,West,Basic,Two Year,UPI,32,36.21,3,9.1,41,1158.72,No,Not Churned,25-36 Months,Low Risk
+CUST_0753,34,Female,Central,Basic,Monthly,Bank Transfer,22,35.94,2,5.4,76,790.68,No,Not Churned,13-24 Months,Medium Risk
+CUST_0754,38,Male,Central,Standard,One Year,UPI,42,43.83,2,6.2,10,1840.86,No,Not Churned,37-60 Months,Low Risk
+CUST_0755,31,Male,Central,Basic,One Year,UPI,43,38.07,1,9.0,41,1637.01,Yes,High Price,37-60 Months,Low Risk
+CUST_0756,26,Male,North,Premium,Monthly,UPI,57,103.61,2,5.3,26,5905.77,No,Not Churned,37-60 Months,Low Risk
+CUST_0757,63,Male,South,Standard,One Year,Debit Card,45,66.93,0,6.3,10,3011.85,No,Not Churned,37-60 Months,Low Risk
+CUST_0758,18,Male,North,Standard,Monthly,Debit Card,9,53.41,1,4.6,36,480.69,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_0759,62,Female,West,Basic,One Year,Bank Transfer,31,28.74,2,9.0,21,890.94,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_0760,30,Male,North,Standard,Monthly,Debit Card,7,63.54,1,6.1,42,444.78,No,Not Churned,7-12 Months,Medium Risk
+CUST_0761,21,Female,West,Standard,One Year,Bank Transfer,9,42.8,2,7.5,21,385.2,No,Not Churned,7-12 Months,Low Risk
+CUST_0762,18,Female,West,Standard,One Year,Credit Card,13,55.63,2,8.0,41,723.19,No,Not Churned,13-24 Months,Low Risk
+CUST_0763,57,Female,East,Standard,Monthly,Credit Card,58,65.09,1,5.8,27,3775.22,No,Not Churned,37-60 Months,Low Risk
+CUST_0764,49,Female,Central,Standard,Monthly,Debit Card,3,64.91,0,4.1,53,194.73,No,Not Churned,0-6 Months,Medium Risk
+CUST_0765,51,Female,West,Premium,Two Year,Credit Card,35,117.81,2,6.7,65,4123.35,No,Not Churned,25-36 Months,Low Risk
+CUST_0766,45,Male,East,Premium,Monthly,Credit Card,33,104.91,3,6.6,53,3462.03,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0767,48,Male,Central,Standard,One Year,UPI,21,46.23,3,6.9,65,970.83,No,Not Churned,13-24 Months,Low Risk
+CUST_0768,25,Female,West,Basic,Two Year,UPI,31,20.41,1,6.9,81,632.71,No,Not Churned,25-36 Months,Low Risk
+CUST_0769,56,Female,West,Basic,One Year,Bank Transfer,52,29.59,2,6.3,36,1538.68,No,Not Churned,37-60 Months,Low Risk
+CUST_0770,43,Female,North,Basic,One Year,Credit Card,34,30.27,3,6.2,90,1029.18,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0771,51,Male,North,Standard,One Year,Bank Transfer,32,47.21,1,7.4,67,1510.72,No,Not Churned,25-36 Months,Low Risk
+CUST_0772,20,Female,Central,Standard,Two Year,Bank Transfer,57,43.74,2,5.8,11,2493.18,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0773,29,Male,West,Standard,Monthly,Credit Card,35,57.59,1,6.9,26,2015.65,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0774,18,Female,South,Premium,Monthly,Debit Card,15,108.21,4,6.2,89,1623.15,No,Not Churned,13-24 Months,Medium Risk
+CUST_0775,61,Male,North,Premium,Monthly,Credit Card,56,119.66,2,7.4,10,6700.96,No,Not Churned,37-60 Months,Low Risk
+CUST_0776,22,Female,Central,Premium,Two Year,UPI,32,107.92,5,8.7,65,3453.44,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0777,47,Male,West,Basic,One Year,Credit Card,6,35.87,2,8.7,18,215.22,No,Not Churned,0-6 Months,Medium Risk
+CUST_0778,47,Female,West,Standard,Monthly,Debit Card,45,58.49,4,8.9,20,2632.05,No,Not Churned,37-60 Months,Medium Risk
+CUST_0779,34,Male,South,Basic,Two Year,Bank Transfer,21,39.72,3,6.5,7,834.12,No,Not Churned,13-24 Months,Low Risk
+CUST_0780,64,Male,Central,Basic,Monthly,Bank Transfer,33,32.8,0,6.6,13,1082.4,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_0781,40,Male,West,Basic,Monthly,UPI,32,37.21,3,5.1,51,1190.72,No,Not Churned,25-36 Months,Medium Risk
+CUST_0782,32,Male,North,Basic,One Year,UPI,52,38.92,1,6.5,89,2023.84,No,Not Churned,37-60 Months,Low Risk
+CUST_0783,54,Male,South,Standard,Monthly,UPI,19,67.9,3,6.5,98,1290.1,Yes,High Price,13-24 Months,Low Risk
+CUST_0784,38,Male,Central,Premium,Two Year,Bank Transfer,33,89.07,2,6.1,98,2939.31,No,Not Churned,25-36 Months,Low Risk
+CUST_0785,31,Male,South,Basic,Monthly,UPI,28,21.57,1,6.1,46,603.96,No,Not Churned,25-36 Months,Medium Risk
+CUST_0786,19,Female,North,Standard,Two Year,Credit Card,31,45.16,0,4.5,46,1399.96,Yes,High Price,25-36 Months,Low Risk
+CUST_0787,28,Female,Central,Standard,One Year,Bank Transfer,21,41.78,1,5.0,100,877.38,No,Not Churned,13-24 Months,Low Risk
+CUST_0788,56,Female,South,Basic,Monthly,Debit Card,54,22.11,1,7.1,27,1193.94,No,Not Churned,37-60 Months,Medium Risk
+CUST_0789,55,Female,East,Standard,Two Year,Bank Transfer,34,45.54,4,7.1,7,1548.36,No,Not Churned,25-36 Months,Low Risk
+CUST_0790,51,Female,North,Basic,One Year,Credit Card,15,26.82,1,7.7,5,402.3,No,Not Churned,13-24 Months,Low Risk
+CUST_0791,55,Male,North,Standard,Monthly,Credit Card,14,56.31,2,6.6,71,788.34,No,Not Churned,13-24 Months,Low Risk
+CUST_0792,51,Male,North,Standard,Monthly,UPI,19,61.35,3,7.0,75,1165.65,No,Not Churned,13-24 Months,Low Risk
+CUST_0793,35,Male,East,Basic,Two Year,Bank Transfer,43,24.22,3,8.9,7,1041.46,No,Not Churned,37-60 Months,Low Risk
+CUST_0794,47,Male,East,Basic,Monthly,Bank Transfer,15,33.45,1,6.9,53,501.75,No,Not Churned,13-24 Months,Medium Risk
+CUST_0795,32,Male,West,Standard,Monthly,Bank Transfer,6,61.13,2,6.1,71,366.78,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0796,44,Female,South,Premium,Monthly,Debit Card,52,97.93,4,5.2,59,5092.36,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0797,51,Female,West,Basic,Monthly,UPI,9,38.07,5,8.2,8,342.63,Yes,High Price,7-12 Months,High Risk
+CUST_0798,55,Female,South,Standard,One Year,Credit Card,37,43.33,1,4.4,35,1603.21,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0799,50,Female,East,Standard,Monthly,Credit Card,20,45.31,2,5.7,70,906.2,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0800,41,Male,East,Premium,Monthly,UPI,34,91.43,3,7.6,82,3108.62,No,Not Churned,25-36 Months,Low Risk
+CUST_0801,32,Male,West,Premium,Monthly,Credit Card,38,76.34,2,4.1,68,2900.92,No,Not Churned,37-60 Months,Low Risk
+CUST_0802,47,Male,Central,Standard,Monthly,Credit Card,26,56.99,2,6.1,35,1481.74,No,Not Churned,25-36 Months,Low Risk
+CUST_0803,59,Female,West,Standard,Two Year,UPI,18,51.95,3,7.2,67,935.1,No,Not Churned,13-24 Months,Low Risk
+CUST_0804,34,Male,South,Premium,Monthly,Credit Card,28,84.23,2,6.4,70,2358.44,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0805,22,Female,West,Standard,Two Year,Bank Transfer,55,45.1,0,5.5,35,2480.5,No,Not Churned,37-60 Months,Low Risk
+CUST_0806,46,Male,North,Basic,Monthly,Debit Card,51,26.71,4,6.1,51,1362.21,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0807,21,Male,South,Basic,Monthly,UPI,9,32.16,1,8.2,26,289.44,No,Not Churned,7-12 Months,Medium Risk
+CUST_0808,27,Female,South,Premium,Two Year,Debit Card,32,98.79,0,9.7,78,3161.28,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0809,34,Male,Central,Premium,Monthly,Credit Card,59,78.18,3,7.2,98,4612.62,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0810,27,Male,East,Basic,One Year,Credit Card,53,22.5,3,4.0,87,1192.5,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0811,34,Female,South,Standard,Two Year,Bank Transfer,56,40.8,2,7.9,50,2284.8,No,Not Churned,37-60 Months,Low Risk
+CUST_0812,37,Male,East,Standard,Monthly,UPI,59,40.37,3,6.4,93,2381.83,No,Not Churned,37-60 Months,Low Risk
+CUST_0813,41,Female,West,Basic,Monthly,Credit Card,6,37.6,1,5.4,62,225.6,No,Not Churned,0-6 Months,Medium Risk
+CUST_0814,22,Male,North,Premium,One Year,UPI,14,72.25,1,5.8,65,1011.5,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0815,51,Male,Central,Basic,Monthly,UPI,28,34.62,2,5.9,50,969.36,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0816,23,Male,East,Basic,Monthly,UPI,58,37.44,3,4.9,5,2171.52,No,Not Churned,37-60 Months,Medium Risk
+CUST_0817,19,Male,South,Standard,Monthly,UPI,24,42.94,4,6.9,100,1030.56,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_0818,30,Male,East,Standard,Monthly,UPI,13,53.09,2,9.7,29,690.17,No,Not Churned,13-24 Months,Low Risk
+CUST_0819,60,Male,South,Basic,One Year,Debit Card,43,39.25,4,5.4,65,1687.75,No,Not Churned,37-60 Months,Medium Risk
+CUST_0820,60,Male,East,Standard,Monthly,Bank Transfer,12,65.02,1,9.7,85,780.24,No,Not Churned,7-12 Months,Medium Risk
+CUST_0821,28,Male,South,Standard,Monthly,UPI,51,54.69,0,7.3,18,2789.19,No,Not Churned,37-60 Months,Low Risk
+CUST_0822,64,Female,West,Basic,One Year,Debit Card,19,35.25,3,6.9,49,669.75,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0823,40,Female,South,Basic,Monthly,Credit Card,21,36.67,6,6.5,81,770.07,No,Not Churned,13-24 Months,Medium Risk
+CUST_0824,33,Male,South,Standard,Monthly,UPI,27,50.44,3,5.8,43,1361.88,No,Not Churned,25-36 Months,Low Risk
+CUST_0825,48,Male,North,Basic,One Year,Credit Card,58,37.84,3,7.4,70,2194.72,No,Not Churned,37-60 Months,Low Risk
+CUST_0826,28,Female,South,Premium,Monthly,UPI,19,93.52,3,7.8,36,1776.88,No,Not Churned,13-24 Months,Low Risk
+CUST_0827,33,Male,North,Premium,One Year,Debit Card,24,96.39,4,3.4,100,2313.36,No,Not Churned,13-24 Months,Low Risk
+CUST_0828,25,Male,Central,Premium,Two Year,Debit Card,26,119.99,2,10.0,62,3119.74,No,Not Churned,25-36 Months,Low Risk
+CUST_0829,21,Female,North,Basic,Monthly,Debit Card,45,36.87,1,4.3,60,1659.15,No,Not Churned,37-60 Months,Medium Risk
+CUST_0830,57,Male,West,Premium,One Year,Bank Transfer,28,88.09,5,6.2,10,2466.52,No,Not Churned,25-36 Months,Low Risk
+CUST_0831,21,Male,North,Standard,Monthly,Credit Card,46,40.31,3,3.2,93,1854.26,No,Not Churned,37-60 Months,Low Risk
+CUST_0832,42,Female,Central,Basic,Monthly,Bank Transfer,56,32.52,3,6.6,71,1821.12,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_0833,20,Male,West,Basic,Two Year,UPI,18,34.08,0,6.3,86,613.44,Yes,High Price,13-24 Months,Low Risk
+CUST_0834,49,Male,East,Basic,Two Year,Credit Card,44,33.02,0,6.2,54,1452.88,No,Not Churned,37-60 Months,Low Risk
+CUST_0835,20,Female,East,Standard,Monthly,Debit Card,36,69.04,2,7.5,42,2485.44,Yes,High Price,25-36 Months,Low Risk
+CUST_0836,44,Male,North,Standard,One Year,Credit Card,42,65.89,2,6.6,7,2767.38,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0837,46,Female,North,Basic,Two Year,Debit Card,29,28.98,2,7.8,9,840.42,No,Not Churned,25-36 Months,Low Risk
+CUST_0838,49,Male,Central,Standard,Two Year,Bank Transfer,17,41.89,0,5.1,28,712.13,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0839,36,Male,Central,Basic,One Year,Bank Transfer,4,29.52,0,7.1,58,118.08,Yes,High Price,0-6 Months,Medium Risk
+CUST_0840,38,Female,South,Standard,Monthly,Debit Card,44,60.68,2,6.1,38,2669.92,No,Not Churned,37-60 Months,Low Risk
+CUST_0841,22,Female,Central,Standard,Monthly,Debit Card,45,58.23,0,6.4,43,2620.35,No,Not Churned,37-60 Months,Low Risk
+CUST_0842,35,Male,South,Premium,Two Year,UPI,59,96.91,0,7.4,92,5717.69,No,Not Churned,37-60 Months,Low Risk
+CUST_0843,45,Female,West,Premium,Monthly,Bank Transfer,29,93.44,5,6.2,96,2709.76,No,Not Churned,25-36 Months,Medium Risk
+CUST_0844,59,Female,North,Standard,One Year,Bank Transfer,4,48.81,1,6.8,52,195.24,No,Not Churned,0-6 Months,Low Risk
+CUST_0845,39,Male,West,Standard,Monthly,UPI,10,48.32,2,5.3,53,483.2,No,Not Churned,7-12 Months,Medium Risk
+CUST_0846,38,Male,Central,Standard,Monthly,Bank Transfer,25,55.01,1,8.6,38,1375.25,No,Not Churned,25-36 Months,Low Risk
+CUST_0847,23,Male,West,Premium,Monthly,Debit Card,31,78.03,0,8.1,84,2418.93,No,Not Churned,25-36 Months,Low Risk
+CUST_0848,18,Female,West,Basic,Two Year,Credit Card,3,26.81,0,7.1,11,80.43,No,Not Churned,0-6 Months,Medium Risk
+CUST_0849,22,Female,West,Basic,Monthly,Credit Card,47,26.48,0,6.6,22,1244.56,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0850,58,Female,Central,Basic,One Year,Bank Transfer,2,31.74,0,6.8,74,63.48,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_0851,29,Female,West,Standard,Monthly,UPI,57,42.0,2,8.6,96,2394.0,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0852,43,Male,South,Standard,Monthly,Debit Card,25,64.89,4,8.0,38,1622.25,No,Not Churned,25-36 Months,Medium Risk
+CUST_0853,63,Female,Central,Premium,Monthly,Credit Card,49,98.12,0,8.6,55,4807.88,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0854,51,Male,West,Basic,One Year,Debit Card,6,33.42,1,6.5,97,200.52,No,Not Churned,0-6 Months,Medium Risk
+CUST_0855,31,Female,Central,Standard,Monthly,Bank Transfer,26,61.09,3,7.7,72,1588.34,No,Not Churned,25-36 Months,Low Risk
+CUST_0856,43,Male,East,Premium,Monthly,Bank Transfer,8,84.57,1,8.8,18,676.56,No,Not Churned,7-12 Months,Medium Risk
+CUST_0857,62,Male,South,Premium,Monthly,Credit Card,35,93.52,2,5.6,73,3273.2,Yes,High Price,25-36 Months,Low Risk
+CUST_0858,44,Male,West,Standard,Monthly,Bank Transfer,27,68.69,1,5.5,93,1854.63,No,Not Churned,25-36 Months,Low Risk
+CUST_0859,26,Female,East,Standard,Two Year,UPI,25,63.0,4,7.4,12,1575.0,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0860,43,Male,East,Basic,Two Year,Bank Transfer,18,39.39,3,5.1,19,709.02,No,Not Churned,13-24 Months,Low Risk
+CUST_0861,64,Male,Central,Premium,Monthly,Bank Transfer,54,107.31,1,4.3,87,5794.74,No,Not Churned,37-60 Months,Low Risk
+CUST_0862,39,Female,East,Basic,One Year,Bank Transfer,1,23.51,2,8.8,63,23.51,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_0863,64,Male,South,Premium,Two Year,Debit Card,48,73.23,1,9.0,15,3515.04,No,Not Churned,37-60 Months,Low Risk
+CUST_0864,47,Female,South,Standard,Monthly,Debit Card,39,57.33,4,5.2,24,2235.87,Yes,High Price,37-60 Months,Medium Risk
+CUST_0865,60,Female,North,Standard,Two Year,Credit Card,3,50.73,0,4.9,59,152.19,No,Not Churned,0-6 Months,Low Risk
+CUST_0866,34,Male,South,Basic,Two Year,Credit Card,55,25.51,5,6.0,40,1403.05,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0867,43,Male,East,Standard,Monthly,Credit Card,4,64.22,2,8.9,86,256.88,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_0868,53,Female,South,Standard,Monthly,Bank Transfer,41,51.01,3,6.4,18,2091.41,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0869,18,Male,Central,Basic,Two Year,Debit Card,37,26.34,3,7.1,62,974.58,Yes,Poor Service,37-60 Months,Low Risk
+CUST_0870,25,Female,North,Standard,One Year,UPI,51,65.5,1,7.5,42,3340.5,No,Not Churned,37-60 Months,Low Risk
+CUST_0871,52,Female,East,Premium,Monthly,Bank Transfer,15,112.31,2,7.3,93,1684.65,No,Not Churned,13-24 Months,Low Risk
+CUST_0872,32,Female,North,Standard,Monthly,Bank Transfer,8,50.69,0,9.2,84,405.52,No,Not Churned,7-12 Months,Medium Risk
+CUST_0873,64,Male,East,Standard,Monthly,Bank Transfer,38,64.97,1,5.9,86,2468.86,Yes,High Price,37-60 Months,Low Risk
+CUST_0874,39,Female,Central,Basic,One Year,UPI,50,37.02,0,6.8,5,1851.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0875,31,Male,North,Standard,One Year,Credit Card,19,52.72,4,7.3,69,1001.68,No,Not Churned,13-24 Months,Low Risk
+CUST_0876,43,Male,West,Basic,Two Year,UPI,56,21.33,4,6.9,5,1194.48,No,Not Churned,37-60 Months,Medium Risk
+CUST_0877,45,Male,East,Standard,Monthly,Credit Card,47,40.05,3,5.2,89,1882.35,No,Not Churned,37-60 Months,Low Risk
+CUST_0878,40,Male,West,Premium,One Year,UPI,26,96.16,1,4.8,64,2500.16,No,Not Churned,25-36 Months,Low Risk
+CUST_0879,31,Female,North,Standard,One Year,Debit Card,39,50.32,4,4.8,29,1962.48,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0880,41,Male,West,Basic,Monthly,Bank Transfer,10,39.94,1,8.1,95,399.4,No,Not Churned,7-12 Months,Medium Risk
+CUST_0881,19,Female,West,Standard,Monthly,Bank Transfer,38,63.17,5,5.8,14,2400.46,No,Not Churned,37-60 Months,Medium Risk
+CUST_0882,62,Female,North,Standard,Two Year,Bank Transfer,14,62.84,0,7.7,54,879.76,No,Not Churned,13-24 Months,Low Risk
+CUST_0883,43,Male,Central,Standard,Two Year,Credit Card,49,68.66,3,7.1,16,3364.34,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0884,31,Female,West,Premium,Monthly,UPI,41,114.39,0,5.5,96,4689.99,Yes,High Price,37-60 Months,Low Risk
+CUST_0885,24,Female,West,Premium,One Year,Debit Card,19,85.91,4,5.6,36,1632.29,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0886,20,Male,Central,Standard,Monthly,UPI,30,44.98,1,7.2,37,1349.4,Yes,Customer Support,25-36 Months,Low Risk
+CUST_0887,64,Female,West,Standard,One Year,Bank Transfer,5,62.38,2,7.1,76,311.9,Yes,Competitor Offer,0-6 Months,Low Risk
+CUST_0888,40,Female,West,Basic,One Year,Debit Card,55,27.57,2,7.7,30,1516.35,No,Not Churned,37-60 Months,Low Risk
+CUST_0889,63,Female,West,Basic,One Year,Debit Card,31,29.46,2,6.3,46,913.26,No,Not Churned,25-36 Months,Low Risk
+CUST_0890,60,Female,South,Standard,Two Year,Bank Transfer,7,58.91,1,5.7,54,412.37,No,Not Churned,7-12 Months,Low Risk
+CUST_0891,64,Male,Central,Standard,One Year,UPI,19,67.24,2,7.2,65,1277.56,No,Not Churned,13-24 Months,Low Risk
+CUST_0892,62,Female,West,Standard,Monthly,Bank Transfer,31,52.57,3,9.1,45,1629.67,No,Not Churned,25-36 Months,Low Risk
+CUST_0893,35,Female,Central,Standard,One Year,UPI,52,63.5,1,4.2,61,3302.0,Yes,High Price,37-60 Months,Low Risk
+CUST_0894,55,Female,East,Basic,Monthly,Debit Card,58,25.37,2,5.8,6,1471.46,No,Not Churned,37-60 Months,Medium Risk
+CUST_0895,52,Female,East,Standard,Monthly,Debit Card,39,60.94,4,7.9,74,2376.66,No,Not Churned,37-60 Months,Medium Risk
+CUST_0896,32,Male,West,Basic,Monthly,Bank Transfer,24,20.03,2,7.3,35,480.72,No,Not Churned,13-24 Months,Medium Risk
+CUST_0897,42,Female,Central,Basic,Monthly,Debit Card,34,37.43,1,7.9,27,1272.62,No,Not Churned,25-36 Months,Medium Risk
+CUST_0898,54,Male,Central,Premium,One Year,Credit Card,57,71.52,0,6.4,80,4076.64,No,Not Churned,37-60 Months,Low Risk
+CUST_0899,45,Female,Central,Basic,Monthly,Debit Card,23,34.26,2,4.6,58,787.98,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0900,27,Male,South,Standard,One Year,Credit Card,48,41.39,2,9.5,32,1986.72,No,Not Churned,37-60 Months,Low Risk
+CUST_0901,56,Male,East,Basic,One Year,Debit Card,45,25.32,2,8.6,83,1139.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0902,34,Male,Central,Premium,Monthly,Bank Transfer,40,94.86,2,7.0,23,3794.4,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0903,56,Male,Central,Standard,Two Year,Bank Transfer,6,52.6,0,5.7,80,315.6,No,Not Churned,0-6 Months,Low Risk
+CUST_0904,39,Male,South,Basic,Monthly,Credit Card,38,23.84,3,6.3,52,905.92,Yes,High Price,37-60 Months,Medium Risk
+CUST_0905,43,Female,South,Standard,Monthly,Bank Transfer,41,50.01,1,7.3,6,2050.41,No,Not Churned,37-60 Months,Low Risk
+CUST_0906,61,Female,Central,Standard,One Year,Debit Card,36,61.83,3,6.6,15,2225.88,No,Not Churned,25-36 Months,Low Risk
+CUST_0907,42,Female,North,Premium,Monthly,Debit Card,27,103.46,5,7.0,48,2793.42,No,Not Churned,25-36 Months,Medium Risk
+CUST_0908,34,Male,Central,Basic,Monthly,Bank Transfer,11,21.44,4,9.4,63,235.84,No,Not Churned,7-12 Months,High Risk
+CUST_0909,30,Female,Central,Premium,One Year,Debit Card,5,107.37,2,8.4,63,536.85,Yes,Lack of Features,0-6 Months,Low Risk
+CUST_0910,37,Male,South,Premium,One Year,UPI,57,72.65,2,5.2,42,4141.05,No,Not Churned,37-60 Months,Low Risk
+CUST_0911,42,Male,South,Premium,Monthly,UPI,17,97.15,5,7.1,29,1651.55,No,Not Churned,13-24 Months,Medium Risk
+CUST_0912,21,Female,Central,Standard,Two Year,Debit Card,52,47.8,0,6.2,25,2485.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0913,27,Female,Central,Standard,One Year,Bank Transfer,7,57.63,2,7.4,46,403.41,No,Not Churned,7-12 Months,Low Risk
+CUST_0914,20,Male,Central,Standard,Two Year,Credit Card,27,47.84,4,6.9,40,1291.68,No,Not Churned,25-36 Months,Low Risk
+CUST_0915,58,Male,South,Standard,Monthly,Bank Transfer,47,69.55,6,10.0,13,3268.85,No,Not Churned,37-60 Months,Medium Risk
+CUST_0916,62,Female,Central,Standard,One Year,Credit Card,57,49.29,0,7.6,16,2809.53,No,Not Churned,37-60 Months,Low Risk
+CUST_0917,35,Female,Central,Standard,Two Year,Bank Transfer,15,47.26,2,6.8,14,708.9,No,Not Churned,13-24 Months,Low Risk
+CUST_0918,64,Female,West,Standard,One Year,Debit Card,46,48.35,1,9.8,63,2224.1,No,Not Churned,37-60 Months,Low Risk
+CUST_0919,53,Female,North,Standard,One Year,UPI,13,66.89,1,7.3,9,869.57,No,Not Churned,13-24 Months,Low Risk
+CUST_0920,64,Male,East,Premium,Monthly,Bank Transfer,11,101.81,3,4.7,37,1119.91,No,Not Churned,7-12 Months,Medium Risk
+CUST_0921,39,Female,North,Basic,Monthly,Credit Card,60,34.61,3,6.8,73,2076.6,No,Not Churned,37-60 Months,Medium Risk
+CUST_0922,51,Female,West,Premium,Monthly,UPI,45,115.9,4,7.9,84,5215.5,No,Not Churned,37-60 Months,Medium Risk
+CUST_0923,64,Female,East,Standard,Monthly,Credit Card,26,67.36,2,7.7,67,1751.36,No,Not Churned,25-36 Months,Low Risk
+CUST_0924,25,Male,Central,Premium,Two Year,Debit Card,22,106.95,4,8.5,33,2352.9,No,Not Churned,13-24 Months,Low Risk
+CUST_0925,57,Male,West,Standard,Monthly,UPI,28,45.93,4,7.2,22,1286.04,No,Not Churned,25-36 Months,Medium Risk
+CUST_0926,61,Male,Central,Standard,Two Year,Credit Card,24,65.3,4,7.1,97,1567.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0927,36,Male,South,Premium,Two Year,Bank Transfer,29,80.19,3,4.9,10,2325.51,No,Not Churned,25-36 Months,Low Risk
+CUST_0928,59,Female,West,Basic,Monthly,Debit Card,9,34.86,3,9.3,57,313.74,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_0929,58,Male,South,Premium,Monthly,Debit Card,42,104.28,3,6.5,86,4379.76,No,Not Churned,37-60 Months,Low Risk
+CUST_0930,54,Female,West,Standard,Two Year,Debit Card,4,62.77,1,5.5,36,251.08,No,Not Churned,0-6 Months,Low Risk
+CUST_0931,23,Female,West,Standard,Two Year,Bank Transfer,49,55.98,1,10.0,46,2743.02,No,Not Churned,37-60 Months,Low Risk
+CUST_0932,43,Female,South,Basic,Monthly,Bank Transfer,46,32.77,3,9.5,51,1507.42,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0933,51,Female,East,Standard,Monthly,UPI,56,68.6,6,6.3,35,3841.6,No,Not Churned,37-60 Months,Medium Risk
+CUST_0934,62,Male,North,Basic,One Year,Bank Transfer,18,22.02,0,4.2,66,396.36,No,Not Churned,13-24 Months,Low Risk
+CUST_0935,23,Male,Central,Basic,One Year,UPI,43,26.18,2,5.9,60,1125.74,No,Not Churned,37-60 Months,Low Risk
+CUST_0936,54,Male,West,Basic,Monthly,Debit Card,16,32.23,2,9.4,15,515.68,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_0937,50,Female,Central,Basic,One Year,UPI,33,39.28,0,7.3,30,1296.24,No,Not Churned,25-36 Months,Low Risk
+CUST_0938,39,Female,South,Premium,Monthly,Credit Card,29,74.78,7,5.0,96,2168.62,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_0939,38,Female,Central,Premium,Monthly,Debit Card,39,71.13,3,8.2,31,2774.07,No,Not Churned,37-60 Months,Low Risk
+CUST_0940,23,Female,South,Standard,Monthly,Debit Card,60,41.67,4,6.7,87,2500.2,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0941,23,Female,Central,Standard,Monthly,UPI,10,41.57,6,6.0,61,415.7,Yes,Poor Service,7-12 Months,High Risk
+CUST_0942,21,Male,North,Basic,Monthly,Debit Card,9,38.16,2,6.1,31,343.44,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_0943,47,Female,North,Standard,Monthly,Bank Transfer,59,61.64,1,9.0,63,3636.76,Yes,High Price,37-60 Months,Low Risk
+CUST_0944,28,Male,North,Premium,Monthly,Credit Card,31,103.86,2,7.8,66,3219.66,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_0945,47,Female,North,Premium,Monthly,UPI,28,96.13,0,4.8,24,2691.64,No,Not Churned,25-36 Months,Low Risk
+CUST_0946,48,Female,North,Standard,Monthly,UPI,60,63.46,1,7.6,7,3807.6,No,Not Churned,37-60 Months,Low Risk
+CUST_0947,41,Male,North,Standard,Two Year,Debit Card,57,44.67,1,7.2,20,2546.19,No,Not Churned,37-60 Months,Low Risk
+CUST_0948,26,Male,South,Basic,Monthly,Bank Transfer,3,27.84,5,6.4,48,83.52,Yes,Customer Support,0-6 Months,High Risk
+CUST_0949,20,Female,West,Premium,Monthly,Debit Card,54,94.5,2,6.4,97,5103.0,No,Not Churned,37-60 Months,Low Risk
+CUST_0950,48,Female,Central,Basic,One Year,Debit Card,55,22.21,2,5.7,83,1221.55,No,Not Churned,37-60 Months,Low Risk
+CUST_0951,57,Female,North,Standard,Two Year,UPI,14,52.59,4,6.0,34,736.26,Yes,Customer Support,13-24 Months,Low Risk
+CUST_0952,54,Female,South,Standard,Monthly,Debit Card,58,49.5,1,7.4,44,2871.0,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0953,53,Male,South,Standard,One Year,Credit Card,25,41.07,4,6.6,69,1026.75,No,Not Churned,25-36 Months,Low Risk
+CUST_0954,41,Female,South,Basic,One Year,Debit Card,15,22.73,0,7.8,33,340.95,No,Not Churned,13-24 Months,Low Risk
+CUST_0955,48,Male,West,Premium,One Year,Debit Card,2,108.2,5,5.8,34,216.4,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_0956,23,Female,Central,Basic,Monthly,UPI,24,20.36,0,8.1,36,488.64,Yes,High Price,13-24 Months,Medium Risk
+CUST_0957,19,Male,West,Standard,One Year,Debit Card,14,68.03,0,9.0,14,952.42,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0958,37,Male,East,Basic,Monthly,Bank Transfer,48,21.73,2,7.0,95,1043.04,No,Not Churned,37-60 Months,Medium Risk
+CUST_0959,45,Female,South,Basic,One Year,UPI,7,35.98,2,7.8,55,251.86,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_0960,28,Male,East,Standard,One Year,Debit Card,36,66.96,0,7.8,12,2410.56,No,Not Churned,25-36 Months,Low Risk
+CUST_0961,21,Female,North,Standard,Monthly,Credit Card,50,68.23,2,6.2,55,3411.5,No,Not Churned,37-60 Months,Low Risk
+CUST_0962,32,Male,North,Basic,Two Year,Credit Card,24,37.35,5,7.8,40,896.4,No,Not Churned,13-24 Months,Medium Risk
+CUST_0963,23,Female,West,Basic,Monthly,UPI,27,25.75,2,3.6,59,695.25,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_0964,47,Male,Central,Standard,Two Year,UPI,37,49.99,4,3.0,39,1849.63,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_0965,55,Female,East,Standard,Monthly,Debit Card,38,52.8,1,6.5,40,2006.4,No,Not Churned,37-60 Months,Low Risk
+CUST_0966,19,Female,Central,Premium,Monthly,Bank Transfer,30,76.96,2,8.0,60,2308.8,No,Not Churned,25-36 Months,Low Risk
+CUST_0967,32,Male,West,Basic,Monthly,Debit Card,27,20.45,0,6.9,40,552.15,No,Not Churned,25-36 Months,Medium Risk
+CUST_0968,28,Male,North,Standard,Two Year,Credit Card,39,66.07,1,8.1,93,2576.73,No,Not Churned,37-60 Months,Low Risk
+CUST_0969,25,Male,Central,Basic,Monthly,Bank Transfer,15,31.08,1,5.2,88,466.2,No,Not Churned,13-24 Months,Medium Risk
+CUST_0970,43,Male,Central,Basic,Monthly,Bank Transfer,26,32.17,0,8.3,65,836.42,No,Not Churned,25-36 Months,Medium Risk
+CUST_0971,62,Female,North,Standard,Monthly,Bank Transfer,1,67.81,0,9.4,66,67.81,No,Not Churned,0-6 Months,Medium Risk
+CUST_0972,61,Male,East,Standard,One Year,Debit Card,56,59.95,3,6.0,85,3357.2,No,Not Churned,37-60 Months,Low Risk
+CUST_0973,22,Female,North,Basic,One Year,Credit Card,4,33.82,2,8.2,91,135.28,Yes,High Price,0-6 Months,Medium Risk
+CUST_0974,23,Male,Central,Basic,Monthly,UPI,29,35.74,1,7.0,29,1036.46,Yes,Lack of Features,25-36 Months,Medium Risk
+CUST_0975,43,Female,East,Basic,Monthly,Debit Card,57,22.33,4,7.7,68,1272.81,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_0976,21,Female,East,Premium,Monthly,UPI,1,88.01,2,9.4,64,88.01,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_0977,36,Female,North,Premium,Monthly,Bank Transfer,43,118.41,4,7.5,61,5091.63,No,Not Churned,37-60 Months,Medium Risk
+CUST_0978,37,Female,Central,Basic,Monthly,Bank Transfer,50,38.46,1,8.1,99,1923.0,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_0979,50,Male,West,Basic,One Year,Debit Card,46,37.68,3,5.1,74,1733.28,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_0980,37,Male,Central,Premium,Monthly,Credit Card,22,92.6,0,8.1,56,2037.2,No,Not Churned,13-24 Months,Low Risk
+CUST_0981,29,Female,South,Premium,Monthly,Bank Transfer,11,112.86,2,9.4,60,1241.46,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_0982,64,Male,West,Standard,Monthly,UPI,10,41.45,3,5.6,67,414.5,Yes,High Price,7-12 Months,Medium Risk
+CUST_0983,18,Male,East,Basic,Two Year,UPI,59,22.97,0,6.5,72,1355.23,Yes,Customer Support,37-60 Months,Low Risk
+CUST_0984,43,Female,West,Basic,Two Year,Debit Card,17,28.28,4,8.0,24,480.76,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_0985,31,Male,East,Standard,Two Year,UPI,36,54.5,3,7.7,58,1962.0,No,Not Churned,25-36 Months,Low Risk
+CUST_0986,55,Male,East,Standard,Monthly,Credit Card,56,47.91,4,5.0,5,2682.96,No,Not Churned,37-60 Months,Medium Risk
+CUST_0987,54,Male,West,Basic,Monthly,Bank Transfer,47,27.13,0,7.2,94,1275.11,Yes,High Price,37-60 Months,Medium Risk
+CUST_0988,28,Female,East,Standard,Monthly,UPI,26,44.88,0,6.5,14,1166.88,Yes,Poor Service,25-36 Months,Low Risk
+CUST_0989,53,Male,East,Basic,Monthly,UPI,48,29.78,3,5.5,27,1429.44,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_0990,30,Female,South,Standard,One Year,Bank Transfer,21,63.82,4,9.0,55,1340.22,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_0991,60,Male,Central,Basic,One Year,Debit Card,13,33.23,1,7.0,28,431.99,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_0992,20,Male,Central,Basic,Two Year,UPI,9,22.16,4,8.5,17,199.44,No,Not Churned,7-12 Months,Medium Risk
+CUST_0993,50,Male,South,Standard,Two Year,Debit Card,11,54.63,2,5.2,33,600.93,Yes,Competitor Offer,7-12 Months,Low Risk
+CUST_0994,23,Female,West,Standard,Monthly,Debit Card,11,60.93,1,7.9,62,670.23,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_0995,27,Female,North,Premium,One Year,UPI,6,96.49,2,8.6,95,578.94,No,Not Churned,0-6 Months,Low Risk
+CUST_0996,22,Male,North,Standard,Monthly,Credit Card,1,51.75,1,6.6,99,51.75,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_0997,40,Female,North,Basic,Monthly,Debit Card,54,32.44,2,6.3,47,1751.76,Yes,High Price,37-60 Months,Medium Risk
+CUST_0998,27,Male,South,Standard,One Year,UPI,6,69.06,3,5.0,14,414.36,No,Not Churned,0-6 Months,Low Risk
+CUST_0999,61,Female,South,Basic,Monthly,Debit Card,13,21.9,1,5.7,35,284.7,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_1000,19,Female,East,Premium,Monthly,Bank Transfer,22,89.5,2,6.3,78,1969.0,No,Not Churned,13-24 Months,Low Risk
+CUST_1001,30,Male,North,Standard,Monthly,Credit Card,56,52.2,4,5.5,92,2923.2,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_1002,57,Male,West,Standard,One Year,Credit Card,31,57.31,0,5.8,18,1776.61,No,Not Churned,25-36 Months,Low Risk
+CUST_1003,19,Male,West,Basic,One Year,Bank Transfer,22,23.04,4,7.2,38,506.88,No,Not Churned,13-24 Months,Medium Risk
+CUST_1004,37,Male,North,Standard,Monthly,Bank Transfer,37,45.3,2,7.4,21,1676.1,Yes,High Price,37-60 Months,Low Risk
+CUST_1005,18,Female,North,Premium,Two Year,Debit Card,47,84.27,0,8.6,25,3960.69,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1006,54,Female,North,Premium,Monthly,Bank Transfer,27,117.79,1,5.9,100,3180.33,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1007,26,Female,South,Basic,Monthly,Credit Card,50,34.68,1,7.0,71,1734.0,No,Not Churned,37-60 Months,Medium Risk
+CUST_1008,34,Male,South,Basic,One Year,Bank Transfer,52,33.23,1,6.4,62,1727.96,No,Not Churned,37-60 Months,Low Risk
+CUST_1009,26,Male,South,Premium,One Year,UPI,14,110.85,3,6.3,83,1551.9,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1010,28,Female,Central,Premium,Two Year,UPI,47,76.38,1,6.5,12,3589.86,No,Not Churned,37-60 Months,Low Risk
+CUST_1011,32,Male,West,Basic,Monthly,Debit Card,58,37.19,1,6.7,100,2157.02,No,Not Churned,37-60 Months,Medium Risk
+CUST_1012,41,Female,West,Standard,One Year,Credit Card,5,57.84,4,7.4,42,289.2,No,Not Churned,0-6 Months,Medium Risk
+CUST_1013,55,Female,East,Basic,One Year,UPI,58,26.71,1,6.5,30,1549.18,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1014,52,Female,South,Premium,Two Year,Bank Transfer,36,110.79,2,8.8,68,3988.44,No,Not Churned,25-36 Months,Low Risk
+CUST_1015,47,Female,Central,Basic,Monthly,UPI,32,36.05,2,4.4,34,1153.6,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_1016,48,Female,Central,Basic,One Year,UPI,34,36.91,0,8.6,13,1254.94,No,Not Churned,25-36 Months,Low Risk
+CUST_1017,22,Male,West,Standard,One Year,Debit Card,7,43.47,1,6.4,36,304.29,No,Not Churned,7-12 Months,Low Risk
+CUST_1018,61,Male,South,Basic,Monthly,Bank Transfer,42,39.39,3,6.7,15,1654.38,No,Not Churned,37-60 Months,Medium Risk
+CUST_1019,31,Male,East,Standard,Monthly,Bank Transfer,48,68.79,3,7.0,90,3301.92,No,Not Churned,37-60 Months,Low Risk
+CUST_1020,28,Female,South,Standard,Monthly,Bank Transfer,10,50.72,1,8.1,38,507.2,No,Not Churned,7-12 Months,Medium Risk
+CUST_1021,26,Female,North,Basic,One Year,Debit Card,50,21.32,1,5.7,22,1066.0,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1022,51,Female,South,Standard,Two Year,Bank Transfer,17,45.01,0,6.0,23,765.17,No,Not Churned,13-24 Months,Low Risk
+CUST_1023,29,Female,North,Standard,One Year,Bank Transfer,30,69.78,0,7.8,58,2093.4,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_1024,52,Male,North,Basic,One Year,UPI,21,31.26,2,4.5,86,656.46,Yes,High Price,13-24 Months,Low Risk
+CUST_1025,52,Male,East,Standard,One Year,UPI,60,50.7,8,6.9,41,3042.0,No,Not Churned,37-60 Months,Low Risk
+CUST_1026,18,Female,West,Premium,Monthly,Bank Transfer,13,84.41,2,5.8,86,1097.33,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_1027,57,Female,South,Standard,Monthly,Credit Card,1,47.71,4,5.5,16,47.71,Yes,Customer Support,0-6 Months,High Risk
+CUST_1028,39,Female,North,Basic,Monthly,Credit Card,1,33.28,2,4.5,8,33.28,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_1029,46,Male,South,Basic,Monthly,Bank Transfer,47,28.39,2,8.2,47,1334.33,No,Not Churned,37-60 Months,Medium Risk
+CUST_1030,25,Male,West,Basic,Monthly,Credit Card,33,39.31,3,7.2,31,1297.23,Yes,Customer Support,25-36 Months,Medium Risk
+CUST_1031,28,Male,West,Standard,One Year,Debit Card,38,60.52,3,6.0,55,2299.76,No,Not Churned,37-60 Months,Low Risk
+CUST_1032,58,Female,Central,Standard,Monthly,UPI,25,63.76,2,6.8,9,1594.0,No,Not Churned,25-36 Months,Low Risk
+CUST_1033,54,Female,West,Standard,Monthly,Debit Card,26,48.78,3,5.4,10,1268.28,Yes,High Price,25-36 Months,Low Risk
+CUST_1034,31,Male,East,Basic,Monthly,UPI,13,21.58,1,6.2,81,280.54,No,Not Churned,13-24 Months,Medium Risk
+CUST_1035,47,Female,North,Basic,Monthly,Credit Card,59,29.76,6,6.7,91,1755.84,No,Not Churned,37-60 Months,Medium Risk
+CUST_1036,52,Male,Central,Standard,Two Year,Credit Card,28,49.44,2,7.1,60,1384.32,No,Not Churned,25-36 Months,Low Risk
+CUST_1037,38,Female,East,Standard,Two Year,Bank Transfer,33,46.06,4,7.6,93,1519.98,No,Not Churned,25-36 Months,Low Risk
+CUST_1038,54,Male,South,Basic,One Year,Credit Card,37,39.05,3,4.3,72,1444.85,Yes,High Price,37-60 Months,Low Risk
+CUST_1039,22,Female,North,Standard,Monthly,Credit Card,41,53.32,1,7.6,100,2186.12,No,Not Churned,37-60 Months,Low Risk
+CUST_1040,36,Male,West,Basic,One Year,Bank Transfer,30,23.49,1,4.4,48,704.7,Yes,Customer Support,25-36 Months,Low Risk
+CUST_1041,31,Male,North,Premium,Two Year,Bank Transfer,57,79.93,0,7.6,19,4556.01,No,Not Churned,37-60 Months,Low Risk
+CUST_1042,43,Male,South,Premium,One Year,UPI,49,84.04,0,6.7,94,4117.96,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1043,21,Male,Central,Basic,Monthly,Credit Card,48,39.99,3,8.6,46,1919.52,No,Not Churned,37-60 Months,Medium Risk
+CUST_1044,42,Male,Central,Basic,One Year,UPI,8,25.36,2,6.0,15,202.88,No,Not Churned,7-12 Months,Medium Risk
+CUST_1045,62,Male,Central,Standard,Two Year,UPI,49,49.86,4,8.2,77,2443.14,No,Not Churned,37-60 Months,Low Risk
+CUST_1046,59,Female,West,Basic,One Year,Debit Card,47,33.19,5,5.2,15,1559.93,No,Not Churned,37-60 Months,Medium Risk
+CUST_1047,42,Female,East,Standard,One Year,Credit Card,56,48.82,2,7.2,70,2733.92,No,Not Churned,37-60 Months,Low Risk
+CUST_1048,35,Female,East,Premium,Monthly,Credit Card,1,80.79,0,3.9,31,80.79,No,Not Churned,0-6 Months,Medium Risk
+CUST_1049,57,Male,North,Standard,One Year,Debit Card,12,44.76,8,8.3,62,537.12,No,Not Churned,7-12 Months,Medium Risk
+CUST_1050,25,Male,West,Premium,Monthly,UPI,5,85.63,8,9.6,94,428.15,Yes,Customer Support,0-6 Months,High Risk
+CUST_1051,56,Female,Central,Standard,One Year,Credit Card,24,43.18,4,6.0,76,1036.32,No,Not Churned,13-24 Months,Low Risk
+CUST_1052,57,Male,Central,Basic,Monthly,UPI,6,20.37,0,7.2,25,122.22,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_1053,31,Male,South,Standard,Monthly,Debit Card,25,64.14,2,7.7,25,1603.5,No,Not Churned,25-36 Months,Low Risk
+CUST_1054,49,Male,South,Standard,Monthly,Bank Transfer,1,44.14,1,4.7,76,44.14,Yes,Lack of Features,0-6 Months,Medium Risk
+CUST_1055,55,Male,Central,Standard,One Year,UPI,25,63.28,0,5.9,5,1582.0,No,Not Churned,25-36 Months,Low Risk
+CUST_1056,50,Male,Central,Basic,Monthly,Credit Card,1,35.95,1,5.8,62,35.95,No,Not Churned,0-6 Months,Medium Risk
+CUST_1057,40,Female,West,Basic,One Year,Bank Transfer,32,30.76,2,10.0,17,984.32,No,Not Churned,25-36 Months,Low Risk
+CUST_1058,32,Female,East,Premium,One Year,UPI,42,85.48,2,8.6,77,3590.16,No,Not Churned,37-60 Months,Low Risk
+CUST_1059,50,Female,South,Basic,Monthly,UPI,42,22.9,1,6.7,96,961.8,No,Not Churned,37-60 Months,Medium Risk
+CUST_1060,42,Female,East,Premium,Monthly,Bank Transfer,3,106.84,0,8.2,10,320.52,No,Not Churned,0-6 Months,Medium Risk
+CUST_1061,34,Female,West,Premium,Monthly,Bank Transfer,49,100.07,0,7.3,91,4903.43,No,Not Churned,37-60 Months,Low Risk
+CUST_1062,50,Male,Central,Standard,Two Year,Bank Transfer,19,59.66,4,7.9,62,1133.54,No,Not Churned,13-24 Months,Low Risk
+CUST_1063,64,Male,East,Standard,One Year,Credit Card,60,40.26,1,5.4,21,2415.6,No,Not Churned,37-60 Months,Low Risk
+CUST_1064,19,Male,Central,Standard,Monthly,Credit Card,43,67.83,1,9.1,77,2916.69,No,Not Churned,37-60 Months,Low Risk
+CUST_1065,31,Male,Central,Premium,Monthly,UPI,29,73.31,2,5.8,16,2125.99,No,Not Churned,25-36 Months,Low Risk
+CUST_1066,57,Female,North,Basic,One Year,UPI,50,27.34,1,5.9,90,1367.0,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1067,57,Female,East,Standard,Two Year,Debit Card,2,52.08,2,7.9,56,104.16,No,Not Churned,0-6 Months,Low Risk
+CUST_1068,56,Female,East,Standard,Two Year,Credit Card,9,40.04,1,7.5,80,360.36,No,Not Churned,7-12 Months,Low Risk
+CUST_1069,23,Male,Central,Standard,One Year,UPI,56,54.91,2,7.0,74,3074.96,No,Not Churned,37-60 Months,Low Risk
+CUST_1070,23,Female,West,Standard,Monthly,Bank Transfer,17,62.58,4,8.3,77,1063.86,No,Not Churned,13-24 Months,Medium Risk
+CUST_1071,20,Male,North,Basic,Monthly,Bank Transfer,60,36.47,3,5.3,56,2188.2,No,Not Churned,37-60 Months,Medium Risk
+CUST_1072,24,Female,Central,Standard,Monthly,Credit Card,46,66.38,1,9.8,41,3053.48,No,Not Churned,37-60 Months,Low Risk
+CUST_1073,25,Female,South,Premium,Monthly,Bank Transfer,36,94.39,2,6.2,7,3398.04,No,Not Churned,25-36 Months,Low Risk
+CUST_1074,59,Male,South,Basic,Monthly,Debit Card,17,32.61,2,6.9,12,554.37,No,Not Churned,13-24 Months,Medium Risk
+CUST_1075,32,Male,North,Premium,Monthly,UPI,49,73.98,0,9.8,14,3625.02,No,Not Churned,37-60 Months,Low Risk
+CUST_1076,64,Female,West,Standard,Monthly,UPI,12,54.64,5,5.9,51,655.68,No,Not Churned,7-12 Months,High Risk
+CUST_1077,46,Female,Central,Premium,Two Year,UPI,60,77.74,3,8.5,45,4664.4,No,Not Churned,37-60 Months,Low Risk
+CUST_1078,50,Male,East,Standard,One Year,Credit Card,20,51.09,3,6.7,68,1021.8,No,Not Churned,13-24 Months,Low Risk
+CUST_1079,47,Female,North,Standard,Two Year,Bank Transfer,50,49.88,4,5.7,46,2494.0,No,Not Churned,37-60 Months,Low Risk
+CUST_1080,56,Female,West,Basic,One Year,Debit Card,3,28.47,5,6.4,47,85.41,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_1081,44,Male,East,Premium,Monthly,Credit Card,43,98.58,1,7.8,13,4238.94,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1082,53,Female,South,Basic,One Year,UPI,57,38.06,2,8.5,18,2169.42,No,Not Churned,37-60 Months,Low Risk
+CUST_1083,46,Male,South,Premium,Monthly,Debit Card,50,89.72,2,7.3,95,4486.0,No,Not Churned,37-60 Months,Low Risk
+CUST_1084,55,Female,East,Premium,One Year,UPI,4,119.06,1,4.6,100,476.24,No,Not Churned,0-6 Months,Low Risk
+CUST_1085,50,Male,North,Basic,Monthly,UPI,17,35.18,4,8.0,8,598.06,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_1086,54,Female,South,Basic,Two Year,Credit Card,50,30.23,0,6.8,6,1511.5,No,Not Churned,37-60 Months,Low Risk
+CUST_1087,44,Male,Central,Standard,Monthly,UPI,37,59.32,5,5.3,89,2194.84,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_1088,50,Female,East,Basic,Monthly,Debit Card,46,22.04,0,7.5,5,1013.84,No,Not Churned,37-60 Months,Medium Risk
+CUST_1089,21,Male,East,Premium,Two Year,UPI,42,112.23,1,8.7,79,4713.66,No,Not Churned,37-60 Months,Low Risk
+CUST_1090,39,Female,South,Basic,Monthly,Bank Transfer,15,31.65,2,7.0,69,474.75,No,Not Churned,13-24 Months,Medium Risk
+CUST_1091,19,Female,North,Basic,One Year,UPI,33,39.72,1,8.4,50,1310.76,No,Not Churned,25-36 Months,Low Risk
+CUST_1092,27,Female,Central,Premium,One Year,Credit Card,16,101.82,0,7.7,63,1629.12,No,Not Churned,13-24 Months,Low Risk
+CUST_1093,22,Female,North,Standard,Two Year,Debit Card,11,65.02,0,7.7,79,715.22,Yes,Customer Support,7-12 Months,Low Risk
+CUST_1094,27,Female,West,Premium,Two Year,Credit Card,55,109.99,0,6.5,11,6049.45,No,Not Churned,37-60 Months,Low Risk
+CUST_1095,50,Female,West,Basic,Two Year,Bank Transfer,20,26.91,1,8.2,70,538.2,No,Not Churned,13-24 Months,Low Risk
+CUST_1096,55,Female,South,Standard,Monthly,UPI,38,47.79,3,8.4,19,1816.02,No,Not Churned,37-60 Months,Low Risk
+CUST_1097,30,Female,South,Standard,Two Year,Credit Card,24,52.91,5,8.2,76,1269.84,No,Not Churned,13-24 Months,Low Risk
+CUST_1098,48,Female,South,Standard,One Year,Credit Card,54,54.02,1,6.5,51,2917.08,No,Not Churned,37-60 Months,Low Risk
+CUST_1099,64,Male,West,Standard,One Year,Credit Card,16,47.2,0,8.5,94,755.2,No,Not Churned,13-24 Months,Low Risk
+CUST_1100,53,Male,North,Standard,Monthly,Credit Card,30,66.84,0,7.6,44,2005.2,No,Not Churned,25-36 Months,Low Risk
+CUST_1101,62,Female,North,Standard,One Year,Bank Transfer,34,56.28,3,5.5,46,1913.52,No,Not Churned,25-36 Months,Low Risk
+CUST_1102,41,Male,South,Basic,Two Year,Bank Transfer,1,39.57,3,6.4,55,39.57,No,Not Churned,0-6 Months,Medium Risk
+CUST_1103,32,Female,Central,Standard,Two Year,UPI,24,64.3,3,6.2,39,1543.2,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_1104,46,Female,North,Basic,Monthly,UPI,24,31.11,1,4.0,45,746.64,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_1105,25,Male,West,Standard,Monthly,Debit Card,9,68.41,0,8.5,89,615.69,No,Not Churned,7-12 Months,Medium Risk
+CUST_1106,22,Female,East,Basic,Monthly,Bank Transfer,22,30.1,1,10.0,61,662.2,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_1107,46,Female,East,Standard,Two Year,Credit Card,12,66.61,6,8.8,42,799.32,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_1108,64,Male,East,Standard,One Year,Credit Card,17,50.74,2,7.2,76,862.58,Yes,High Price,13-24 Months,Low Risk
+CUST_1109,21,Male,Central,Basic,Monthly,Debit Card,25,27.57,3,6.2,100,689.25,No,Not Churned,25-36 Months,Medium Risk
+CUST_1110,29,Female,South,Basic,Monthly,Credit Card,28,28.36,1,5.6,12,794.08,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_1111,62,Male,West,Basic,Monthly,Debit Card,15,30.93,2,7.2,78,463.95,Yes,Competitor Offer,13-24 Months,Medium Risk
+CUST_1112,19,Male,Central,Standard,Monthly,UPI,30,56.6,0,8.5,67,1698.0,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1113,44,Female,West,Premium,Two Year,Bank Transfer,51,94.82,5,6.0,91,4835.82,No,Not Churned,37-60 Months,Low Risk
+CUST_1114,48,Male,West,Basic,One Year,Debit Card,27,26.12,1,10.0,8,705.24,No,Not Churned,25-36 Months,Low Risk
+CUST_1115,53,Male,South,Standard,Monthly,Credit Card,22,67.82,3,4.9,52,1492.04,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1116,53,Female,East,Basic,One Year,Debit Card,10,31.77,2,7.3,56,317.7,No,Not Churned,7-12 Months,Medium Risk
+CUST_1117,43,Male,South,Standard,Monthly,UPI,58,52.23,2,7.1,42,3029.34,No,Not Churned,37-60 Months,Low Risk
+CUST_1118,60,Male,Central,Premium,Two Year,Credit Card,31,102.56,1,7.0,98,3179.36,No,Not Churned,25-36 Months,Low Risk
+CUST_1119,44,Female,Central,Basic,Monthly,UPI,27,35.36,2,6.1,91,954.72,No,Not Churned,25-36 Months,Medium Risk
+CUST_1120,22,Female,Central,Standard,Monthly,UPI,12,68.82,0,7.1,9,825.84,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_1121,37,Female,South,Basic,Monthly,Debit Card,46,29.99,2,6.3,89,1379.54,No,Not Churned,37-60 Months,Medium Risk
+CUST_1122,28,Male,West,Basic,One Year,UPI,31,22.24,1,8.9,74,689.44,Yes,Poor Service,25-36 Months,Low Risk
+CUST_1123,27,Female,West,Basic,One Year,Credit Card,32,28.82,0,9.4,85,922.24,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_1124,57,Female,North,Basic,One Year,UPI,32,29.58,6,6.4,93,946.56,No,Not Churned,25-36 Months,Medium Risk
+CUST_1125,55,Male,Central,Standard,Monthly,UPI,41,66.91,2,4.5,28,2743.31,No,Not Churned,37-60 Months,Low Risk
+CUST_1126,23,Female,West,Standard,Monthly,Debit Card,59,51.84,4,7.5,90,3058.56,Yes,High Price,37-60 Months,Medium Risk
+CUST_1127,25,Female,North,Standard,Monthly,UPI,45,68.6,0,7.4,81,3087.0,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1128,40,Female,West,Basic,One Year,Bank Transfer,35,29.7,1,7.2,21,1039.5,No,Not Churned,25-36 Months,Low Risk
+CUST_1129,64,Female,Central,Basic,Monthly,Debit Card,53,39.48,1,7.8,82,2092.44,No,Not Churned,37-60 Months,Medium Risk
+CUST_1130,43,Male,East,Standard,One Year,Debit Card,46,40.25,2,9.1,94,1851.5,No,Not Churned,37-60 Months,Low Risk
+CUST_1131,63,Female,Central,Premium,Two Year,Credit Card,21,114.94,1,8.2,87,2413.74,No,Not Churned,13-24 Months,Low Risk
+CUST_1132,60,Female,South,Basic,Two Year,Credit Card,10,38.62,1,7.8,30,386.2,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_1133,29,Male,West,Premium,Monthly,Credit Card,16,118.05,1,8.1,7,1888.8,No,Not Churned,13-24 Months,Low Risk
+CUST_1134,43,Female,West,Standard,Monthly,Credit Card,7,40.39,2,7.4,6,282.73,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_1135,30,Male,South,Standard,Monthly,Bank Transfer,4,45.15,3,5.6,96,180.6,Yes,High Price,0-6 Months,Medium Risk
+CUST_1136,57,Male,South,Standard,One Year,Debit Card,27,59.61,3,9.2,6,1609.47,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1137,35,Male,East,Basic,Two Year,UPI,52,20.51,0,7.2,26,1066.52,No,Not Churned,37-60 Months,Low Risk
+CUST_1138,42,Female,West,Basic,Monthly,Credit Card,55,21.27,7,5.6,75,1169.85,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_1139,50,Male,West,Standard,Monthly,Credit Card,25,46.63,2,5.3,8,1165.75,Yes,Customer Support,25-36 Months,Low Risk
+CUST_1140,64,Male,East,Basic,Two Year,Credit Card,31,30.25,2,5.6,42,937.75,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1141,57,Male,North,Premium,Two Year,UPI,11,97.3,2,5.2,88,1070.3,Yes,Customer Support,7-12 Months,Low Risk
+CUST_1142,60,Female,East,Standard,Monthly,Credit Card,48,41.03,2,8.0,74,1969.44,No,Not Churned,37-60 Months,Low Risk
+CUST_1143,29,Female,Central,Basic,One Year,UPI,20,23.41,0,6.7,77,468.2,No,Not Churned,13-24 Months,Low Risk
+CUST_1144,61,Female,West,Standard,Monthly,Debit Card,36,54.99,3,8.2,56,1979.64,No,Not Churned,25-36 Months,Low Risk
+CUST_1145,53,Female,South,Basic,Monthly,Debit Card,54,31.88,0,8.8,35,1721.52,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_1146,21,Female,Central,Standard,Two Year,Debit Card,54,44.45,1,8.4,30,2400.3,No,Not Churned,37-60 Months,Low Risk
+CUST_1147,22,Female,West,Standard,Two Year,Bank Transfer,55,51.97,4,8.0,40,2858.35,No,Not Churned,37-60 Months,Low Risk
+CUST_1148,54,Female,East,Premium,One Year,UPI,17,115.22,2,7.4,30,1958.74,No,Not Churned,13-24 Months,Low Risk
+CUST_1149,25,Male,Central,Standard,Monthly,Credit Card,45,69.97,3,6.7,32,3148.65,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1150,59,Male,West,Standard,Two Year,Credit Card,11,69.62,3,6.8,9,765.82,Yes,High Price,7-12 Months,Low Risk
+CUST_1151,45,Male,North,Standard,Monthly,Credit Card,30,66.45,3,7.9,78,1993.5,No,Not Churned,25-36 Months,Low Risk
+CUST_1152,48,Male,North,Premium,Monthly,Credit Card,35,89.73,1,5.6,22,3140.55,No,Not Churned,25-36 Months,Low Risk
+CUST_1153,26,Female,South,Basic,One Year,Bank Transfer,41,33.73,1,6.9,19,1382.93,No,Not Churned,37-60 Months,Low Risk
+CUST_1154,46,Male,West,Basic,Monthly,Credit Card,38,28.33,2,5.9,61,1076.54,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_1155,31,Male,North,Basic,One Year,Bank Transfer,22,32.97,1,8.8,9,725.34,No,Not Churned,13-24 Months,Low Risk
+CUST_1156,57,Male,East,Basic,One Year,UPI,53,26.19,2,8.1,41,1388.07,No,Not Churned,37-60 Months,Low Risk
+CUST_1157,58,Male,West,Standard,Monthly,Debit Card,43,58.19,4,10.0,90,2502.17,No,Not Churned,37-60 Months,Medium Risk
+CUST_1158,39,Female,East,Standard,Monthly,Credit Card,48,55.71,5,5.9,90,2674.08,No,Not Churned,37-60 Months,Medium Risk
+CUST_1159,28,Female,East,Standard,Monthly,Debit Card,51,40.73,1,6.0,26,2077.23,No,Not Churned,37-60 Months,Low Risk
+CUST_1160,40,Female,North,Basic,Monthly,UPI,27,35.81,3,7.1,56,966.87,No,Not Churned,25-36 Months,Medium Risk
+CUST_1161,18,Male,West,Standard,One Year,UPI,37,40.36,1,5.9,19,1493.32,No,Not Churned,37-60 Months,Low Risk
+CUST_1162,63,Female,Central,Basic,Two Year,Credit Card,46,25.86,2,7.8,21,1189.56,No,Not Churned,37-60 Months,Low Risk
+CUST_1163,54,Male,North,Standard,Monthly,UPI,49,40.18,4,6.9,55,1968.82,No,Not Churned,37-60 Months,Medium Risk
+CUST_1164,38,Female,North,Standard,Monthly,Debit Card,35,51.29,2,6.3,49,1795.15,No,Not Churned,25-36 Months,Low Risk
+CUST_1165,43,Female,West,Basic,One Year,Credit Card,4,21.26,1,8.6,67,85.04,No,Not Churned,0-6 Months,Medium Risk
+CUST_1166,63,Female,West,Basic,Two Year,Bank Transfer,16,38.27,3,4.2,32,612.32,Yes,Customer Support,13-24 Months,Low Risk
+CUST_1167,53,Female,East,Basic,Monthly,Credit Card,16,28.31,3,7.8,63,452.96,Yes,High Price,13-24 Months,Medium Risk
+CUST_1168,40,Female,West,Premium,Monthly,Debit Card,21,92.97,3,6.2,90,1952.37,No,Not Churned,13-24 Months,Low Risk
+CUST_1169,18,Male,East,Premium,One Year,Credit Card,26,87.49,4,8.2,25,2274.74,No,Not Churned,25-36 Months,Low Risk
+CUST_1170,57,Female,North,Standard,Monthly,Credit Card,57,58.83,2,8.6,46,3353.31,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1171,32,Male,South,Basic,Monthly,Debit Card,36,35.69,3,3.6,85,1284.84,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_1172,38,Male,Central,Standard,One Year,Credit Card,19,59.44,1,6.7,73,1129.36,No,Not Churned,13-24 Months,Low Risk
+CUST_1173,64,Male,North,Standard,One Year,Credit Card,58,62.45,1,7.1,86,3622.1,Yes,High Price,37-60 Months,Low Risk
+CUST_1174,26,Male,West,Standard,One Year,Debit Card,17,67.18,1,3.5,21,1142.06,No,Not Churned,13-24 Months,Low Risk
+CUST_1175,26,Male,Central,Basic,One Year,UPI,45,37.27,1,7.3,72,1677.15,No,Not Churned,37-60 Months,Low Risk
+CUST_1176,27,Female,South,Basic,One Year,Debit Card,26,33.48,3,6.2,11,870.48,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_1177,43,Female,South,Standard,Monthly,Credit Card,22,46.44,4,5.2,93,1021.68,No,Not Churned,13-24 Months,Medium Risk
+CUST_1178,58,Female,East,Standard,Monthly,Bank Transfer,55,59.13,2,6.0,44,3252.15,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1179,52,Female,Central,Basic,Monthly,Bank Transfer,58,30.12,2,5.8,44,1746.96,No,Not Churned,37-60 Months,Medium Risk
+CUST_1180,42,Male,East,Basic,Monthly,Debit Card,56,34.34,4,6.1,47,1923.04,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_1181,43,Female,North,Standard,One Year,Bank Transfer,28,64.99,2,7.3,77,1819.72,No,Not Churned,25-36 Months,Low Risk
+CUST_1182,28,Female,Central,Premium,Two Year,Credit Card,1,107.14,2,8.5,87,107.14,No,Not Churned,0-6 Months,Low Risk
+CUST_1183,55,Male,North,Premium,Two Year,Credit Card,44,112.33,2,6.9,55,4942.52,No,Not Churned,37-60 Months,Low Risk
+CUST_1184,19,Male,East,Standard,One Year,Debit Card,36,41.92,1,8.7,77,1509.12,Yes,High Price,25-36 Months,Low Risk
+CUST_1185,24,Female,Central,Standard,Monthly,Credit Card,43,40.95,5,5.4,27,1760.85,No,Not Churned,37-60 Months,Medium Risk
+CUST_1186,35,Female,East,Basic,Monthly,UPI,37,25.17,5,7.2,99,931.29,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_1187,44,Male,Central,Standard,Two Year,Credit Card,2,67.02,0,10.0,36,134.04,No,Not Churned,0-6 Months,Low Risk
+CUST_1188,51,Female,East,Standard,One Year,Debit Card,17,64.71,0,4.6,35,1100.07,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_1189,44,Female,South,Standard,One Year,UPI,40,60.48,2,4.6,21,2419.2,No,Not Churned,37-60 Months,Low Risk
+CUST_1190,34,Female,East,Standard,One Year,UPI,38,61.02,1,8.9,62,2318.76,No,Not Churned,37-60 Months,Low Risk
+CUST_1191,60,Female,South,Basic,One Year,Bank Transfer,21,34.53,2,7.3,90,725.13,No,Not Churned,13-24 Months,Low Risk
+CUST_1192,61,Male,East,Basic,Two Year,Credit Card,9,38.85,1,6.1,39,349.65,No,Not Churned,7-12 Months,Medium Risk
+CUST_1193,41,Male,Central,Basic,Monthly,Debit Card,13,36.64,3,5.3,34,476.32,No,Not Churned,13-24 Months,Medium Risk
+CUST_1194,42,Male,Central,Basic,One Year,Bank Transfer,11,32.47,2,6.9,68,357.17,No,Not Churned,7-12 Months,Medium Risk
+CUST_1195,24,Female,Central,Basic,Two Year,Bank Transfer,16,33.31,0,7.2,57,532.96,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_1196,23,Female,West,Premium,Monthly,Credit Card,16,80.69,2,7.2,55,1291.04,No,Not Churned,13-24 Months,Low Risk
+CUST_1197,41,Female,North,Standard,One Year,Credit Card,59,59.72,2,5.3,41,3523.48,No,Not Churned,37-60 Months,Low Risk
+CUST_1198,50,Female,Central,Standard,Monthly,Debit Card,2,52.74,0,6.5,94,105.48,No,Not Churned,0-6 Months,Medium Risk
+CUST_1199,46,Female,South,Premium,Two Year,Bank Transfer,42,77.65,0,6.1,10,3261.3,No,Not Churned,37-60 Months,Low Risk
+CUST_1200,60,Male,Central,Premium,Monthly,Debit Card,44,110.32,0,8.0,38,4854.08,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1201,39,Female,West,Standard,One Year,Bank Transfer,8,55.31,5,5.4,60,442.48,No,Not Churned,7-12 Months,Medium Risk
+CUST_1202,43,Female,South,Premium,Monthly,Bank Transfer,43,118.87,3,7.1,100,5111.41,No,Not Churned,37-60 Months,Low Risk
+CUST_1203,45,Male,West,Basic,One Year,Bank Transfer,42,25.63,2,10.0,29,1076.46,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1204,38,Female,South,Basic,Monthly,Credit Card,13,29.61,2,5.3,17,384.93,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_1205,24,Male,East,Standard,Monthly,Bank Transfer,57,53.44,1,5.9,67,3046.08,No,Not Churned,37-60 Months,Low Risk
+CUST_1206,34,Male,North,Standard,Monthly,Bank Transfer,17,43.62,3,6.9,70,741.54,No,Not Churned,13-24 Months,Low Risk
+CUST_1207,37,Male,North,Standard,Two Year,Bank Transfer,39,52.78,1,2.6,9,2058.42,Yes,High Price,37-60 Months,Low Risk
+CUST_1208,58,Male,West,Basic,Monthly,UPI,24,25.75,2,4.9,79,618.0,No,Not Churned,13-24 Months,Medium Risk
+CUST_1209,37,Male,North,Basic,Monthly,Credit Card,3,23.21,0,7.5,15,69.63,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_1210,39,Female,West,Standard,One Year,UPI,30,48.46,2,6.7,92,1453.8,No,Not Churned,25-36 Months,Low Risk
+CUST_1211,45,Male,West,Basic,One Year,Credit Card,52,24.67,4,8.6,82,1282.84,No,Not Churned,37-60 Months,Medium Risk
+CUST_1212,57,Male,West,Standard,Two Year,Debit Card,13,62.02,3,6.6,98,806.26,No,Not Churned,13-24 Months,Low Risk
+CUST_1213,24,Female,North,Standard,Monthly,UPI,19,40.92,1,6.5,48,777.48,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1214,18,Female,West,Standard,One Year,Debit Card,7,58.52,1,5.9,89,409.64,No,Not Churned,7-12 Months,Low Risk
+CUST_1215,49,Male,North,Standard,Monthly,Bank Transfer,9,62.82,1,6.5,73,565.38,No,Not Churned,7-12 Months,Medium Risk
+CUST_1216,30,Female,West,Premium,Monthly,Debit Card,19,94.04,1,5.2,6,1786.76,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1217,47,Female,Central,Standard,One Year,Debit Card,45,67.95,1,6.8,44,3057.75,No,Not Churned,37-60 Months,Low Risk
+CUST_1218,40,Male,West,Standard,One Year,Debit Card,54,61.24,2,5.5,41,3306.96,No,Not Churned,37-60 Months,Low Risk
+CUST_1219,36,Male,South,Standard,One Year,Debit Card,40,62.44,1,5.2,53,2497.6,No,Not Churned,37-60 Months,Low Risk
+CUST_1220,49,Female,West,Basic,Monthly,Credit Card,22,23.94,2,6.0,79,526.68,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_1221,47,Male,East,Basic,Monthly,UPI,18,35.55,2,7.7,40,639.9,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_1222,46,Male,West,Basic,Monthly,Credit Card,23,36.64,2,7.2,79,842.72,No,Not Churned,13-24 Months,Medium Risk
+CUST_1223,62,Female,South,Standard,Two Year,Credit Card,2,50.84,1,8.0,77,101.68,No,Not Churned,0-6 Months,Low Risk
+CUST_1224,46,Male,South,Standard,Monthly,Credit Card,50,46.4,2,5.6,74,2320.0,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1225,47,Male,North,Premium,Monthly,Debit Card,50,89.25,0,7.0,38,4462.5,No,Not Churned,37-60 Months,Low Risk
+CUST_1226,33,Male,Central,Basic,Monthly,Credit Card,11,34.79,0,9.6,62,382.69,Yes,Poor Service,7-12 Months,Medium Risk
+CUST_1227,57,Male,West,Basic,One Year,UPI,31,28.35,2,9.1,41,878.85,No,Not Churned,25-36 Months,Low Risk
+CUST_1228,36,Male,North,Premium,Monthly,Credit Card,33,106.83,1,5.1,100,3525.39,No,Not Churned,25-36 Months,Low Risk
+CUST_1229,35,Female,Central,Basic,Two Year,Bank Transfer,14,22.27,1,5.5,64,311.78,No,Not Churned,13-24 Months,Low Risk
+CUST_1230,18,Female,West,Standard,Monthly,Debit Card,16,64.18,7,9.5,16,1026.88,No,Not Churned,13-24 Months,Medium Risk
+CUST_1231,31,Male,East,Standard,Two Year,Bank Transfer,11,47.6,0,7.7,36,523.6,Yes,Poor Service,7-12 Months,Low Risk
+CUST_1232,64,Female,West,Standard,Monthly,UPI,33,47.47,0,6.7,85,1566.51,No,Not Churned,25-36 Months,Low Risk
+CUST_1233,19,Male,South,Basic,One Year,UPI,7,31.81,3,6.5,8,222.67,No,Not Churned,7-12 Months,Medium Risk
+CUST_1234,45,Male,South,Basic,Two Year,UPI,31,21.4,1,7.3,37,663.4,No,Not Churned,25-36 Months,Low Risk
+CUST_1235,47,Male,East,Basic,Monthly,UPI,48,20.53,1,7.4,47,985.44,No,Not Churned,37-60 Months,Medium Risk
+CUST_1236,55,Male,North,Standard,Two Year,Credit Card,46,47.83,0,6.2,13,2200.18,No,Not Churned,37-60 Months,Low Risk
+CUST_1237,21,Male,Central,Standard,Monthly,Debit Card,47,56.14,7,6.8,55,2638.58,Yes,High Price,37-60 Months,Medium Risk
+CUST_1238,18,Female,West,Basic,Two Year,UPI,14,38.15,3,6.1,98,534.1,No,Not Churned,13-24 Months,Low Risk
+CUST_1239,25,Female,South,Standard,One Year,Bank Transfer,28,65.39,2,7.3,24,1830.92,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1240,46,Male,North,Premium,Monthly,UPI,53,94.52,2,5.9,43,5009.56,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1241,56,Female,East,Basic,Monthly,Debit Card,43,20.74,1,5.1,27,891.82,No,Not Churned,37-60 Months,Medium Risk
+CUST_1242,20,Male,South,Standard,Monthly,Bank Transfer,16,56.06,3,9.2,45,896.96,No,Not Churned,13-24 Months,Low Risk
+CUST_1243,49,Female,East,Standard,Monthly,Bank Transfer,19,61.14,1,6.9,48,1161.66,No,Not Churned,13-24 Months,Low Risk
+CUST_1244,27,Male,West,Basic,Monthly,Bank Transfer,17,26.78,2,9.5,39,455.26,Yes,Poor Service,13-24 Months,Medium Risk
+CUST_1245,27,Female,Central,Basic,Monthly,Credit Card,59,22.22,1,4.1,27,1310.98,Yes,Lack of Features,37-60 Months,Medium Risk
+CUST_1246,36,Male,South,Standard,Monthly,UPI,26,48.36,1,4.8,62,1257.36,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_1247,63,Male,South,Premium,One Year,Credit Card,6,108.58,0,7.7,52,651.48,No,Not Churned,0-6 Months,Low Risk
+CUST_1248,51,Female,West,Premium,Monthly,Bank Transfer,43,87.56,3,6.9,91,3765.08,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1249,50,Female,North,Standard,Monthly,Credit Card,49,64.36,3,5.3,62,3153.64,No,Not Churned,37-60 Months,Low Risk
+CUST_1250,40,Male,Central,Standard,One Year,Credit Card,9,49.59,2,8.7,61,446.31,No,Not Churned,7-12 Months,Low Risk
+CUST_1251,45,Female,South,Standard,Monthly,Credit Card,50,44.91,2,5.7,91,2245.5,Yes,High Price,37-60 Months,Low Risk
+CUST_1252,49,Male,Central,Standard,Monthly,UPI,17,53.08,1,8.8,43,902.36,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_1253,24,Female,South,Standard,Monthly,Bank Transfer,31,53.57,3,6.9,32,1660.67,No,Not Churned,25-36 Months,Low Risk
+CUST_1254,46,Female,Central,Basic,Two Year,Bank Transfer,12,20.32,1,5.4,68,243.84,No,Not Churned,7-12 Months,Medium Risk
+CUST_1255,25,Male,East,Standard,Two Year,UPI,23,43.51,1,6.0,66,1000.73,No,Not Churned,13-24 Months,Low Risk
+CUST_1256,18,Female,South,Standard,Monthly,Credit Card,54,45.55,3,9.1,87,2459.7,Yes,High Price,37-60 Months,Low Risk
+CUST_1257,20,Female,Central,Standard,One Year,Credit Card,54,43.41,3,6.6,66,2344.14,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1258,41,Male,North,Premium,One Year,Debit Card,5,87.08,2,8.5,98,435.4,No,Not Churned,0-6 Months,Low Risk
+CUST_1259,40,Female,East,Basic,One Year,Debit Card,43,39.29,2,9.1,89,1689.47,No,Not Churned,37-60 Months,Low Risk
+CUST_1260,25,Male,East,Basic,One Year,Debit Card,36,30.18,3,6.9,92,1086.48,No,Not Churned,25-36 Months,Low Risk
+CUST_1261,64,Male,North,Basic,One Year,UPI,59,32.55,1,6.7,89,1920.45,No,Not Churned,37-60 Months,Low Risk
+CUST_1262,54,Male,Central,Standard,Monthly,Bank Transfer,36,50.69,1,6.4,30,1824.84,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_1263,20,Male,West,Standard,Monthly,Debit Card,3,49.7,1,7.5,55,149.1,No,Not Churned,0-6 Months,Medium Risk
+CUST_1264,50,Male,North,Basic,Monthly,Bank Transfer,58,20.46,3,9.3,54,1186.68,No,Not Churned,37-60 Months,Medium Risk
+CUST_1265,45,Female,Central,Standard,Two Year,Bank Transfer,24,55.01,4,5.2,40,1320.24,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_1266,64,Male,North,Standard,One Year,Bank Transfer,55,54.51,5,7.3,30,2998.05,No,Not Churned,37-60 Months,Low Risk
+CUST_1267,25,Male,North,Standard,Two Year,UPI,57,44.73,2,7.3,37,2549.61,No,Not Churned,37-60 Months,Low Risk
+CUST_1268,51,Female,South,Standard,Two Year,UPI,17,62.93,2,4.3,72,1069.81,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1269,52,Female,Central,Standard,Monthly,UPI,39,54.78,1,5.7,77,2136.42,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1270,49,Female,West,Premium,One Year,UPI,26,86.95,2,6.0,12,2260.7,No,Not Churned,25-36 Months,Low Risk
+CUST_1271,41,Male,South,Basic,One Year,Debit Card,4,22.94,5,8.1,70,91.76,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_1272,31,Male,North,Basic,Two Year,Credit Card,55,31.04,3,8.4,97,1707.2,No,Not Churned,37-60 Months,Low Risk
+CUST_1273,49,Male,North,Standard,Two Year,Credit Card,45,62.58,2,4.2,27,2816.1,No,Not Churned,37-60 Months,Low Risk
+CUST_1274,63,Female,North,Premium,One Year,Credit Card,12,84.1,1,8.0,74,1009.2,No,Not Churned,7-12 Months,Low Risk
+CUST_1275,60,Male,Central,Standard,Monthly,Debit Card,1,46.56,5,7.8,59,46.56,Yes,Customer Support,0-6 Months,High Risk
+CUST_1276,33,Female,Central,Basic,One Year,Credit Card,21,30.44,2,7.9,47,639.24,No,Not Churned,13-24 Months,Low Risk
+CUST_1277,21,Male,South,Basic,Monthly,Debit Card,19,23.11,2,7.2,25,439.09,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_1278,54,Female,West,Standard,One Year,Debit Card,21,60.0,1,8.4,26,1260.0,Yes,Customer Support,13-24 Months,Low Risk
+CUST_1279,38,Male,South,Basic,Two Year,Debit Card,52,32.11,1,8.8,13,1669.72,No,Not Churned,37-60 Months,Low Risk
+CUST_1280,31,Male,East,Standard,Monthly,Credit Card,18,42.61,0,4.5,38,766.98,No,Not Churned,13-24 Months,Low Risk
+CUST_1281,48,Male,North,Premium,One Year,Bank Transfer,43,71.83,3,6.9,63,3088.69,No,Not Churned,37-60 Months,Low Risk
+CUST_1282,35,Female,North,Standard,Monthly,Credit Card,52,58.61,3,6.6,30,3047.72,No,Not Churned,37-60 Months,Low Risk
+CUST_1283,24,Female,North,Standard,Monthly,Credit Card,3,48.83,1,6.1,5,146.49,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_1284,27,Male,South,Standard,Monthly,UPI,49,42.59,2,6.3,9,2086.91,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1285,24,Male,South,Basic,One Year,Debit Card,44,35.19,4,7.3,45,1548.36,Yes,High Price,37-60 Months,Medium Risk
+CUST_1286,50,Male,North,Premium,Two Year,Bank Transfer,32,85.7,2,5.1,67,2742.4,No,Not Churned,25-36 Months,Low Risk
+CUST_1287,40,Female,South,Standard,Two Year,UPI,10,53.79,1,8.0,26,537.9,No,Not Churned,7-12 Months,Low Risk
+CUST_1288,38,Male,Central,Standard,Monthly,Bank Transfer,40,47.1,3,6.4,72,1884.0,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1289,36,Male,Central,Standard,Two Year,Bank Transfer,15,58.82,6,8.3,52,882.3,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_1290,36,Male,South,Standard,One Year,Debit Card,5,49.04,2,6.1,70,245.2,No,Not Churned,0-6 Months,Low Risk
+CUST_1291,53,Male,North,Standard,Monthly,Credit Card,4,69.04,0,6.0,20,276.16,No,Not Churned,0-6 Months,Medium Risk
+CUST_1292,46,Female,South,Basic,Monthly,Debit Card,58,34.06,3,5.6,84,1975.48,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_1293,35,Female,South,Premium,Monthly,Debit Card,28,76.84,1,6.1,57,2151.52,No,Not Churned,25-36 Months,Low Risk
+CUST_1294,19,Male,South,Premium,Two Year,UPI,53,90.83,1,5.8,90,4813.99,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1295,18,Male,East,Standard,One Year,Debit Card,52,51.56,1,7.7,69,2681.12,No,Not Churned,37-60 Months,Low Risk
+CUST_1296,64,Female,Central,Premium,One Year,Credit Card,51,96.71,5,8.6,83,4932.21,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1297,22,Female,West,Basic,Monthly,Bank Transfer,53,36.84,0,7.6,68,1952.52,No,Not Churned,37-60 Months,Medium Risk
+CUST_1298,37,Male,West,Standard,One Year,Debit Card,4,57.5,3,6.9,92,230.0,No,Not Churned,0-6 Months,Low Risk
+CUST_1299,28,Female,East,Standard,Monthly,Bank Transfer,15,41.85,1,7.7,72,627.75,No,Not Churned,13-24 Months,Low Risk
+CUST_1300,59,Female,South,Standard,Monthly,Debit Card,17,59.66,0,6.9,67,1014.22,No,Not Churned,13-24 Months,Low Risk
+CUST_1301,19,Male,East,Standard,One Year,Bank Transfer,44,40.25,2,7.0,66,1771.0,No,Not Churned,37-60 Months,Low Risk
+CUST_1302,20,Female,East,Basic,Monthly,Debit Card,3,35.6,0,6.5,86,106.8,Yes,High Price,0-6 Months,Medium Risk
+CUST_1303,40,Female,North,Basic,Two Year,UPI,10,33.33,3,8.3,85,333.3,Yes,High Price,7-12 Months,Medium Risk
+CUST_1304,29,Male,Central,Standard,Monthly,Bank Transfer,47,49.26,1,3.2,75,2315.22,No,Not Churned,37-60 Months,Low Risk
+CUST_1305,37,Male,West,Basic,One Year,Debit Card,42,25.85,1,3.8,49,1085.7,No,Not Churned,37-60 Months,Low Risk
+CUST_1306,22,Female,South,Standard,Monthly,Debit Card,56,63.95,1,8.5,56,3581.2,No,Not Churned,37-60 Months,Low Risk
+CUST_1307,54,Male,West,Basic,One Year,UPI,23,35.67,4,6.7,78,820.41,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_1308,55,Female,West,Basic,Monthly,UPI,18,27.05,1,8.4,69,486.9,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_1309,47,Male,Central,Standard,Monthly,UPI,1,48.97,2,6.1,6,48.97,No,Not Churned,0-6 Months,Medium Risk
+CUST_1310,26,Female,West,Standard,Two Year,Bank Transfer,35,56.79,1,9.5,53,1987.65,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1311,51,Male,West,Premium,Monthly,Bank Transfer,53,70.42,2,6.8,26,3732.26,No,Not Churned,37-60 Months,Low Risk
+CUST_1312,61,Female,East,Standard,Two Year,UPI,58,42.48,0,7.7,100,2463.84,No,Not Churned,37-60 Months,Low Risk
+CUST_1313,52,Female,Central,Basic,Two Year,Credit Card,31,22.52,2,6.3,33,698.12,Yes,High Price,25-36 Months,Low Risk
+CUST_1314,39,Female,North,Premium,Monthly,Credit Card,59,79.27,2,5.7,39,4676.93,Yes,High Price,37-60 Months,Low Risk
+CUST_1315,61,Male,South,Standard,Monthly,Debit Card,44,55.36,2,4.4,85,2435.84,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1316,41,Male,West,Basic,One Year,Credit Card,1,39.84,1,8.2,80,39.84,Yes,High Price,0-6 Months,Medium Risk
+CUST_1317,34,Female,South,Standard,Two Year,Debit Card,3,59.58,2,7.6,28,178.74,No,Not Churned,0-6 Months,Low Risk
+CUST_1318,27,Female,North,Premium,Two Year,Bank Transfer,3,73.06,0,7.1,98,219.18,Yes,Competitor Offer,0-6 Months,Low Risk
+CUST_1319,47,Male,South,Standard,One Year,Bank Transfer,37,55.77,4,5.3,34,2063.49,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1320,63,Male,North,Basic,One Year,Credit Card,19,29.93,2,9.1,88,568.67,No,Not Churned,13-24 Months,Low Risk
+CUST_1321,40,Male,East,Basic,Monthly,Bank Transfer,29,22.88,5,7.2,46,663.52,Yes,Competitor Offer,25-36 Months,Medium Risk
+CUST_1322,49,Male,West,Basic,Two Year,UPI,25,38.41,2,8.1,75,960.25,No,Not Churned,25-36 Months,Low Risk
+CUST_1323,34,Male,North,Standard,Two Year,UPI,33,53.22,3,7.0,54,1756.26,No,Not Churned,25-36 Months,Low Risk
+CUST_1324,34,Male,South,Standard,Monthly,Credit Card,36,69.84,2,5.4,75,2514.24,No,Not Churned,25-36 Months,Low Risk
+CUST_1325,31,Female,West,Basic,Monthly,Credit Card,29,28.4,3,8.5,64,823.6,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_1326,26,Male,East,Premium,Monthly,Debit Card,58,100.4,1,7.7,34,5823.2,No,Not Churned,37-60 Months,Low Risk
+CUST_1327,57,Female,West,Standard,Monthly,Bank Transfer,26,43.14,1,6.7,16,1121.64,No,Not Churned,25-36 Months,Low Risk
+CUST_1328,19,Male,North,Standard,Two Year,Debit Card,4,53.63,2,7.7,53,214.52,Yes,Customer Support,0-6 Months,Low Risk
+CUST_1329,62,Male,East,Premium,Monthly,Debit Card,49,81.94,1,8.2,99,4015.06,No,Not Churned,37-60 Months,Low Risk
+CUST_1330,42,Female,South,Basic,Monthly,UPI,14,36.71,2,8.0,86,513.94,No,Not Churned,13-24 Months,Medium Risk
+CUST_1331,56,Female,East,Standard,Monthly,UPI,50,63.52,3,4.4,50,3176.0,No,Not Churned,37-60 Months,Low Risk
+CUST_1332,26,Male,East,Standard,Two Year,UPI,27,64.73,2,4.8,47,1747.71,Yes,Customer Support,25-36 Months,Low Risk
+CUST_1333,39,Female,Central,Premium,One Year,UPI,33,106.18,2,8.1,6,3503.94,No,Not Churned,25-36 Months,Low Risk
+CUST_1334,60,Female,East,Standard,Monthly,Debit Card,22,64.98,1,6.0,79,1429.56,No,Not Churned,13-24 Months,Low Risk
+CUST_1335,63,Female,East,Basic,Monthly,UPI,48,24.02,2,5.4,84,1152.96,Yes,High Price,37-60 Months,Medium Risk
+CUST_1336,21,Female,West,Premium,Two Year,Bank Transfer,3,92.6,1,7.6,58,277.8,Yes,Competitor Offer,0-6 Months,Low Risk
+CUST_1337,43,Male,South,Basic,Two Year,UPI,23,33.84,2,5.4,39,778.32,No,Not Churned,13-24 Months,Low Risk
+CUST_1338,46,Female,West,Premium,Monthly,UPI,21,101.87,2,6.3,56,2139.27,Yes,High Price,13-24 Months,Low Risk
+CUST_1339,62,Male,West,Premium,Monthly,UPI,41,105.82,1,8.3,37,4338.62,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1340,51,Male,North,Basic,Monthly,Credit Card,23,24.49,3,4.7,89,563.27,No,Not Churned,13-24 Months,Medium Risk
+CUST_1341,40,Male,West,Standard,Monthly,Bank Transfer,4,42.95,0,4.9,88,171.8,Yes,High Price,0-6 Months,Medium Risk
+CUST_1342,54,Male,Central,Basic,One Year,Bank Transfer,21,38.34,2,4.6,76,805.14,Yes,Customer Support,13-24 Months,Low Risk
+CUST_1343,28,Female,Central,Standard,Two Year,Debit Card,37,56.81,3,5.7,55,2101.97,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1344,23,Female,North,Standard,Monthly,Debit Card,43,44.61,2,7.1,30,1918.23,No,Not Churned,37-60 Months,Low Risk
+CUST_1345,35,Male,South,Standard,Two Year,UPI,31,63.8,2,6.1,66,1977.8,Yes,High Price,25-36 Months,Low Risk
+CUST_1346,38,Male,South,Premium,Monthly,Credit Card,21,115.75,3,9.3,65,2430.75,No,Not Churned,13-24 Months,Low Risk
+CUST_1347,59,Male,West,Standard,One Year,Debit Card,26,45.09,2,7.7,30,1172.34,No,Not Churned,25-36 Months,Low Risk
+CUST_1348,53,Male,West,Standard,One Year,Debit Card,41,64.52,2,7.0,41,2645.32,No,Not Churned,37-60 Months,Low Risk
+CUST_1349,58,Female,West,Premium,Monthly,UPI,58,116.66,4,8.9,34,6766.28,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_1350,55,Male,South,Premium,Monthly,UPI,35,116.92,3,5.0,99,4092.2,No,Not Churned,25-36 Months,Low Risk
+CUST_1351,51,Female,East,Basic,One Year,Debit Card,38,38.28,2,8.3,15,1454.64,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1352,34,Male,Central,Premium,Monthly,Debit Card,24,97.32,4,6.6,57,2335.68,No,Not Churned,13-24 Months,Medium Risk
+CUST_1353,54,Male,East,Basic,Monthly,Bank Transfer,11,27.12,2,6.3,45,298.32,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_1354,42,Male,East,Premium,One Year,Credit Card,41,70.36,0,7.9,9,2884.76,Yes,High Price,37-60 Months,Low Risk
+CUST_1355,55,Male,South,Basic,Two Year,Bank Transfer,29,21.22,1,6.4,70,615.38,No,Not Churned,25-36 Months,Low Risk
+CUST_1356,29,Female,East,Basic,Monthly,Debit Card,47,28.58,3,7.3,17,1343.26,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_1357,40,Female,North,Standard,Two Year,Bank Transfer,55,51.98,3,6.9,67,2858.9,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1358,59,Female,West,Standard,Monthly,Bank Transfer,60,45.54,3,7.5,86,2732.4,No,Not Churned,37-60 Months,Low Risk
+CUST_1359,39,Male,North,Standard,One Year,Debit Card,3,51.86,2,6.2,94,155.58,No,Not Churned,0-6 Months,Low Risk
+CUST_1360,38,Male,Central,Basic,One Year,UPI,1,23.49,4,8.4,29,23.49,Yes,Competitor Offer,0-6 Months,Medium Risk
+CUST_1361,44,Female,West,Standard,Two Year,Debit Card,52,65.46,2,3.9,48,3403.92,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1362,48,Female,East,Premium,Monthly,UPI,54,84.91,2,8.0,18,4585.14,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1363,23,Male,Central,Standard,One Year,Debit Card,19,57.96,2,4.2,73,1101.24,No,Not Churned,13-24 Months,Low Risk
+CUST_1364,44,Male,West,Basic,One Year,Debit Card,46,30.06,4,5.9,63,1382.76,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_1365,57,Female,East,Standard,Monthly,Debit Card,49,41.56,4,7.8,60,2036.44,Yes,Competitor Offer,37-60 Months,Medium Risk
+CUST_1366,51,Male,North,Basic,Monthly,Credit Card,22,38.84,1,4.0,56,854.48,Yes,Lack of Features,13-24 Months,Medium Risk
+CUST_1367,29,Male,West,Premium,Monthly,UPI,14,96.36,0,7.2,70,1349.04,No,Not Churned,13-24 Months,Low Risk
+CUST_1368,62,Female,East,Premium,Monthly,Credit Card,49,86.25,2,4.9,72,4226.25,No,Not Churned,37-60 Months,Low Risk
+CUST_1369,24,Male,North,Standard,Two Year,Debit Card,57,44.74,2,5.5,16,2550.18,No,Not Churned,37-60 Months,Low Risk
+CUST_1370,27,Female,Central,Standard,Monthly,Bank Transfer,59,50.16,2,5.5,79,2959.44,No,Not Churned,37-60 Months,Low Risk
+CUST_1371,62,Male,Central,Standard,Monthly,Credit Card,14,40.62,3,5.0,72,568.68,Yes,Competitor Offer,13-24 Months,Low Risk
+CUST_1372,34,Female,Central,Standard,One Year,UPI,44,50.91,4,4.4,47,2240.04,No,Not Churned,37-60 Months,Low Risk
+CUST_1373,43,Male,Central,Premium,Monthly,Debit Card,16,96.57,2,10.0,77,1545.12,Yes,Customer Support,13-24 Months,Low Risk
+CUST_1374,38,Female,South,Standard,One Year,Credit Card,33,66.16,3,6.7,78,2183.28,No,Not Churned,25-36 Months,Low Risk
+CUST_1375,45,Female,West,Standard,Monthly,Bank Transfer,13,60.62,4,5.1,95,788.06,Yes,Customer Support,13-24 Months,Medium Risk
+CUST_1376,63,Female,West,Standard,Two Year,Credit Card,38,43.35,0,6.2,10,1647.3,No,Not Churned,37-60 Months,Low Risk
+CUST_1377,19,Female,South,Standard,Two Year,UPI,49,44.43,3,7.1,19,2177.07,No,Not Churned,37-60 Months,Low Risk
+CUST_1378,60,Male,East,Premium,Two Year,Credit Card,12,91.41,1,6.4,46,1096.92,No,Not Churned,7-12 Months,Low Risk
+CUST_1379,18,Male,East,Standard,Monthly,Bank Transfer,55,45.87,2,5.1,35,2522.85,No,Not Churned,37-60 Months,Low Risk
+CUST_1380,53,Female,Central,Standard,One Year,Bank Transfer,51,40.84,2,5.7,90,2082.84,No,Not Churned,37-60 Months,Low Risk
+CUST_1381,43,Male,North,Basic,Monthly,UPI,38,36.1,3,8.8,57,1371.8,No,Not Churned,37-60 Months,Medium Risk
+CUST_1382,46,Male,East,Standard,Monthly,Bank Transfer,39,40.59,2,4.9,10,1583.01,No,Not Churned,37-60 Months,Low Risk
+CUST_1383,38,Male,North,Standard,Monthly,Debit Card,33,64.92,1,4.0,37,2142.36,Yes,High Price,25-36 Months,Low Risk
+CUST_1384,28,Male,West,Basic,One Year,Bank Transfer,33,22.88,2,6.4,33,755.04,Yes,Customer Support,25-36 Months,Low Risk
+CUST_1385,57,Male,North,Basic,Monthly,Debit Card,29,39.49,2,4.1,25,1145.21,No,Not Churned,25-36 Months,Medium Risk
+CUST_1386,28,Female,West,Standard,One Year,Credit Card,5,58.12,0,5.6,58,290.6,No,Not Churned,0-6 Months,Low Risk
+CUST_1387,53,Female,South,Standard,Monthly,Debit Card,6,62.05,1,5.1,60,372.3,No,Not Churned,0-6 Months,Medium Risk
+CUST_1388,56,Female,South,Standard,Monthly,Debit Card,31,43.31,3,5.1,98,1342.61,Yes,High Price,25-36 Months,Low Risk
+CUST_1389,57,Female,Central,Basic,One Year,Credit Card,16,37.24,1,7.1,25,595.84,No,Not Churned,13-24 Months,Low Risk
+CUST_1390,52,Male,East,Standard,Monthly,Bank Transfer,31,65.18,1,7.4,59,2020.58,No,Not Churned,25-36 Months,Low Risk
+CUST_1391,51,Male,Central,Basic,One Year,Debit Card,25,33.06,1,5.8,62,826.5,Yes,Customer Support,25-36 Months,Low Risk
+CUST_1392,64,Female,West,Standard,Monthly,Bank Transfer,48,55.07,2,6.9,68,2643.36,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1393,41,Male,Central,Basic,Two Year,Credit Card,46,34.43,2,5.7,90,1583.78,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1394,39,Male,North,Basic,One Year,UPI,33,20.12,2,7.6,50,663.96,No,Not Churned,25-36 Months,Low Risk
+CUST_1395,22,Female,West,Basic,Monthly,Bank Transfer,13,31.85,2,4.8,88,414.05,Yes,High Price,13-24 Months,Medium Risk
+CUST_1396,50,Male,South,Standard,Monthly,Bank Transfer,52,65.42,3,7.2,26,3401.84,Yes,High Price,37-60 Months,Low Risk
+CUST_1397,53,Female,East,Basic,One Year,UPI,10,27.14,1,7.4,64,271.4,Yes,Customer Support,7-12 Months,Medium Risk
+CUST_1398,64,Female,West,Standard,Two Year,UPI,24,43.25,2,10.0,15,1038.0,No,Not Churned,13-24 Months,Low Risk
+CUST_1399,37,Male,West,Standard,Monthly,Credit Card,10,52.63,0,4.4,51,526.3,Yes,High Price,7-12 Months,Medium Risk
+CUST_1400,36,Male,North,Standard,Monthly,Bank Transfer,41,61.81,2,10.0,35,2534.21,Yes,Customer Support,37-60 Months,Low Risk
+CUST_1401,52,Female,East,Standard,Two Year,Bank Transfer,31,43.22,5,8.1,81,1339.82,No,Not Churned,25-36 Months,Low Risk
+CUST_1402,60,Female,South,Premium,One Year,Credit Card,13,80.3,1,9.7,22,1043.9,No,Not Churned,13-24 Months,Low Risk
+CUST_1403,34,Male,West,Basic,Monthly,Bank Transfer,3,22.95,0,8.4,26,68.85,Yes,Customer Support,0-6 Months,Medium Risk
+CUST_1404,62,Female,West,Standard,Monthly,Debit Card,59,63.91,1,5.6,60,3770.69,No,Not Churned,37-60 Months,Low Risk
+CUST_1405,60,Female,North,Basic,Monthly,Debit Card,50,21.26,1,8.0,21,1063.0,No,Not Churned,37-60 Months,Medium Risk
+CUST_1406,51,Female,Central,Basic,One Year,Debit Card,52,33.73,2,6.0,42,1753.96,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1407,26,Male,South,Standard,Monthly,Bank Transfer,34,50.99,5,6.9,29,1733.66,Yes,High Price,25-36 Months,Medium Risk
+CUST_1408,43,Female,East,Standard,Two Year,Debit Card,49,62.67,4,5.2,36,3070.83,No,Not Churned,37-60 Months,Low Risk
+CUST_1409,19,Male,West,Premium,Monthly,Debit Card,28,118.22,2,6.0,19,3310.16,No,Not Churned,25-36 Months,Low Risk
+CUST_1410,26,Female,West,Standard,Monthly,Credit Card,19,43.44,2,8.3,17,825.36,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1411,26,Male,South,Premium,One Year,Credit Card,23,85.72,2,7.7,62,1971.56,No,Not Churned,13-24 Months,Low Risk
+CUST_1412,57,Female,Central,Basic,Two Year,UPI,45,36.2,5,8.5,94,1629.0,No,Not Churned,37-60 Months,Medium Risk
+CUST_1413,34,Male,West,Basic,Two Year,UPI,32,25.32,0,4.9,54,810.24,No,Not Churned,25-36 Months,Low Risk
+CUST_1414,18,Male,South,Basic,Monthly,UPI,13,24.3,4,4.2,15,315.9,Yes,High Price,13-24 Months,Medium Risk
+CUST_1415,42,Male,North,Basic,One Year,UPI,33,36.51,4,8.7,17,1204.83,No,Not Churned,25-36 Months,Medium Risk
+CUST_1416,60,Female,Central,Standard,One Year,Credit Card,34,69.61,2,8.5,54,2366.74,No,Not Churned,25-36 Months,Low Risk
+CUST_1417,57,Female,East,Standard,Monthly,Credit Card,33,56.71,1,7.3,42,1871.43,No,Not Churned,25-36 Months,Low Risk
+CUST_1418,59,Female,West,Basic,Monthly,Credit Card,56,25.56,1,7.6,5,1431.36,No,Not Churned,37-60 Months,Medium Risk
+CUST_1419,42,Male,South,Premium,Monthly,Debit Card,5,89.93,1,8.3,43,449.65,No,Not Churned,0-6 Months,Medium Risk
+CUST_1420,56,Female,North,Premium,Monthly,Debit Card,56,78.51,1,7.3,31,4396.56,No,Not Churned,37-60 Months,Low Risk
+CUST_1421,52,Male,East,Basic,Two Year,UPI,3,35.24,1,7.8,40,105.72,No,Not Churned,0-6 Months,Medium Risk
+CUST_1422,20,Female,South,Basic,Monthly,Debit Card,60,35.47,3,8.2,36,2128.2,No,Not Churned,37-60 Months,Medium Risk
+CUST_1423,54,Male,South,Basic,Two Year,Bank Transfer,7,37.5,3,6.9,45,262.5,No,Not Churned,7-12 Months,Medium Risk
+CUST_1424,61,Male,East,Basic,One Year,Credit Card,24,20.53,2,6.5,19,492.72,Yes,High Price,13-24 Months,Low Risk
+CUST_1425,61,Male,North,Basic,One Year,UPI,22,31.24,4,7.6,35,687.28,No,Not Churned,13-24 Months,Medium Risk
+CUST_1426,47,Female,North,Standard,One Year,UPI,45,46.43,3,10.0,10,2089.35,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1427,55,Female,Central,Basic,Monthly,Bank Transfer,23,26.82,2,5.7,93,616.86,No,Not Churned,13-24 Months,Medium Risk
+CUST_1428,51,Female,West,Standard,Monthly,Debit Card,30,63.55,1,6.4,56,1906.5,No,Not Churned,25-36 Months,Low Risk
+CUST_1429,29,Male,East,Premium,Monthly,UPI,60,79.6,4,4.4,86,4776.0,Yes,Poor Service,37-60 Months,Medium Risk
+CUST_1430,36,Male,East,Standard,One Year,Debit Card,18,59.15,1,7.7,26,1064.7,Yes,Poor Service,13-24 Months,Low Risk
+CUST_1431,54,Female,East,Premium,Monthly,Debit Card,32,102.73,4,6.2,35,3287.36,Yes,Lack of Features,25-36 Months,Medium Risk
+CUST_1432,61,Female,North,Basic,One Year,Bank Transfer,56,39.08,0,4.9,77,2188.48,No,Not Churned,37-60 Months,Low Risk
+CUST_1433,34,Female,West,Standard,Monthly,UPI,53,63.25,2,6.9,50,3352.25,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1434,27,Male,Central,Standard,Monthly,Debit Card,7,64.11,2,9.2,71,448.77,No,Not Churned,7-12 Months,Medium Risk
+CUST_1435,64,Male,South,Basic,Monthly,Debit Card,33,30.63,2,6.5,95,1010.79,No,Not Churned,25-36 Months,Medium Risk
+CUST_1436,29,Male,South,Basic,Two Year,Bank Transfer,5,23.74,3,6.6,47,118.7,Yes,High Price,0-6 Months,Medium Risk
+CUST_1437,33,Male,East,Standard,One Year,Bank Transfer,49,52.77,4,9.2,5,2585.73,No,Not Churned,37-60 Months,Low Risk
+CUST_1438,41,Male,West,Standard,Monthly,Debit Card,28,56.48,3,7.0,48,1581.44,No,Not Churned,25-36 Months,Low Risk
+CUST_1439,36,Female,North,Standard,One Year,Bank Transfer,8,60.35,4,5.2,61,482.8,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_1440,25,Male,West,Standard,Monthly,Debit Card,15,58.23,0,8.0,13,873.45,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_1441,48,Male,West,Standard,Two Year,UPI,52,51.82,4,8.7,9,2694.64,Yes,Poor Service,37-60 Months,Low Risk
+CUST_1442,38,Male,North,Basic,One Year,Credit Card,4,25.31,3,6.7,83,101.24,No,Not Churned,0-6 Months,Medium Risk
+CUST_1443,34,Male,East,Basic,Monthly,Bank Transfer,34,23.36,5,7.2,13,794.24,No,Not Churned,25-36 Months,Medium Risk
+CUST_1444,40,Male,West,Basic,One Year,Credit Card,5,33.88,2,5.0,49,169.4,Yes,Poor Service,0-6 Months,Medium Risk
+CUST_1445,54,Female,South,Basic,Monthly,Debit Card,33,32.91,3,5.7,96,1086.03,Yes,High Price,25-36 Months,Medium Risk
+CUST_1446,33,Male,North,Premium,Two Year,Debit Card,57,104.37,5,6.5,81,5949.09,No,Not Churned,37-60 Months,Low Risk
+CUST_1447,23,Male,Central,Standard,Monthly,Debit Card,5,51.18,2,7.1,28,255.9,No,Not Churned,0-6 Months,Medium Risk
+CUST_1448,25,Male,East,Standard,One Year,Credit Card,38,47.87,0,6.1,78,1819.06,No,Not Churned,37-60 Months,Low Risk
+CUST_1449,42,Female,North,Basic,Monthly,Debit Card,34,35.19,3,6.4,46,1196.46,No,Not Churned,25-36 Months,Medium Risk
+CUST_1450,35,Female,Central,Standard,One Year,Bank Transfer,58,63.21,1,6.8,26,3666.18,Yes,Competitor Offer,37-60 Months,Low Risk
+CUST_1451,42,Female,Central,Basic,One Year,UPI,26,29.11,3,5.5,64,756.86,No,Not Churned,25-36 Months,Low Risk
+CUST_1452,29,Male,West,Basic,One Year,UPI,1,32.24,1,6.6,90,32.24,No,Not Churned,0-6 Months,Medium Risk
+CUST_1453,32,Female,West,Basic,One Year,Bank Transfer,4,27.47,2,8.7,41,109.88,No,Not Churned,0-6 Months,Medium Risk
+CUST_1454,43,Male,West,Standard,Two Year,UPI,39,61.06,2,6.1,43,2381.34,No,Not Churned,37-60 Months,Low Risk
+CUST_1455,58,Male,North,Standard,Monthly,Credit Card,54,65.07,1,5.6,88,3513.78,No,Not Churned,37-60 Months,Low Risk
+CUST_1456,62,Female,North,Standard,Monthly,Debit Card,26,60.65,2,10.0,78,1576.9,Yes,Customer Support,25-36 Months,Low Risk
+CUST_1457,43,Male,East,Standard,Monthly,Debit Card,33,55.38,3,7.3,78,1827.54,Yes,Lack of Features,25-36 Months,Low Risk
+CUST_1458,64,Male,West,Premium,Two Year,Debit Card,33,92.93,1,5.8,94,3066.69,No,Not Churned,25-36 Months,Low Risk
+CUST_1459,49,Male,Central,Basic,Monthly,Credit Card,8,32.85,5,8.0,93,262.8,No,Not Churned,7-12 Months,High Risk
+CUST_1460,27,Female,South,Basic,One Year,Credit Card,20,33.6,0,7.4,57,672.0,No,Not Churned,13-24 Months,Low Risk
+CUST_1461,33,Male,East,Basic,One Year,Credit Card,16,31.17,1,6.1,32,498.72,No,Not Churned,13-24 Months,Low Risk
+CUST_1462,24,Male,North,Standard,Monthly,Bank Transfer,21,58.75,1,6.9,81,1233.75,No,Not Churned,13-24 Months,Low Risk
+CUST_1463,34,Female,East,Premium,Monthly,Credit Card,45,74.83,3,6.6,19,3367.35,Yes,Lack of Features,37-60 Months,Low Risk
+CUST_1464,40,Male,East,Basic,Monthly,UPI,55,39.04,1,8.5,64,2147.2,No,Not Churned,37-60 Months,Medium Risk
+CUST_1465,43,Male,East,Premium,Monthly,Bank Transfer,56,109.54,0,8.0,64,6134.24,No,Not Churned,37-60 Months,Low Risk
+CUST_1466,38,Female,East,Premium,Monthly,Bank Transfer,26,88.7,2,3.8,10,2306.2,No,Not Churned,25-36 Months,Low Risk
+CUST_1467,39,Male,South,Basic,Monthly,Bank Transfer,23,31.26,1,9.9,56,718.98,No,Not Churned,13-24 Months,Medium Risk
+CUST_1468,24,Male,West,Standard,Two Year,Credit Card,18,41.42,0,6.6,16,745.56,No,Not Churned,13-24 Months,Low Risk
+CUST_1469,31,Male,Central,Standard,Two Year,Bank Transfer,31,41.24,2,9.6,23,1278.44,No,Not Churned,25-36 Months,Low Risk
+CUST_1470,32,Male,East,Premium,Monthly,Credit Card,52,82.54,3,8.1,100,4292.08,No,Not Churned,37-60 Months,Low Risk
+CUST_1471,24,Male,East,Basic,Monthly,Credit Card,42,33.79,2,7.4,79,1419.18,Yes,High Price,37-60 Months,Medium Risk
+CUST_1472,26,Female,East,Standard,Monthly,Bank Transfer,12,65.56,2,6.9,6,786.72,No,Not Churned,7-12 Months,Medium Risk
+CUST_1473,25,Female,West,Basic,One Year,Debit Card,1,31.18,3,10.0,59,31.18,No,Not Churned,0-6 Months,Medium Risk
+CUST_1474,40,Female,North,Standard,Two Year,Debit Card,42,55.96,1,6.6,19,2350.32,No,Not Churned,37-60 Months,Low Risk
+CUST_1475,46,Female,North,Standard,Monthly,Bank Transfer,9,52.07,1,6.0,68,468.63,Yes,Competitor Offer,7-12 Months,Medium Risk
+CUST_1476,35,Male,South,Standard,Monthly,Debit Card,3,44.85,5,6.1,73,134.55,Yes,Poor Service,0-6 Months,High Risk
+CUST_1477,48,Male,North,Premium,One Year,UPI,60,75.92,5,7.0,19,4555.2,No,Not Churned,37-60 Months,Low Risk
+CUST_1478,47,Male,East,Premium,One Year,UPI,51,108.03,1,7.0,47,5509.53,No,Not Churned,37-60 Months,Low Risk
+CUST_1479,56,Male,East,Premium,Monthly,Credit Card,26,116.38,5,8.5,78,3025.88,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_1480,52,Male,East,Basic,One Year,Debit Card,9,29.17,2,8.1,21,262.53,No,Not Churned,7-12 Months,Medium Risk
+CUST_1481,35,Female,South,Standard,Monthly,UPI,42,59.78,1,8.1,28,2510.76,No,Not Churned,37-60 Months,Low Risk
+CUST_1482,59,Female,East,Basic,Monthly,Bank Transfer,51,38.29,1,6.7,78,1952.79,Yes,Customer Support,37-60 Months,Medium Risk
+CUST_1483,56,Male,North,Standard,One Year,Debit Card,16,42.7,3,8.0,34,683.2,No,Not Churned,13-24 Months,Low Risk
+CUST_1484,34,Male,West,Standard,Two Year,UPI,24,63.11,5,8.2,71,1514.64,No,Not Churned,13-24 Months,Low Risk
+CUST_1485,31,Male,West,Standard,Monthly,UPI,50,58.5,1,6.9,55,2925.0,No,Not Churned,37-60 Months,Low Risk
+CUST_1486,48,Female,Central,Standard,Two Year,Bank Transfer,14,57.96,2,7.4,64,811.44,No,Not Churned,13-24 Months,Low Risk
+CUST_1487,41,Male,North,Premium,Monthly,Credit Card,3,84.63,0,8.2,7,253.89,No,Not Churned,0-6 Months,Medium Risk
+CUST_1488,52,Male,East,Basic,One Year,Bank Transfer,34,33.68,4,7.3,9,1145.12,Yes,Poor Service,25-36 Months,Medium Risk
+CUST_1489,61,Male,West,Standard,Monthly,Credit Card,33,63.84,1,7.5,32,2106.72,No,Not Churned,25-36 Months,Low Risk
+CUST_1490,62,Female,North,Standard,Two Year,UPI,50,43.39,0,9.1,82,2169.5,No,Not Churned,37-60 Months,Low Risk
+CUST_1491,51,Male,West,Basic,Two Year,Credit Card,24,30.67,1,7.3,15,736.08,Yes,Lack of Features,13-24 Months,Low Risk
+CUST_1492,20,Female,East,Basic,Monthly,UPI,9,22.03,4,6.1,76,198.27,Yes,Customer Support,7-12 Months,High Risk
+CUST_1493,54,Female,West,Premium,Two Year,UPI,13,113.63,3,5.0,76,1477.19,No,Not Churned,13-24 Months,Low Risk
+CUST_1494,60,Female,Central,Premium,Two Year,Debit Card,2,95.38,3,7.2,80,190.76,No,Not Churned,0-6 Months,Low Risk
+CUST_1495,57,Female,Central,Premium,One Year,Credit Card,7,110.4,1,6.5,19,772.8,No,Not Churned,7-12 Months,Low Risk
+CUST_1496,43,Female,West,Premium,Monthly,Credit Card,48,88.4,1,8.2,87,4243.2,No,Not Churned,37-60 Months,Low Risk
+CUST_1497,40,Female,North,Basic,Two Year,Credit Card,21,22.5,3,9.4,52,472.5,No,Not Churned,13-24 Months,Low Risk
+CUST_1498,61,Male,North,Standard,Two Year,Bank Transfer,19,41.24,3,5.5,50,783.56,No,Not Churned,13-24 Months,Low Risk
+CUST_1499,56,Male,North,Standard,Monthly,Debit Card,25,48.45,2,5.7,32,1211.25,Yes,Competitor Offer,25-36 Months,Low Risk
+CUST_1500,32,Male,West,Standard,Two Year,Debit Card,47,47.33,2,7.0,11,2224.51,Yes,Customer Support,37-60 Months,Low Risk
